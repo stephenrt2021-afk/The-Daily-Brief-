@@ -53,10 +53,10 @@ export default function App() {
     }
   }, []);
 
-  // Free Virtual Page View tracking for Vercel Analytics
+  // Safe Vercel URL update (uses query parameters to avoid 404s on page refresh)
   useEffect(() => {
     if (gameState !== 'playing') {
-      window.history.pushState({}, '', `/completed/${gameState}`);
+      window.history.pushState({}, '', `/?status=${gameState}`);
     }
   }, [gameState]);
 
