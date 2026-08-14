@@ -114,7 +114,7 @@ export default function App() {
   };
 
   const copyResults = () => {
-    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${gameState === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${3 - attemptsLeft}/3\n🔥 Streak: ${streak} Days\nplaythebrief.com`;
+    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${gameState === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${3 - attemptsLeft}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
     navigator.clipboard.writeText(shareText);
     alert('Results copied to clipboard!');
   };
