@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-08-14",
+    "id": 1,
+    "title": "Hyperinflation Shock",
+    "scenario": "A sudden supply chain collapse causes food and energy prices to surge by 50%. Civil unrest is brewing in urban centers.",
+    "targets": { "stability": 60, "solvency": 50, "morality": 70 },
+    "cards": [
+      { "id": "A", "title": "Price Controls", "effects": { "stability": 20, "solvency": -15, "morality": 5 } },
+      { "id": "B", "title": "Raise Interest Rates", "effects": { "stability": -10, "solvency": 25, "morality": 0 } },
+      { "id": "C", "title": "Import Subsidies", "effects": { "stability": 10, "solvency": -20, "morality": 10 } },
+      { "id": "D", "title": "Rationing System", "effects": { "stability": 5, "solvency": -10, "morality": 15 } },
+      { "id": "E", "title": "Export Restrictions", "effects": { "stability": 15, "solvency": -10, "morality": -10 } }
+    ],
+    "debrief": "Subsidizing essential imports stabilizes domestic supply without creating the severe black-market shortages typical of strict price caps."
+  }
+]
