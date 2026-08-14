@@ -116,10 +116,10 @@ export default function App() {
       setGameState('won');
     } else if (path.includes('/completed/lost')) {
       setGameState('lost');
-    } else if (savedHistory.includes(foundBrief.date)) {
+    } else if (savedHistory.includes(selectedBrief.date)) {
       setGameState('played');
-      if (window.location.search !== '?status=played') {
-        window.history.pushState({}, '', '/?status=played');
+      if (window.location.pathname !== '/completed/played') {
+        window.history.pushState({}, '', '/completed/played');
       }
     }
   }, []);
