@@ -4,36 +4,37 @@
     "id": 1,
     "title": "Hyperinflation Shock",
     "scenario": "A sudden supply chain collapse causes food and energy prices to surge by 50%. Civil unrest is brewing in urban centers.",
-    "targets": {
-      "stability": 40,
-      "solvency": 45,
-      "morality": 35
-    },
+    "targets": { "stability": 40, "solvency": 45, "morality": 35 },
     "cards": [
       {
         "id": "A",
         "title": "Price Controls",
-        "effects": { "stability": 20, "solvency": -10, "morality": 10 }
+        "effects": { "stability": 20, "solvency": -10, "morality": 10 },
+        "realWorldContext": "Venezuela and Weimar Germany both capped prices during hyperinflation crises. It eases pain immediately, but producers often stop selling at a loss, causing shortages."
       },
       {
         "id": "B",
         "title": "Raise Interest Rates",
-        "effects": { "stability": -10, "solvency": 25, "morality": 0 }
+        "effects": { "stability": -10, "solvency": 25, "morality": 0 },
+        "realWorldContext": "Modeled on the US Federal Reserve's rate hikes under Paul Volcker in the early 1980s, which broke double-digit inflation but triggered a sharp recession."
       },
       {
         "id": "C",
         "title": "Import Subsidies",
-        "effects": { "stability": 10, "solvency": -20, "morality": 10 }
+        "effects": { "stability": 10, "solvency": -20, "morality": 10 },
+        "realWorldContext": "Governments like Egypt have long subsidized food imports to keep prices affordable. It works short-term but drains foreign currency reserves fast."
       },
       {
         "id": "D",
         "title": "Rationing System",
-        "effects": { "stability": 5, "solvency": -10, "morality": 15 }
+        "effects": { "stability": 5, "solvency": -10, "morality": 15 },
+        "realWorldContext": "Britain and the US both rationed goods during World War II. It protects fair access but requires heavy enforcement and is deeply unpopular."
       },
       {
         "id": "E",
         "title": "Export Restrictions",
-        "effects": { "stability": 15, "solvency": -10, "morality": -10 }
+        "effects": { "stability": 15, "solvency": -10, "morality": -10 },
+        "realWorldContext": "India and Russia have restricted grain exports during shortages to protect domestic supply, though this can breach trade agreements and invite retaliation."
       }
     ],
     "debrief": "Pairing interest rate hikes to contain economic insolvency with targeted price controls provides the essential bridge to maintain political stability."
@@ -43,36 +44,37 @@
     "id": 2,
     "title": "Bank Liquidity Panic",
     "scenario": "Rumors of bad commercial loans spark a run on regional institutions, threatening bank defaults within 24 hours.",
-    "targets": {
-      "stability": 50,
-      "solvency": 45,
-      "morality": 35
-    },
+    "targets": { "stability": 50, "solvency": 45, "morality": 35 },
     "cards": [
       {
         "id": "A",
         "title": "Emergency Deposit Guarantee",
-        "effects": { "stability": 25, "solvency": -10, "morality": 10 }
+        "effects": { "stability": 25, "solvency": -10, "morality": 10 },
+        "realWorldContext": "Modeled on FDIC deposit insurance created after 1930s bank runs. It restores depositor confidence fast, but ultimately shifts risk onto taxpayers."
       },
       {
         "id": "B",
         "title": "Central Bank Liquidity Window",
-        "effects": { "stability": -5, "solvency": 25, "morality": 0 }
+        "effects": { "stability": -5, "solvency": 25, "morality": 0 },
+        "realWorldContext": "The Federal Reserve's discount window lends directly to solvent banks facing short-term cash shortages, stopping panic from becoming real insolvency."
       },
       {
         "id": "C",
         "title": "Mandatory Bank Holidays",
-        "effects": { "stability": -15, "solvency": 10, "morality": -10 }
+        "effects": { "stability": -15, "solvency": 10, "morality": -10 },
+        "realWorldContext": "FDR closed every US bank for a 'bank holiday' in 1933 to halt withdrawals and audit banks before reopening. It stops the bleeding but freezes the economy."
       },
       {
         "id": "D",
         "title": "Expropriate Bank Profits",
-        "effects": { "stability": -10, "solvency": 5, "morality": 15 }
+        "effects": { "stability": -10, "solvency": 5, "morality": 15 },
+        "realWorldContext": "Cyprus's 2013 'bail-in' forced depositors and bank shareholders to absorb losses directly. It raises funds without new borrowing, but punishes savers."
       },
       {
         "id": "E",
         "title": "Interest Rate Cap",
-        "effects": { "stability": 10, "solvency": -15, "morality": 5 }
+        "effects": { "stability": 10, "solvency": -15, "morality": 5 },
+        "realWorldContext": "Capping interest rates limits how much banks can charge, echoing historical usury caps, but can also make it harder for banks to attract capital in a crisis."
       }
     ],
     "debrief": "Opening a Central Bank Liquidity Window solves institutional solvency while an Emergency Deposit Guarantee restores public confidence to halt retail bank runs."
@@ -82,36 +84,37 @@
     "id": 3,
     "title": "Sovereign Debt Crunch",
     "scenario": "Foreign credit markets freeze following a default rumor. The national currency plummets, and foreign debt obligations are due in 48 hours.",
-    "targets": {
-      "stability": 40,
-      "solvency": 55,
-      "morality": 35
-    },
+    "targets": { "stability": 40, "solvency": 55, "morality": 35 },
     "cards": [
       {
         "id": "A",
         "title": "IMF Bailout Agreement",
-        "effects": { "stability": -10, "solvency": 30, "morality": 5 }
+        "effects": { "stability": -10, "solvency": 30, "morality": 5 },
+        "realWorldContext": "Greece (2010) and Argentina (repeatedly) received IMF emergency loans tied to reform conditions. It solves the immediate cash crunch but usually forces unpopular austerity."
       },
       {
         "id": "B",
         "title": "Emergency Capital Controls",
-        "effects": { "stability": 20, "solvency": -5, "morality": 0 }
+        "effects": { "stability": 20, "solvency": -5, "morality": 0 },
+        "realWorldContext": "Iceland (2008) and Greece (2015) restricted money leaving the country to stop capital flight, stabilizing the currency short-term at the cost of investor confidence."
       },
       {
         "id": "C",
         "title": "Sovereign Debt Restructuring",
-        "effects": { "stability": -15, "solvency": 15, "morality": 10 }
+        "effects": { "stability": -15, "solvency": 15, "morality": 10 },
+        "realWorldContext": "Argentina has restructured its sovereign debt multiple times, easing the immediate burden but often locking the country out of credit markets for years."
       },
       {
         "id": "D",
         "title": "Austerity Spending Cuts",
-        "effects": { "stability": -20, "solvency": 20, "morality": -15 }
+        "effects": { "stability": -20, "solvency": 20, "morality": -15 },
+        "realWorldContext": "Greece's post-2010 austerity program cut pensions and public spending sharply to satisfy bailout terms, reducing deficits but triggering major unemployment and unrest."
       },
       {
         "id": "E",
         "title": "Central Bank Currency Peg",
-        "effects": { "stability": 5, "solvency": -15, "morality": 0 }
+        "effects": { "stability": 5, "solvency": -15, "morality": 0 },
+        "realWorldContext": "Argentina's 1990s currency board pegged the peso to the US dollar to control inflation. Pegs hold until reserves run low, then often collapse abruptly."
       }
     ],
     "debrief": "Pairing an IMF Bailout with Emergency Capital Controls secures immediate liquidity while stemming capital flight to stabilize domestic currency."
@@ -121,36 +124,37 @@
     "id": 4,
     "title": "Grid Security Cyber Strike",
     "scenario": "A state-sponsored cyberattack takes out power grids across two major industrial provinces, threatening national infrastructure and defense readiness.",
-    "targets": {
-      "stability": 55,
-      "solvency": 35,
-      "morality": 40
-    },
+    "targets": { "stability": 55, "solvency": 35, "morality": 40 },
     "cards": [
       {
         "id": "A",
         "title": "Nationalize Energy Utilities",
-        "effects": { "stability": 15, "solvency": -10, "morality": 5 }
+        "effects": { "stability": 15, "solvency": -10, "morality": 5 },
+        "realWorldContext": "Governments have nationalized critical infrastructure during wartime (e.g. rail networks) to guarantee coordinated response, trading market efficiency for direct control."
       },
       {
         "id": "B",
         "title": "Private Security Subsidies",
-        "effects": { "stability": 5, "solvency": 10, "morality": -10 }
+        "effects": { "stability": 5, "solvency": 10, "morality": -10 },
+        "realWorldContext": "Contracting private cybersecurity firms can patch vulnerabilities faster than public agencies, but shifts accountability for critical infrastructure to private actors."
       },
       {
         "id": "C",
         "title": "Deploy National Guard",
-        "effects": { "stability": 10, "solvency": 15, "morality": 5 }
+        "effects": { "stability": 10, "solvency": 15, "morality": 5 },
+        "realWorldContext": "US state National Guard units include dedicated cyber response teams that have supported real infrastructure attacks, providing trained capacity fast."
       },
       {
         "id": "D",
         "title": "Offensive Cyber Retaliation",
-        "effects": { "stability": -10, "solvency": -10, "morality": -15 }
+        "effects": { "stability": -10, "solvency": -10, "morality": -15 },
+        "realWorldContext": "'Hack-back' retaliation is a real and controversial cybersecurity policy debate. Attribution is often uncertain, and retaliation risks escalating a conflict."
       },
       {
         "id": "E",
         "title": "Emergency Civilian Disaster Relief",
-        "effects": { "stability": 5, "solvency": -15, "morality": 15 }
+        "effects": { "stability": 5, "solvency": -15, "morality": 15 },
+        "realWorldContext": "Direct relief funding for affected communities mirrors FEMA's role after infrastructure disasters, prioritizing citizens' immediate needs over rebuilding first."
       }
     ],
     "debrief": "Deploying the National Guard maintains public order while Nationalizing Utilities mobilizes direct state investment into critical infrastructure repair."
@@ -160,36 +164,37 @@
     "id": 5,
     "title": "Pandemic Zoonotic Outbreak",
     "scenario": "A novel respiratory pathogen spreads rapidly through transport hubs. Healthcare facilities in urban districts are near collapse.",
-    "targets": {
-      "stability": 35,
-      "solvency": 35,
-      "morality": 55
-    },
+    "targets": { "stability": 35, "solvency": 35, "morality": 55 },
     "cards": [
       {
         "id": "A",
         "title": "Mandatory Regional Lockdowns",
-        "effects": { "stability": -15, "solvency": -20, "morality": 15 }
+        "effects": { "stability": -15, "solvency": -20, "morality": 15 },
+        "realWorldContext": "Lockdowns were used worldwide during COVID-19 to protect health systems. Effective at slowing transmission, but caused major economic contraction."
       },
       {
         "id": "B",
         "title": "Universal Vaccine Subsidies",
-        "effects": { "stability": 5, "solvency": 10, "morality": 15 }
+        "effects": { "stability": 5, "solvency": 10, "morality": 15 },
+        "realWorldContext": "The US 'Operation Warp Speed' funded vaccine development and distribution directly, spreading cost across taxpayers to reach immunity faster."
       },
       {
         "id": "C",
         "title": "Keep Commercial Ports Open",
-        "effects": { "stability": -5, "solvency": 20, "morality": -20 }
+        "effects": { "stability": -5, "solvency": 20, "morality": -20 },
+        "realWorldContext": "Sweden kept commercial activity running longer than most countries during COVID, trading some public health risk for continued trade and lower unemployment."
       },
       {
         "id": "D",
         "title": "Emergency Hospital Mobilization",
-        "effects": { "stability": 0, "solvency": -5, "morality": 10 }
+        "effects": { "stability": 0, "solvency": -5, "morality": 10 },
+        "realWorldContext": "Field hospitals like the one set up in NYC's Javits Center during COVID expanded medical capacity quickly without shutting down the broader economy."
       },
       {
         "id": "E",
         "title": "Patriotic Work Mandates",
-        "effects": { "stability": 5, "solvency": 5, "morality": -25 }
+        "effects": { "stability": 5, "solvency": 5, "morality": -25 },
+        "realWorldContext": "Mandating continued labor output echoes historical 'essential worker' policies that prioritized production over individual choice, at real ethical cost."
       }
     ],
     "debrief": "Universal Vaccine Subsidies paired with Emergency Hospital Mobilization expands medical bandwidth rapidly without forcing an economic shutdown."
@@ -199,36 +204,37 @@
     "id": 6,
     "title": "Agrarian Drought Crisis",
     "scenario": "A multi-year drought destroys 40% of the grain harvest, sparking severe rural unemployment and skyrocketing food import bills.",
-    "targets": {
-      "stability": 45,
-      "solvency": 45,
-      "morality": 40
-    },
+    "targets": { "stability": 45, "solvency": 45, "morality": 40 },
     "cards": [
       {
         "id": "A",
         "title": "Strategic Grain Reserve Release",
-        "effects": { "stability": 15, "solvency": -5, "morality": 10 }
+        "effects": { "stability": 15, "solvency": -5, "morality": 10 },
+        "realWorldContext": "The US and China both maintain strategic grain reserves, released during shortages to stabilize prices immediately without waiting on new harvests."
       },
       {
         "id": "B",
         "title": "Agricultural Tariff Deregulation",
-        "effects": { "stability": 0, "solvency": 20, "morality": 0 }
+        "effects": { "stability": 0, "solvency": 20, "morality": 0 },
+        "realWorldContext": "Lowering food import tariffs, a common shortage response, increases supply from abroad and brings prices down relatively quickly."
       },
       {
         "id": "C",
         "title": "Farmer Direct Relief Grants",
-        "effects": { "stability": 10, "solvency": -15, "morality": 10 }
+        "effects": { "stability": 10, "solvency": -15, "morality": 10 },
+        "realWorldContext": "Direct payments to farmers, similar to Depression-era US farm relief programs, cushion income loss without directly changing market prices."
       },
       {
         "id": "D",
         "title": "Desalination Infrastructure Loan",
-        "effects": { "stability": 5, "solvency": -10, "morality": 5 }
+        "effects": { "stability": 5, "solvency": -10, "morality": 5 },
+        "realWorldContext": "Israel's major investment in desalination after prolonged droughts shows real long-term payoff, though it's slow and capital-intensive."
       },
       {
         "id": "E",
         "title": "Mandatory Crop Reallocation",
-        "effects": { "stability": -10, "solvency": 5, "morality": -10 }
+        "effects": { "stability": -10, "solvency": 5, "morality": -10 },
+        "realWorldContext": "Centrally planned economies have mandated specific crop production during shortages. It can address scarcity but undermines farmer autonomy and market signals."
       }
     ],
     "debrief": "Releasing Strategic Grain Reserves directly stabilizes food availability while Tariff Deregulation lowers import costs to protect the nation's bottom line."
@@ -238,36 +244,37 @@
     "id": 7,
     "title": "Maritime Trade Blockade",
     "scenario": "A dispute over maritime borders halts commercial shipping through a key straits channel, stranding vital industrial exports.",
-    "targets": {
-      "stability": 45,
-      "solvency": 45,
-      "morality": 35
-    },
+    "targets": { "stability": 45, "solvency": 45, "morality": 35 },
     "cards": [
       {
         "id": "A",
         "title": "Naval Escort Convoys",
-        "effects": { "stability": 20, "solvency": -10, "morality": 5 }
+        "effects": { "stability": 20, "solvency": -10, "morality": 5 },
+        "realWorldContext": "Convoy protection for merchant shipping was used in both World Wars and more recently in the Persian Gulf and Red Sea. It restores safe passage but risks military escalation."
       },
       {
         "id": "B",
         "title": "Strategic Bilateral Trade Pivot",
-        "effects": { "stability": -5, "solvency": 25, "morality": 0 }
+        "effects": { "stability": -5, "solvency": 25, "morality": 0 },
+        "realWorldContext": "The EU rerouted trade to new energy partners after 2022 to reduce dependence on Russia. It restores solvency but takes time to build new logistics."
       },
       {
         "id": "C",
         "title": "International Sanctions Package",
-        "effects": { "stability": 5, "solvency": -15, "morality": 10 }
+        "effects": { "stability": 5, "solvency": -15, "morality": 10 },
+        "realWorldContext": "Coordinated sanctions, like those against Russia after 2022, pressure the opposing party diplomatically but often take months to have real effect."
       },
       {
         "id": "D",
         "title": "Domestic Industrial Subsidies",
-        "effects": { "stability": 10, "solvency": -20, "morality": 5 }
+        "effects": { "stability": 10, "solvency": -20, "morality": 5 },
+        "realWorldContext": "Supporting domestic industry to replace blocked imports mirrors wartime industrial mobilization: it protects jobs but is expensive and slow to scale."
       },
       {
         "id": "E",
         "title": "Seize Foreign Commercial Assets",
-        "effects": { "stability": -15, "solvency": 15, "morality": -20 }
+        "effects": { "stability": -15, "solvency": 15, "morality": -20 },
+        "realWorldContext": "Freezing a foreign state's assets, as Western nations did with Russian central bank reserves in 2022, provides leverage but risks major diplomatic fallout."
       }
     ],
     "debrief": "Deploying Naval Escort Convoys reopens commercial shipping lanes while a Strategic Bilateral Trade Pivot secures financial solvency through alternative trade routes."
@@ -277,36 +284,37 @@
     "id": 8,
     "title": "Critical Mineral Export Embargo",
     "scenario": "A major foreign supplier freezes exports of refined rare-earth elements, threatening domestic high-tech manufacturing and defense supply chains.",
-    "targets": {
-      "stability": 40,
-      "solvency": 50,
-      "morality": 35
-    },
+    "targets": { "stability": 40, "solvency": 50, "morality": 35 },
     "cards": [
       {
         "id": "A",
         "title": "Emergency Mining Subsidies",
-        "effects": { "stability": 10, "solvency": -15, "morality": 5 }
+        "effects": { "stability": 10, "solvency": -15, "morality": 5 },
+        "realWorldContext": "Recent US and EU critical minerals initiatives fund domestic mining to reduce import dependence, though payoff takes years, not months."
       },
       {
         "id": "B",
         "title": "Strategic Stockpile Auction",
-        "effects": { "stability": -5, "solvency": 15, "morality": 0 }
+        "effects": { "stability": -5, "solvency": 15, "morality": 0 },
+        "realWorldContext": "The US National Defense Stockpile holds reserves of critical minerals for exactly this scenario: releasing them eases shortages without new production."
       },
       {
         "id": "C",
         "title": "Bilateral Reciprocal Trade Pact",
-        "effects": { "stability": 15, "solvency": 10, "morality": 10 }
+        "effects": { "stability": 15, "solvency": 10, "morality": 10 },
+        "realWorldContext": "The US and allies have pursued new mineral supply agreements to diversify away from single-source dependence, a real ongoing trade strategy."
       },
       {
         "id": "D",
         "title": "Domestic Tech Export Tariff",
-        "effects": { "stability": -10, "solvency": 10, "morality": -10 }
+        "effects": { "stability": -10, "solvency": 10, "morality": -10 },
+        "realWorldContext": "Restricting exports of finished tech goods to pressure a trading partner mirrors real export-control tools, though it can invite retaliation."
       },
       {
         "id": "E",
         "title": "Environmental Mining Deregulation",
-        "effects": { "stability": 5, "solvency": 5, "morality": -20 }
+        "effects": { "stability": 5, "solvency": 5, "morality": -20 },
+        "realWorldContext": "Loosening environmental permitting to speed up mining approvals accelerates supply, but carries real ecological and community costs debated in actual mining policy."
       }
     ],
     "debrief": "Auctioning strategic mineral reserves bridges immediate manufacturing deficits while negotiating a bilateral trade pact secures long-term raw material imports."
