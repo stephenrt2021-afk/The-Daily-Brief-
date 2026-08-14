@@ -48,15 +48,16 @@ export default function App() {
     setStreak(savedStreak);
     setHistory(savedHistory);
 
-    if (savedHistory.includes(foundBrief.date)) {
+    // Set to 'played' if already in localStorage OR if user arrived via a /completed/ route
+    if (savedHistory.includes(foundBrief.date) || window.location.pathname.startsWith('/completed/')) {
       setGameState('played');
     }
   }, []);
 
-  // Safe Vercel URL update (uses query parameters to avoid 404s on page refresh)
+  // Update browser URL path so Vercel Analytics tracks unique page paths
   useEffect(() => {
     if (gameState !== 'playing') {
-      window.history.pushState({}, '', `/?status=${gameState}`);
+      window.history.pushState({}, '', `/completed/${gameState}`);
     }
   }, [gameState]);
 
