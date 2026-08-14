@@ -38,7 +38,7 @@ export default function App() {
   const [history, setHistory] = useState<string[]>([]);
 
   useEffect(() => {
-    // Uses local timezone date (YYYY-MM-DD) instead of UTC
+    // Uses local timezone date (YYYY-MM-DD)
     const today = new Date().toLocaleDateString('en-CA');
     const foundBrief = (briefsData as Brief[]).find(b => b.date === today) || (briefsData as Brief[])[0];
     setCurrentBrief(foundBrief);
@@ -48,24 +48,24 @@ export default function App() {
     setStreak(savedStreak);
     setHistory(savedHistory);
 
-    // Read status from URL query parameters if present
-    const urlParams = new URLSearchParams(window.location.search);
-    const statusParam = urlParams.get('status');
-
-    if (savedHistory.includes(foundBrief.date) || statusParam === 'played') {
+    // If returning user already completed today, mark as 'played'
+    if (savedHistory.includes(foundBrief.date)) {
       setGameState('played');
     }
   }, []);
 
-  // Sync URL query state without overwriting on refresh
+  // Update URL to trigger a standard pageview for Vercel free tier analytics
   useEffect(() => {
-    if (gameState !== 'playing') {
-      const targetQuery = `?status=${gameState}`;
-      
-      // Only push state if the current query parameter isn't already set
-      if (window.location.search !== targetQuery) {
-        window.history.pushState({}, '', `/${targetQuery}`);
+    if (gameState === 'won' || gameState === 'lost') {
+      const targetPath = `/completed/${gameState}`;
+      if (window.location.pathname !== targetPath) {
+        window.history.pushState({}, '', targetPath);
         window.dispatchEvent(new Event('popstate'));
+      }
+    } else if (gameState === 'played') {
+      // Returning users stay clean on query string so they don't bloat completion counts
+      if (window.location.search !== '?status=played') {
+        window.history.pushState({}, '', '/?status=played');
       }
     }
   }, [gameState]);
@@ -84,7 +84,6 @@ export default function App() {
   const executePolicies = () => {
     if (selectedCards.length !== 2 || attemptsLeft <= 0) return;
 
-    // Calculates meter changes starting from the original baseline (30/30/30)
     let newStability = INITIAL_METERS.stability;
     let newSolvency = INITIAL_METERS.solvency;
     let newMorality = INITIAL_METERS.morality;
