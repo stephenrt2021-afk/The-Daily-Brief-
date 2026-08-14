@@ -26,17 +26,20 @@ interface Brief {
   debrief: string;
 }
 
+const INITIAL_METERS = { stability: 30, solvency: 30, morality: 30 };
+
 export default function App() {
   const [currentBrief, setCurrentBrief] = useState<Brief | null>(null);
   const [selectedCards, setSelectedCards] = useState<Card[]>([]);
   const [attemptsLeft, setAttemptsLeft] = useState<number>(3);
   const [gameState, setGameState] = useState<'playing' | 'won' | 'lost' | 'played'>('playing');
-  const [meters, setMeters] = useState({ stability: 30, solvency: 30, morality: 30 });
+  const [meters, setMeters] = useState(INITIAL_METERS);
   const [streak, setStreak] = useState<number>(0);
   const [history, setHistory] = useState<string[]>([]);
 
   useEffect(() => {
-    const today = new Date().toISOString().split('T')[0];
+    // FIX 1: Use local date formatting (en-CA gives YYYY-MM-DD in local time)
+    const today = new Date().toLocaleDateString('en-CA');
     const foundBrief = (briefsData as Brief[]).find(b => b.date === today) || (briefsData as Brief[])[0];
     setCurrentBrief(foundBrief);
 
@@ -71,9 +74,10 @@ export default function App() {
   const executePolicies = () => {
     if (selectedCards.length !== 2 || attemptsLeft <= 0) return;
 
-    let newStability = meters.stability;
-    let newSolvency = meters.solvency;
-    let newMorality = meters.morality;
+    // FIX 2: Always calculate effects from the baseline initial stats (30/30/30)
+    let newStability = INITIAL_METERS.stability;
+    let newSolvency = INITIAL_METERS.solvency;
+    let newMorality = INITIAL_METERS.morality;
 
     selectedCards.forEach(card => {
       newStability += card.effects.stability;
