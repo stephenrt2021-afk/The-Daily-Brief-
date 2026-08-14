@@ -48,16 +48,24 @@ export default function App() {
     setStreak(savedStreak);
     setHistory(savedHistory);
 
-    // Set to 'played' if already in localStorage OR if user arrived via a /completed/ route
+    // Set to 'played' if already played today OR if user navigated directly to a /completed/ URL
     if (savedHistory.includes(foundBrief.date) || window.location.pathname.startsWith('/completed/')) {
       setGameState('played');
     }
   }, []);
 
-  // Update browser URL path so Vercel Analytics tracks unique page paths
+  // Solution 2: Updates URL path and dispatches popstate event for Vercel Analytics
   useEffect(() => {
     if (gameState !== 'playing') {
-      window.history.pushState({}, '', `/completed/${gameState}`);
+      const targetPath = `/completed/${gameState}`;
+      
+      if (window.location.pathname !== targetPath) {
+        // 1. Update the address bar
+        window.history.pushState({}, '', targetPath);
+        
+        // 2. Dispatch synthetic popstate event so Vercel Analytics catches the route change
+        window.dispatchEvent(new Event('popstate'));
+      }
     }
   }, [gameState]);
 
@@ -119,7 +127,7 @@ export default function App() {
   };
 
   const copyResults = () => {
-    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${gameState === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${3 - attemptsLeft}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
+    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${gameState === 'won' ? 'PASSED 🟩' : 'FAILED tick'}\nAttempts: ${3 - attemptsLeft}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
     navigator.clipboard.writeText(shareText);
     alert('Results copied to clipboard!');
   };
