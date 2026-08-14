@@ -13,53 +13,31 @@
       {
         "id": "A",
         "title": "Price Controls",
-        "effects": {
-          "stability": 20,
-          "solvency": -10,
-          "morality": 10
-        }
+        "effects": { "stability": 20, "solvency": -10, "morality": 10 }
       },
       {
         "id": "B",
         "title": "Raise Interest Rates",
-        "effects": {
-          "stability": -10,
-          "solvency": 25,
-          "morality": 0
-        }
+        "effects": { "stability": -10, "solvency": 25, "morality": 0 }
       },
       {
         "id": "C",
         "title": "Import Subsidies",
-        "effects": {
-          "stability": 10,
-          "solvency": -20,
-          "morality": 10
-        }
+        "effects": { "stability": 10, "solvency": -20, "morality": 10 }
       },
       {
         "id": "D",
         "title": "Rationing System",
-        "effects": {
-          "stability": 5,
-          "solvency": -10,
-          "morality": 15
-        }
+        "effects": { "stability": 5, "solvency": -10, "morality": 15 }
       },
       {
         "id": "E",
         "title": "Export Restrictions",
-        "effects": {
-          "stability": 15,
-          "solvency": -10,
-          "morality": -10
-        }
+        "effects": { "stability": 15, "solvency": -10, "morality": -10 }
       }
     ],
     "debrief": "Pairing interest rate hikes to contain economic insolvency with targeted price controls provides the essential bridge to maintain political stability."
-  }
-]
-[
+  },
   {
     "date": "2026-08-14",
     "id": 2,
