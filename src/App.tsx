@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Analytics } from '@vercel/analytics/react';
-import { track } from '@vercel/analytics';
 import briefsData from './briefs.json';
 
 interface Card {
@@ -51,10 +50,10 @@ export default function App() {
     }
   }, []);
 
-  // Track event when game finishes
+  // Free Virtual Page View tracking: Updates the path when brief ends
   useEffect(() => {
     if (gameState !== 'playing') {
-      track('brief_completed', { outcome: gameState });
+      window.history.pushState({}, '', `/completed/${gameState}`);
     }
   }, [gameState]);
 
