@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import { track } from '@vercel/analytics';
 import briefsData from './briefs.json';
 
 interface Card {
@@ -49,6 +50,13 @@ export default function App() {
       setGameState('played');
     }
   }, []);
+
+  // Track event when game finishes
+  useEffect(() => {
+    if (gameState !== 'playing') {
+      track('brief_completed', { outcome: gameState });
+    }
+  }, [gameState]);
 
   if (!currentBrief) return <div className="bg-[#121212] min-h-screen text-white p-8">Loading Brief...</div>;
 
@@ -116,88 +124,88 @@ export default function App() {
     <>
       <Analytics />
       <div className="bg-[#121212] min-h-screen text-gray-100 font-sans flex flex-col items-center p-4">
-      <div className="w-full max-w-md border-b border-gray-800 pb-3 mb-6 flex justify-between items-end">
-        <div>
-          <h1 className="text-2xl font-black tracking-widest text-white uppercase">The Brief</h1>
-          <p className="text-xs text-gray-500 uppercase tracking-wider">Daily Policy Challenge #{currentBrief.id}</p>
-        </div>
-        <div className="text-right">
-          <span className="text-xs text-gray-400">🔥 {streak} Day Streak</span>
-        </div>
-      </div>
-
-      <div className="w-full max-w-md bg-[#1c1c1e] border border-gray-800 rounded-lg p-4 mb-6">
-        <h2 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Morning Intelligence</h2>
-        <p className="text-sm text-gray-200 leading-relaxed">{currentBrief.scenario}</p>
-      </div>
-
-      <div className="w-full max-w-md space-y-4 mb-6">
-        {[
-          { label: 'Stability (Political)', val: meters.stability, target: currentBrief.targets.stability },
-          { label: 'Solvency (Economic)', val: meters.solvency, target: currentBrief.targets.solvency },
-          { label: 'Morality (Ethical)', val: meters.morality, target: currentBrief.targets.morality }
-        ].map((m, idx) => (
-          <div key={idx} className="bg-[#1c1c1e] p-3 rounded-lg border border-gray-800">
-            <div className="flex justify-between text-xs mb-1">
-              <span className="font-semibold text-gray-300">{m.label}</span>
-              <span className={m.val >= m.target ? "text-green-400 font-mono" : "text-gray-400 font-mono"}>
-                {m.val}% (Target: &gt;{m.target}%)
-              </span>
-            </div>
-            <div className="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
-              <div 
-                className={`h-full transition-all duration-500 ${m.val >= m.target ? 'bg-green-500' : 'bg-amber-500'}`}
-                style={{ width: `${m.val}%` }}
-              />
-            </div>
+        <div className="w-full max-w-md border-b border-gray-800 pb-3 mb-6 flex justify-between items-end">
+          <div>
+            <h1 className="text-2xl font-black tracking-widest text-white uppercase">The Brief</h1>
+            <p className="text-xs text-gray-500 uppercase tracking-wider">Daily Policy Challenge #{currentBrief.id}</p>
           </div>
-        ))}
-      </div>
-
-      <div className="w-full max-w-md grid grid-cols-1 gap-2 mb-6">
-        <p className="text-xs text-gray-400 mb-1">Select 2 Levers ({selectedCards.length}/2):</p>
-        {currentBrief.cards.map((card) => {
-          const isSelected = selectedCards.some(c => c.id === card.id);
-          return (
-            <button
-              key={card.id}
-              onClick={() => toggleCard(card)}
-              disabled={gameState !== 'playing'}
-              className={`p-3 text-left rounded-lg border transition-all text-sm font-medium ${
-                isSelected 
-                  ? 'bg-white text-black border-white' 
-                  : 'bg-[#1c1c1e] text-gray-300 border-gray-800 hover:border-gray-700'
-              }`}
-            >
-              {card.title}
-            </button>
-          );
-        })}
-      </div>
-
-      {gameState === 'playing' ? (
-        <button
-          onClick={executePolicies}
-          disabled={selectedCards.length !== 2}
-          className="w-full max-w-md py-3 bg-white text-black font-bold uppercase tracking-wider rounded-lg disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-200 transition"
-        >
-          Execute Policies ({attemptsLeft} Left)
-        </button>
-      ) : (
-        <div className="w-full max-w-md bg-[#1c1c1e] border border-gray-800 p-5 rounded-lg text-center space-y-3">
-          <h3 className="text-lg font-bold text-white">
-            {gameState === 'won' ? '🎉 Crisis Averted' : '⚠️ Mission Failed'}
-          </h3>
-          <p className="text-xs text-gray-300 leading-relaxed">{currentBrief.debrief}</p>
-          <button
-            onClick={copyResults}
-            className="w-full py-2 bg-green-600 text-white font-bold rounded-lg hover:bg-green-500 transition text-sm"
-          >
-            Share Results 📋
-          </button>
+          <div className="text-right">
+            <span className="text-xs text-gray-400">🔥 {streak} Day Streak</span>
+          </div>
         </div>
-      )}
-    </div>
+
+        <div className="w-full max-w-md bg-[#1c1c1e] border border-gray-800 rounded-lg p-4 mb-6">
+          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Morning Intelligence</h2>
+          <p className="text-sm text-gray-200 leading-relaxed">{currentBrief.scenario}</p>
+        </div>
+
+        <div className="w-full max-w-md space-y-4 mb-6">
+          {[
+            { label: 'Stability (Political)', val: meters.stability, target: currentBrief.targets.stability },
+            { label: 'Solvency (Economic)', val: meters.solvency, target: currentBrief.targets.solvency },
+            { label: 'Morality (Ethical)', val: meters.morality, target: currentBrief.targets.morality }
+          ].map((m, idx) => (
+            <div key={idx} className="bg-[#1c1c1e] p-3 rounded-lg border border-gray-800">
+              <div className="flex justify-between text-xs mb-1">
+                <span className="font-semibold text-gray-300">{m.label}</span>
+                <span className={m.val >= m.target ? "text-green-400 font-mono" : "text-gray-400 font-mono"}>
+                  {m.val}% (Target: &gt;{m.target}%)
+                </span>
+              </div>
+              <div className="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                <div 
+                  className={`h-full transition-all duration-500 ${m.val >= m.target ? 'bg-green-500' : 'bg-amber-500'}`}
+                  style={{ width: `${m.val}%` }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="w-full max-w-md grid grid-cols-1 gap-2 mb-6">
+          <p className="text-xs text-gray-400 mb-1">Select 2 Levers ({selectedCards.length}/2):</p>
+          {currentBrief.cards.map((card) => {
+            const isSelected = selectedCards.some(c => c.id === card.id);
+            return (
+              <button
+                key={card.id}
+                onClick={() => toggleCard(card)}
+                disabled={gameState !== 'playing'}
+                className={`p-3 text-left rounded-lg border transition-all text-sm font-medium ${
+                  isSelected 
+                    ? 'bg-white text-black border-white' 
+                    : 'bg-[#1c1c1e] text-gray-300 border-gray-800 hover:border-gray-700'
+                }`}
+              >
+                {card.title}
+              </button>
+            );
+          })}
+        </div>
+
+        {gameState === 'playing' ? (
+          <button
+            onClick={executePolicies}
+            disabled={selectedCards.length !== 2}
+            className="w-full max-w-md py-3 bg-white text-black font-bold uppercase tracking-wider rounded-lg disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-200 transition"
+          >
+            Execute Policies ({attemptsLeft} Left)
+          </button>
+        ) : (
+          <div className="w-full max-w-md bg-[#1c1c1e] border border-gray-800 p-5 rounded-lg text-center space-y-3">
+            <h3 className="text-lg font-bold text-white">
+              {gameState === 'won' ? '🎉 Crisis Averted' : '⚠️ Mission Failed'}
+            </h3>
+            <p className="text-xs text-gray-300 leading-relaxed">{currentBrief.debrief}</p>
+            <button
+              onClick={copyResults}
+              className="w-full py-2 bg-green-600 text-white font-bold rounded-lg hover:bg-green-500 transition text-sm"
+            >
+              Share Results 📋
+            </button>
+          </div>
+        )}
+      </div>
     </>
   );
 }
