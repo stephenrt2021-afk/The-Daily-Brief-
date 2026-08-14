@@ -59,3 +59,278 @@
     "debrief": "Pairing interest rate hikes to contain economic insolvency with targeted price controls provides the essential bridge to maintain political stability."
   }
 ]
+[
+  {
+    "date": "2026-08-14",
+    "id": 2,
+    "title": "Bank Liquidity Panic",
+    "scenario": "Rumors of bad commercial loans spark a run on regional institutions, threatening bank defaults within 24 hours.",
+    "targets": {
+      "stability": 50,
+      "solvency": 45,
+      "morality": 35
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Emergency Deposit Guarantee",
+        "effects": { "stability": 25, "solvency": -10, "morality": 10 }
+      },
+      {
+        "id": "B",
+        "title": "Central Bank Liquidity Window",
+        "effects": { "stability": -5, "solvency": 25, "morality": 0 }
+      },
+      {
+        "id": "C",
+        "title": "Mandatory Bank Holidays",
+        "effects": { "stability": -15, "solvency": 10, "morality": -10 }
+      },
+      {
+        "id": "D",
+        "title": "Expropriate Bank Profits",
+        "effects": { "stability": -10, "solvency": 5, "morality": 15 }
+      },
+      {
+        "id": "E",
+        "title": "Interest Rate Cap",
+        "effects": { "stability": 10, "solvency": -15, "morality": 5 }
+      }
+    ],
+    "debrief": "Opening a Central Bank Liquidity Window solves institutional solvency while an Emergency Deposit Guarantee restores public confidence to halt retail bank runs."
+  },
+  {
+    "date": "2026-08-15",
+    "id": 3,
+    "title": "Sovereign Debt Crunch",
+    "scenario": "Foreign credit markets freeze following a default rumor. The national currency plummets, and foreign debt obligations are due in 48 hours.",
+    "targets": {
+      "stability": 40,
+      "solvency": 55,
+      "morality": 35
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "IMF Bailout Agreement",
+        "effects": { "stability": -10, "solvency": 30, "morality": 5 }
+      },
+      {
+        "id": "B",
+        "title": "Emergency Capital Controls",
+        "effects": { "stability": 20, "solvency": -5, "morality": 0 }
+      },
+      {
+        "id": "C",
+        "title": "Sovereign Debt Restructuring",
+        "effects": { "stability": -15, "solvency": 15, "morality": 10 }
+      },
+      {
+        "id": "D",
+        "title": "Austerity Spending Cuts",
+        "effects": { "stability": -20, "solvency": 20, "morality": -15 }
+      },
+      {
+        "id": "E",
+        "title": "Central Bank Currency Peg",
+        "effects": { "stability": 5, "solvency": -15, "morality": 0 }
+      }
+    ],
+    "debrief": "Pairing an IMF Bailout with Emergency Capital Controls secures immediate liquidity while stemming capital flight to stabilize domestic currency."
+  },
+  {
+    "date": "2026-08-16",
+    "id": 4,
+    "title": "Grid Security Cyber Strike",
+    "scenario": "A state-sponsored cyberattack takes out power grids across two major industrial provinces, threatening national infrastructure and defense readiness.",
+    "targets": {
+      "stability": 55,
+      "solvency": 35,
+      "morality": 40
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Nationalize Energy Utilities",
+        "effects": { "stability": 15, "solvency": -10, "morality": 5 }
+      },
+      {
+        "id": "B",
+        "title": "Private Security Subsidies",
+        "effects": { "stability": 5, "solvency": 10, "morality": -10 }
+      },
+      {
+        "id": "C",
+        "title": "Deploy National Guard",
+        "effects": { "stability": 10, "solvency": 15, "morality": 5 }
+      },
+      {
+        "id": "D",
+        "title": "Offensive Cyber Retaliation",
+        "effects": { "stability": -10, "solvency": -10, "morality": -15 }
+      },
+      {
+        "id": "E",
+        "title": "Emergency Civilian Disaster Relief",
+        "effects": { "stability": 5, "solvency": -15, "morality": 15 }
+      }
+    ],
+    "debrief": "Deploying the National Guard maintains public order while Nationalizing Utilities mobilizes direct state investment into critical infrastructure repair."
+  },
+  {
+    "date": "2026-08-17",
+    "id": 5,
+    "title": "Pandemic Zoonotic Outbreak",
+    "scenario": "A novel respiratory pathogen spreads rapidly through transport hubs. Healthcare facilities in urban districts are near collapse.",
+    "targets": {
+      "stability": 35,
+      "solvency": 35,
+      "morality": 55
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Mandatory Regional Lockdowns",
+        "effects": { "stability": -15, "solvency": -20, "morality": 15 }
+      },
+      {
+        "id": "B",
+        "title": "Universal Vaccine Subsidies",
+        "effects": { "stability": 5, "solvency": 10, "morality": 15 }
+      },
+      {
+        "id": "C",
+        "title": "Keep Commercial Ports Open",
+        "effects": { "stability": -5, "solvency": 20, "morality": -20 }
+      },
+      {
+        "id": "D",
+        "title": "Emergency Hospital Mobilization",
+        "effects": { "stability": 0, "solvency": -5, "morality": 10 }
+      },
+      {
+        "id": "E",
+        "title": "Patriotic Work Mandates",
+        "effects": { "stability": 5, "solvency": 5, "morality": -25 }
+      }
+    ],
+    "debrief": "Universal Vaccine Subsidies paired with Emergency Hospital Mobilization expands medical bandwidth rapidly without forcing an economic shutdown."
+  },
+  {
+    "date": "2026-08-18",
+    "id": 6,
+    "title": "Agrarian Drought Crisis",
+    "scenario": "A multi-year drought destroys 40% of the grain harvest, sparking severe rural unemployment and skyrocketing food import bills.",
+    "targets": {
+      "stability": 45,
+      "solvency": 45,
+      "morality": 40
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Strategic Grain Reserve Release",
+        "effects": { "stability": 15, "solvency": -5, "morality": 10 }
+      },
+      {
+        "id": "B",
+        "title": "Agricultural Tariff Deregulation",
+        "effects": { "stability": 0, "solvency": 20, "morality": 0 }
+      },
+      {
+        "id": "C",
+        "title": "Farmer Direct Relief Grants",
+        "effects": { "stability": 10, "solvency": -15, "morality": 10 }
+      },
+      {
+        "id": "D",
+        "title": "Desalination Infrastructure Loan",
+        "effects": { "stability": 5, "solvency": -10, "morality": 5 }
+      },
+      {
+        "id": "E",
+        "title": "Mandatory Crop Reallocation",
+        "effects": { "stability": -10, "solvency": 5, "morality": -10 }
+      }
+    ],
+    "debrief": "Releasing Strategic Grain Reserves directly stabilizes food availability while Tariff Deregulation lowers import costs to protect the nation's bottom line."
+  },
+  {
+    "date": "2026-08-19",
+    "id": 7,
+    "title": "Maritime Trade Blockade",
+    "scenario": "A dispute over maritime borders halts commercial shipping through a key straits channel, stranding vital industrial exports.",
+    "targets": {
+      "stability": 45,
+      "solvency": 45,
+      "morality": 35
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Naval Escort Convoys",
+        "effects": { "stability": 20, "solvency": -10, "morality": 5 }
+      },
+      {
+        "id": "B",
+        "title": "Strategic Bilateral Trade Pivot",
+        "effects": { "stability": -5, "solvency": 25, "morality": 0 }
+      },
+      {
+        "id": "C",
+        "title": "International Sanctions Package",
+        "effects": { "stability": 5, "solvency": -15, "morality": 10 }
+      },
+      {
+        "id": "D",
+        "title": "Domestic Industrial Subsidies",
+        "effects": { "stability": 10, "solvency": -20, "morality": 5 }
+      },
+      {
+        "id": "E",
+        "title": "Seize Foreign Commercial Assets",
+        "effects": { "stability": -15, "solvency": 15, "morality": -20 }
+      }
+    ],
+    "debrief": "Deploying Naval Escort Convoys reopens commercial shipping lanes while a Strategic Bilateral Trade Pivot secures financial solvency through alternative trade routes."
+  },
+  {
+    "date": "2026-08-20",
+    "id": 8,
+    "title": "Critical Mineral Export Embargo",
+    "scenario": "A major foreign supplier freezes exports of refined rare-earth elements, threatening domestic high-tech manufacturing and defense supply chains.",
+    "targets": {
+      "stability": 40,
+      "solvency": 50,
+      "morality": 35
+    },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Emergency Mining Subsidies",
+        "effects": { "stability": 10, "solvency": -15, "morality": 5 }
+      },
+      {
+        "id": "B",
+        "title": "Strategic Stockpile Auction",
+        "effects": { "stability": -5, "solvency": 15, "morality": 0 }
+      },
+      {
+        "id": "C",
+        "title": "Bilateral Reciprocal Trade Pact",
+        "effects": { "stability": 15, "solvency": 10, "morality": 10 }
+      },
+      {
+        "id": "D",
+        "title": "Domestic Tech Export Tariff",
+        "effects": { "stability": -10, "solvency": 10, "morality": -10 }
+      },
+      {
+        "id": "E",
+        "title": "Environmental Mining Deregulation",
+        "effects": { "stability": 5, "solvency": 5, "morality": -20 }
+      }
+    ],
+    "debrief": "Auctioning strategic mineral reserves bridges immediate manufacturing deficits while negotiating a bilateral trade pact secures long-term raw material imports."
+  }
+]
