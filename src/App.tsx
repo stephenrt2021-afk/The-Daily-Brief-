@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import briefsData from './briefs.json';
 
 interface Card {
@@ -112,7 +113,9 @@ export default function App() {
   };
 
   return (
-    <div className="bg-[#121212] min-h-screen text-gray-100 font-sans flex flex-col items-center p-4">
+    <>
+      <Analytics />
+      <div className="bg-[#121212] min-h-screen text-gray-100 font-sans flex flex-col items-center p-4">
       <div className="w-full max-w-md border-b border-gray-800 pb-3 mb-6 flex justify-between items-end">
         <div>
           <h1 className="text-2xl font-black tracking-widest text-white uppercase">The Brief</h1>
@@ -195,5 +198,6 @@ export default function App() {
         </div>
       )}
     </div>
+    </>
   );
 }
