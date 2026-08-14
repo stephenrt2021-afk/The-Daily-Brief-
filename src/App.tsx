@@ -48,27 +48,19 @@ export default function App() {
     setStreak(savedStreak);
     setHistory(savedHistory);
 
-    // If returning user already completed today, mark as 'played'
-    if (savedHistory.includes(foundBrief.date)) {
+    // Check if directly refreshing on a completed URL or if already played today
+    const path = window.location.pathname;
+    if (path.includes('/completed/won')) {
+      setGameState('won');
+    } else if (path.includes('/completed/lost')) {
+      setGameState('lost');
+    } else if (savedHistory.includes(foundBrief.date)) {
       setGameState('played');
-    }
-  }, []);
-
-  // Update URL to trigger a standard pageview for Vercel free tier analytics
-  useEffect(() => {
-    if (gameState === 'won' || gameState === 'lost') {
-      const targetPath = `/completed/${gameState}`;
-      if (window.location.pathname !== targetPath) {
-        window.history.pushState({}, '', targetPath);
-        window.dispatchEvent(new Event('popstate'));
-      }
-    } else if (gameState === 'played') {
-      // Returning users stay clean on query string so they don't bloat completion counts
       if (window.location.search !== '?status=played') {
         window.history.pushState({}, '', '/?status=played');
       }
     }
-  }, [gameState]);
+  }, []);
 
   if (!currentBrief) return <div className="bg-[#121212] min-h-screen text-white p-8">Loading Brief...</div>;
 
@@ -111,9 +103,16 @@ export default function App() {
     if (winCondition) {
       setGameState('won');
       updateStreak(true);
+
+      // Instantly push completion path for Vercel Analytics pageview logging
+      window.history.pushState({}, '', '/completed/won');
+      window.dispatchEvent(new Event('popstate'));
     } else if (nextAttempts === 0) {
       setGameState('lost');
       updateStreak(false);
+
+      window.history.pushState({}, '', '/completed/lost');
+      window.dispatchEvent(new Event('popstate'));
     }
   };
 
