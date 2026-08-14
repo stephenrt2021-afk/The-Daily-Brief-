@@ -38,7 +38,7 @@ export default function App() {
   const [history, setHistory] = useState<string[]>([]);
 
   useEffect(() => {
-    // FIX 1: Use local date formatting (en-CA gives YYYY-MM-DD in local time)
+    // Uses local timezone date (YYYY-MM-DD) instead of UTC
     const today = new Date().toLocaleDateString('en-CA');
     const foundBrief = (briefsData as Brief[]).find(b => b.date === today) || (briefsData as Brief[])[0];
     setCurrentBrief(foundBrief);
@@ -53,7 +53,7 @@ export default function App() {
     }
   }, []);
 
-  // Free Virtual Page View tracking: Updates the path when brief ends
+  // Free Virtual Page View tracking for Vercel Analytics
   useEffect(() => {
     if (gameState !== 'playing') {
       window.history.pushState({}, '', `/completed/${gameState}`);
@@ -74,7 +74,7 @@ export default function App() {
   const executePolicies = () => {
     if (selectedCards.length !== 2 || attemptsLeft <= 0) return;
 
-    // FIX 2: Always calculate effects from the baseline initial stats (30/30/30)
+    // Calculates meter changes starting from the original baseline (30/30/30)
     let newStability = INITIAL_METERS.stability;
     let newSolvency = INITIAL_METERS.solvency;
     let newMorality = INITIAL_METERS.morality;
@@ -197,9 +197,19 @@ export default function App() {
         ) : (
           <div className="w-full max-w-md bg-[#1c1c1e] border border-gray-800 p-5 rounded-lg text-center space-y-3">
             <h3 className="text-lg font-bold text-white">
-              {gameState === 'won' ? '🎉 Crisis Averted' : '⚠️ Mission Failed'}
+              {gameState === 'won' && '🎉 Crisis Averted'}
+              {gameState === 'lost' && '⚠️ Mission Failed'}
+              {gameState === 'played' && '🏛️ Already Played Today'}
             </h3>
+
+            {gameState === 'played' && (
+              <p className="text-xs text-amber-400 font-semibold tracking-wide">
+                Come back tomorrow for a new puzzle!
+              </p>
+            )}
+
             <p className="text-xs text-gray-300 leading-relaxed">{currentBrief.debrief}</p>
+            
             <button
               onClick={copyResults}
               className="w-full py-2 bg-green-600 text-white font-bold rounded-lg hover:bg-green-500 transition text-sm"
