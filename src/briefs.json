@@ -319,4 +319,1207 @@
     ],
     "debrief": "Auctioning strategic mineral reserves bridges immediate manufacturing deficits while negotiating a bilateral trade pact secures long-term raw material imports."
   }
+],
+{
+    "date": "2026-08-21",
+    "id": 9,
+    "title": "Housing Market Collapse",
+    "scenario": "A speculative bubble in urban real estate bursts, wiping out household equity and triggering a wave of mortgage defaults nationwide.",
+    "targets": { "stability": 40, "solvency": 50, "morality": 35 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Mortgage Relief Program",
+        "effects": { "stability": 15, "solvency": -15, "morality": 15 },
+        "realWorldContext": "The US HAMP program after 2008 modified troubled mortgages to keep families in homes, easing hardship but costing the government billions."
+      },
+      {
+        "id": "B",
+        "title": "Bank Recapitalization Fund",
+        "effects": { "stability": -5, "solvency": 25, "morality": -5 },
+        "realWorldContext": "TARP in 2008 injected public capital directly into failing banks. It stabilized the financial system but was widely seen as bailing out Wall Street over homeowners."
+      },
+      {
+        "id": "C",
+        "title": "Foreclosure Moratorium",
+        "effects": { "stability": 10, "solvency": -10, "morality": 15 },
+        "realWorldContext": "Temporary foreclosure freezes, used during COVID-19, prevent mass evictions but leave lenders unable to recover losses in the interim."
+      },
+      {
+        "id": "D",
+        "title": "Interest Rate Cut",
+        "effects": { "stability": 5, "solvency": 15, "morality": 0 },
+        "realWorldContext": "Central banks routinely cut rates during housing crashes, as the Fed did after 2008, to make borrowing cheaper and support prices."
+      },
+      {
+        "id": "E",
+        "title": "Let Market Correct Naturally",
+        "effects": { "stability": -15, "solvency": 10, "morality": -10 },
+        "realWorldContext": "Some economists argue intervention only delays necessary corrections; Iceland largely let its banks fail in 2008 rather than bail them out."
+      }
+    ],
+    "debrief": "Cutting interest rates to ease borrowing costs while offering targeted mortgage relief prevents mass foreclosures without fully socializing bank losses."
+  },
+  {
+    "date": "2026-08-22",
+    "id": 10,
+    "title": "Currency Speculation Attack",
+    "scenario": "Hedge funds mount a coordinated short-selling attack on the national currency, betting it cannot hold its value against the dollar.",
+    "targets": { "stability": 35, "solvency": 50, "morality": 30 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Defend the Peg",
+        "effects": { "stability": 10, "solvency": -20, "morality": 0 },
+        "realWorldContext": "The UK spent billions defending the pound against speculators on Black Wednesday in 1992 before abandoning the peg entirely."
+      },
+      {
+        "id": "B",
+        "title": "Float the Currency",
+        "effects": { "stability": -15, "solvency": 15, "morality": 0 },
+        "realWorldContext": "Letting a currency float freely, as the UK ultimately did in 1992, ends a costly defense but causes a sharp, visible devaluation."
+      },
+      {
+        "id": "C",
+        "title": "Emergency Rate Hike",
+        "effects": { "stability": -5, "solvency": 20, "morality": -5 },
+        "realWorldContext": "Countries facing speculative attacks often hike rates sharply to make holding the currency more attractive, as several Asian economies tried in 1997."
+      },
+      {
+        "id": "D",
+        "title": "Impose Capital Controls",
+        "effects": { "stability": 15, "solvency": -5, "morality": -5 },
+        "realWorldContext": "Malaysia imposed capital controls during the 1997 Asian financial crisis rather than follow IMF orthodoxy, drawing criticism but limiting outflows."
+      },
+      {
+        "id": "E",
+        "title": "Seek IMF Standby Facility",
+        "effects": { "stability": 5, "solvency": 10, "morality": 5 },
+        "realWorldContext": "IMF standby arrangements provide emergency currency support, as used by South Korea in 1997, in exchange for economic reform commitments."
+      }
+    ],
+    "debrief": "Imposing capital controls to limit outflows while floating the currency avoids draining reserves in a defense the state is unlikely to win."
+  },
+  {
+    "date": "2026-08-23",
+    "id": 11,
+    "title": "Tech Stock Bubble Burst",
+    "scenario": "A speculative rally in technology equities collapses in a single week, erasing trillions in market value and threatening pension funds.",
+    "targets": { "stability": 30, "solvency": 45, "morality": 35 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Circuit Breaker Trading Halts",
+        "effects": { "stability": 15, "solvency": 0, "morality": 5 },
+        "realWorldContext": "US stock exchanges use circuit breakers that pause trading during steep drops, a tool introduced after the 1987 crash to prevent panic selling."
+      },
+      {
+        "id": "B",
+        "title": "Pension Fund Backstop",
+        "effects": { "stability": 5, "solvency": -15, "morality": 20 },
+        "realWorldContext": "Governments have occasionally stepped in to guarantee pension obligations when fund assets collapse, protecting retirees at direct fiscal cost."
+      },
+      {
+        "id": "C",
+        "title": "Loosen Margin Requirements",
+        "effects": { "stability": -10, "solvency": 15, "morality": -10 },
+        "realWorldContext": "Reducing how much collateral investors need can ease liquidity crunches, but critics say it enables further speculative risk-taking."
+      },
+      {
+        "id": "D",
+        "title": "Launch Antitrust Investigation",
+        "effects": { "stability": -5, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Major tech bubbles have often prompted renewed antitrust scrutiny, as seen after the dot-com crash, addressing concentration but adding market uncertainty."
+      },
+      {
+        "id": "E",
+        "title": "Do Nothing, Let Markets Correct",
+        "effects": { "stability": -15, "solvency": 10, "morality": -5 },
+        "realWorldContext": "Some policymakers, echoing Alan Greenspan's early stance on the dot-com bubble, argue markets self-correct and intervention only delays the reckoning."
+      }
+    ],
+    "debrief": "Halting trading to prevent panic while backstopping pension funds protects ordinary retirees without fully insulating speculative investors from losses."
+  },
+  {
+    "date": "2026-08-24",
+    "id": 12,
+    "title": "Minimum Wage Standoff",
+    "scenario": "A push to sharply raise the minimum wage splits the legislature as small businesses warn of mass layoffs and workers demand relief from inflation.",
+    "targets": { "stability": 35, "solvency": 40, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Phased Wage Increase",
+        "effects": { "stability": 10, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Many US states have raised minimum wages gradually over several years rather than all at once, softening the shock to small employers."
+      },
+      {
+        "id": "B",
+        "title": "Small Business Tax Credits",
+        "effects": { "stability": 5, "solvency": -10, "morality": 10 },
+        "realWorldContext": "Offsetting wage increases with tax credits for small employers is a common compromise used in several state-level minimum wage laws."
+      },
+      {
+        "id": "C",
+        "title": "Index Wages to Inflation",
+        "effects": { "stability": 5, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Several countries and US states automatically adjust minimum wage to inflation, avoiding repeated political fights but locking in future cost increases."
+      },
+      {
+        "id": "D",
+        "title": "Freeze Wages, Cite Business Risk",
+        "effects": { "stability": -10, "solvency": 15, "morality": -20 },
+        "realWorldContext": "Business lobbies have long argued minimum wage freezes protect jobs; opponents note this leaves low-wage workers behind during inflation."
+      },
+      {
+        "id": "E",
+        "title": "Universal Basic Income Pilot",
+        "effects": { "stability": -5, "solvency": -20, "morality": 20 },
+        "realWorldContext": "Cities like Stockton, California piloted direct cash payments instead of wage mandates, showing promising results but at real fiscal cost."
+      }
+    ],
+    "debrief": "A phased wage increase paired with small business tax credits raises worker pay without an abrupt shock to employers who can't absorb it overnight."
+  },
+  {
+    "date": "2026-08-25",
+    "id": 13,
+    "title": "Pension Fund Insolvency",
+    "scenario": "An actuarial review reveals the national public pension system is underfunded by decades, threatening benefits for millions of retirees.",
+    "targets": { "stability": 40, "solvency": 45, "morality": 40 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Raise Retirement Age",
+        "effects": { "stability": -15, "solvency": 20, "morality": -10 },
+        "realWorldContext": "France's 2023 pension reform raising the retirement age from 62 to 64 sparked massive strikes and protests despite improving fund solvency."
+      },
+      {
+        "id": "B",
+        "title": "Increase Payroll Contributions",
+        "effects": { "stability": -5, "solvency": 15, "morality": 5 },
+        "realWorldContext": "Raising payroll tax contributions is a common lever to shore up pension systems, spreading the cost across current workers rather than retirees."
+      },
+      {
+        "id": "C",
+        "title": "Partial Benefit Cuts",
+        "effects": { "stability": -10, "solvency": 20, "morality": -15 },
+        "realWorldContext": "Greece cut public pensions repeatedly during its debt crisis under bailout terms, restoring solvency but causing significant hardship for retirees."
+      },
+      {
+        "id": "D",
+        "title": "General Fund Bailout",
+        "effects": { "stability": 15, "solvency": -20, "morality": 15 },
+        "realWorldContext": "Some US states have used general tax revenue to shore up underfunded pension systems, protecting retirees but straining the broader budget."
+      },
+      {
+        "id": "E",
+        "title": "Shift to Private Accounts",
+        "effects": { "stability": -5, "solvency": 5, "morality": -5 },
+        "realWorldContext": "Chile's 1980s shift to private pension accounts became a global model, though it later drew criticism for leaving many with inadequate retirement savings."
+      }
+    ],
+    "debrief": "Raising payroll contributions alongside modest benefit adjustments spreads the burden across generations rather than placing it entirely on retirees or workers."
+  }, 
+{
+    "date": "2026-08-26",
+    "id": 14,
+    "title": "Trade Deficit Spiral",
+    "scenario": "A persistent, worsening trade imbalance drains foreign reserves and puts pressure on domestic manufacturers unable to compete with cheap imports.",
+    "targets": { "stability": 35, "solvency": 45, "morality": 30 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Impose Import Tariffs",
+        "effects": { "stability": 10, "solvency": 10, "morality": -5 },
+        "realWorldContext": "The US imposed steel and aluminum tariffs in 2018 to protect domestic manufacturing, though this raised costs for downstream industries and invited retaliation."
+      },
+      {
+        "id": "B",
+        "title": "Currency Devaluation",
+        "effects": { "stability": -10, "solvency": 15, "morality": 0 },
+        "realWorldContext": "China has been accused of managing its currency's value to keep exports competitive, a strategy that boosts trade balances but invites accusations of manipulation."
+      },
+      {
+        "id": "C",
+        "title": "Domestic Manufacturing Subsidies",
+        "effects": { "stability": 5, "solvency": -15, "morality": 10 },
+        "realWorldContext": "The US CHIPS Act subsidized domestic semiconductor manufacturing to reduce import dependence, a costly but targeted industrial policy."
+      },
+      {
+        "id": "D",
+        "title": "Negotiate New Trade Agreement",
+        "effects": { "stability": 5, "solvency": 5, "morality": 5 },
+        "realWorldContext": "Renegotiating trade terms, as the US did with NAFTA into USMCA, can rebalance trade rules but takes years of negotiation to finalize."
+      },
+      {
+        "id": "E",
+        "title": "Do Nothing, Trust Market Forces",
+        "effects": { "stability": -15, "solvency": 5, "morality": -5 },
+        "realWorldContext": "Mainstream economists have long argued trade deficits self-correct through currency markets over time, though the adjustment can be politically painful."
+      }
+    ],
+    "debrief": "Targeted manufacturing subsidies paired with new trade negotiations address the imbalance without the retaliation risk of broad tariffs."
+  },
+  {
+    "date": "2026-08-27",
+    "id": 15,
+    "title": "Cryptocurrency Exchange Collapse",
+    "scenario": "The nation's largest cryptocurrency exchange collapses overnight amid fraud allegations, wiping out savings for hundreds of thousands of retail investors.",
+    "targets": { "stability": 30, "solvency": 35, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Freeze Exchange Assets",
+        "effects": { "stability": 10, "solvency": 5, "morality": 10 },
+        "realWorldContext": "Regulators froze assets tied to FTX after its 2022 collapse to preserve whatever funds remained for eventual creditor recovery."
+      },
+      {
+        "id": "B",
+        "title": "Criminal Fraud Investigation",
+        "effects": { "stability": 0, "solvency": 0, "morality": 20 },
+        "realWorldContext": "FTX founder Sam Bankman-Fried was criminally prosecuted and convicted of fraud, a process that took years but delivered public accountability."
+      },
+      {
+        "id": "C",
+        "title": "Retail Investor Compensation Fund",
+        "effects": { "stability": 5, "solvency": -20, "morality": 15 },
+        "realWorldContext": "Some jurisdictions have explored compensation funds for retail crypto losses, similar in spirit to securities investor protection funds, though rarely at full value."
+      },
+      {
+        "id": "D",
+        "title": "Emergency Crypto Regulation",
+        "effects": { "stability": 5, "solvency": 5, "morality": 5 },
+        "realWorldContext": "The EU's MiCA framework, developed after several major collapses, imposes licensing and reserve requirements on crypto exchanges to prevent future failures."
+      },
+      {
+        "id": "E",
+        "title": "Declare It Buyer Beware",
+        "effects": { "stability": -15, "solvency": 10, "morality": -20 },
+        "realWorldContext": "Some regulators have taken a hands-off stance toward crypto losses, arguing investors knowingly took on unregulated risk — a position that leaves victims without recourse."
+      }
+    ],
+    "debrief": "Freezing remaining assets while pursuing a criminal fraud case protects what funds remain and delivers accountability without the state absorbing private losses outright."
+  },
+  {
+    "date": "2026-08-28",
+    "id": 16,
+    "title": "Manufacturing Automation Layoffs",
+    "scenario": "A wave of factory automation displaces tens of thousands of manufacturing workers within months, concentrated in a handful of industrial towns.",
+    "targets": { "stability": 40, "solvency": 40, "morality": 40 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Robot Tax on Automation",
+        "effects": { "stability": 5, "solvency": 5, "morality": 10 },
+        "realWorldContext": "Proposals to tax companies for automating jobs, floated by figures like Bill Gates, aim to fund worker transition programs, though few countries have implemented one."
+      },
+      {
+        "id": "B",
+        "title": "Worker Retraining Program",
+        "effects": { "stability": 10, "solvency": -10, "morality": 15 },
+        "realWorldContext": "Germany's dual vocational training system is often cited as a model for retraining displaced workers into new skilled trades."
+      },
+      {
+        "id": "C",
+        "title": "Extended Unemployment Benefits",
+        "effects": { "stability": 5, "solvency": -15, "morality": 15 },
+        "realWorldContext": "Extending jobless benefits during major economic disruptions, as many governments did during COVID, cushions workers but adds fiscal strain."
+      },
+      {
+        "id": "D",
+        "title": "Subsidize Factory Relocation",
+        "effects": { "stability": -5, "solvency": -10, "morality": 5 },
+        "realWorldContext": "Regional development subsidies to relocate industry into affected towns have been used in the US Rust Belt with mixed long-term success."
+      },
+      {
+        "id": "E",
+        "title": "Let the Market Adjust",
+        "effects": { "stability": -15, "solvency": 10, "morality": -15 },
+        "realWorldContext": "Classical economic theory holds that automation-driven displacement is eventually offset by new job creation, though the transition can take a generation."
+      }
+    ],
+    "debrief": "Funding worker retraining while extending benefits during the transition softens the blow to affected towns without freezing productivity-boosting automation."
+  },
+  {
+    "date": "2026-08-29",
+    "id": 17,
+    "title": "Oil Price Shock",
+    "scenario": "A geopolitical disruption cuts global oil supply overnight, sending fuel prices soaring and threatening transportation and heating costs nationwide.",
+    "targets": { "stability": 40, "solvency": 45, "morality": 35 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Release Strategic Petroleum Reserve",
+        "effects": { "stability": 15, "solvency": -5, "morality": 5 },
+        "realWorldContext": "The US released oil from its Strategic Petroleum Reserve in 2022 to ease prices after Russia's invasion of Ukraine disrupted global supply."
+      },
+      {
+        "id": "B",
+        "title": "Fuel Subsidy Program",
+        "effects": { "stability": 10, "solvency": -20, "morality": 15 },
+        "realWorldContext": "Many governments subsidize fuel prices during shocks to protect consumers, though this can become a costly, hard-to-remove long-term burden."
+      },
+      {
+        "id": "C",
+        "title": "Emergency Fuel Rationing",
+        "effects": { "stability": -5, "solvency": 5, "morality": 10 },
+        "realWorldContext": "The 1970s oil crisis prompted fuel rationing in several countries, including odd-even license plate purchasing days in the US."
+      },
+      {
+        "id": "D",
+        "title": "Accelerate Renewable Investment",
+        "effects": { "stability": -5, "solvency": -15, "morality": 15 },
+        "realWorldContext": "Oil shocks have historically accelerated renewable energy investment, as seen after the 1970s crisis spurred early US solar and efficiency programs."
+      },
+      {
+        "id": "E",
+        "title": "Negotiate Emergency Supply Deal",
+        "effects": { "stability": 5, "solvency": 10, "morality": 0 },
+        "realWorldContext": "Governments often negotiate emergency bilateral energy deals during shortages, similar to Europe's rapid LNG deals after 2022."
+      }
+    ],
+    "debrief": "Releasing strategic reserves alongside a negotiated emergency supply deal eases prices immediately while a longer-term contract is arranged."
+  },
+  {
+    "date": "2026-08-30",
+    "id": 18,
+    "title": "Sovereign Wealth Fund Mismanagement",
+    "scenario": "An audit reveals the national sovereign wealth fund lost a third of its value through reckless speculative investments, sparking public outrage.",
+    "targets": { "stability": 35, "solvency": 40, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Fire Fund Management",
+        "effects": { "stability": 5, "solvency": 0, "morality": 20 },
+        "realWorldContext": "Public outcry over sovereign fund losses has historically forced leadership changes, as seen in several state pension and wealth fund scandals."
+      },
+      {
+        "id": "B",
+        "title": "Independent Oversight Board",
+        "effects": { "stability": 10, "solvency": 5, "morality": 10 },
+        "realWorldContext": "Norway's sovereign wealth fund is governed by strict independent oversight and ethical investment guidelines, widely cited as a model for transparency."
+      },
+      {
+        "id": "C",
+        "title": "Quietly Absorb the Losses",
+        "effects": { "stability": 5, "solvency": -15, "morality": -15 },
+        "realWorldContext": "Some governments have downplayed fund losses to avoid political fallout, a pattern that erodes public trust when the losses eventually surface."
+      },
+      {
+        "id": "D",
+        "title": "Public Transparency Reforms",
+        "effects": { "stability": -5, "solvency": 0, "morality": 20 },
+        "realWorldContext": "Requiring public disclosure of fund holdings and performance, as several transparency-focused funds now do, restores accountability at the cost of political exposure."
+      },
+      {
+        "id": "E",
+        "title": "Liquidate Risky Holdings",
+        "effects": { "stability": -10, "solvency": 15, "morality": 5 },
+        "realWorldContext": "Rapidly selling off speculative assets to limit further losses can lock in a bad price, but stops the bleeding immediately."
+      }
+    ],
+    "debrief": "Installing independent oversight and requiring public transparency prevents the next mismanagement scandal, even though it invites short-term political scrutiny."
+  },
+  {
+    "date": "2026-08-31",
+    "id": 19,
+    "title": "Border Migration Surge",
+    "scenario": "Tens of thousands of migrants arrive at the southern border within weeks, fleeing instability in a neighboring country, overwhelming processing capacity.",
+    "targets": { "stability": 45, "solvency": 35, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Expand Processing Centers",
+        "effects": { "stability": 5, "solvency": -15, "morality": 15 },
+        "realWorldContext": "The US has repeatedly expanded temporary processing facilities during migration surges, easing backlogs at significant short-term cost."
+      },
+      {
+        "id": "B",
+        "title": "Deploy Border Patrol Surge",
+        "effects": { "stability": 15, "solvency": -10, "morality": -5 },
+        "realWorldContext": "Surging border enforcement personnel during migration spikes is a common US response, improving order but drawing criticism over conditions in detention."
+      },
+      {
+        "id": "C",
+        "title": "Regional Resettlement Agreement",
+        "effects": { "stability": 5, "solvency": -5, "morality": 15 },
+        "realWorldContext": "The EU's burden-sharing agreements during the 2015 migration crisis attempted to distribute asylum seekers across member states, with uneven cooperation."
+      },
+      {
+        "id": "D",
+        "title": "Close the Border",
+        "effects": { "stability": 10, "solvency": 5, "morality": -20 },
+        "realWorldContext": "Full border closures, like Title 42 during COVID-19, sharply reduce crossings but face legal challenges and humanitarian criticism."
+      },
+      {
+        "id": "E",
+        "title": "Address Root Causes Abroad",
+        "effects": { "stability": -10, "solvency": -10, "morality": 15 },
+        "realWorldContext": "US aid programs targeting the economic causes of migration in Central America aim to reduce departures at the source, though results take years to show."
+      }
+    ],
+    "debrief": "Expanding processing capacity while pursuing a regional resettlement agreement manages the immediate surge without the legal exposure of a full border closure."
+  },
+  {
+    "date": "2026-09-01",
+    "id": 20,
+    "title": "Cross-Border Water Rights Dispute",
+    "scenario": "A neighboring country begins diverting a shared river for a new dam project, threatening water supply to millions of downstream farmers and cities.",
+    "targets": { "stability": 40, "solvency": 35, "morality": 40 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Emergency Water Rationing",
+        "effects": { "stability": -10, "solvency": 0, "morality": 10 },
+        "realWorldContext": "Downstream water shortages from upstream damming have prompted rationing in several river basins, including the Nile and Mekong."
+      },
+      {
+        "id": "B",
+        "title": "International Arbitration Request",
+        "effects": { "stability": 5, "solvency": 0, "morality": 15 },
+        "realWorldContext": "The International Court of Justice has ruled on transboundary water disputes before, though enforcement of rulings remains difficult."
+      },
+      {
+        "id": "C",
+        "title": "Threaten Trade Retaliation",
+        "effects": { "stability": -5, "solvency": -10, "morality": -5 },
+        "realWorldContext": "Egypt has repeatedly signaled economic and diplomatic retaliation over Ethiopia's Grand Renaissance Dam on the Nile, without resorting to force."
+      },
+      {
+        "id": "D",
+        "title": "Fund Desalination Alternative",
+        "effects": { "stability": 5, "solvency": -15, "morality": 10 },
+        "realWorldContext": "Gulf states facing water scarcity have invested heavily in desalination as an alternative to contested freshwater sources."
+      },
+      {
+        "id": "E",
+        "title": "Negotiate Water-Sharing Treaty",
+        "effects": { "stability": 15, "solvency": -5, "morality": 10 },
+        "realWorldContext": "The Indus Waters Treaty between India and Pakistan has managed shared river resources for decades despite broader political tension between the two."
+      }
+    ],
+    "debrief": "Pursuing a negotiated water-sharing treaty while formally requesting international arbitration addresses the dispute through durable, cooperative channels."
+  },
+  {
+    "date": "2026-09-02",
+    "id": 21,
+    "title": "Regional Arms Race Escalation",
+    "scenario": "A rival state announces a major military buildup near a disputed border, prompting calls for a matching response before tensions spiral further.",
+    "targets": { "stability": 50, "solvency": 35, "morality": 35 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Match Military Spending",
+        "effects": { "stability": 10, "solvency": -20, "morality": -5 },
+        "realWorldContext": "Arms race dynamics, like the Cold War buildup between the US and USSR, often escalate mutually rather than resolving the underlying tension."
+      },
+      {
+        "id": "B",
+        "title": "Propose Bilateral Arms Talks",
+        "effects": { "stability": 10, "solvency": 0, "morality": 15 },
+        "realWorldContext": "Arms control negotiations like SALT and START defused Cold War tensions through verified mutual reductions rather than continued buildup."
+      },
+      {
+        "id": "C",
+        "title": "Strengthen Defensive Alliances",
+        "effects": { "stability": 15, "solvency": -10, "morality": 5 },
+        "realWorldContext": "NATO's collective defense framework under Article 5 is designed to deter aggression by making an attack on one member an attack on all."
+      },
+      {
+        "id": "D",
+        "title": "Public Deterrence Statement",
+        "effects": { "stability": -5, "solvency": 5, "morality": 0 },
+        "realWorldContext": "Strong public statements of resolve, without material buildup, are a lower-cost signaling tool used frequently in diplomatic brinkmanship."
+      },
+      {
+        "id": "E",
+        "title": "Preemptive Military Posturing",
+        "effects": { "stability": -15, "solvency": -15, "morality": -15 },
+        "realWorldContext": "Preemptive troop movements near a disputed border risk being read as provocation rather than deterrence, as seen in several historical near-miss crises."
+      }
+    ],
+    "debrief": "Strengthening alliance commitments while opening bilateral arms talks signals resolve without the fiscal and moral cost of an unchecked buildup."
+  },
+  {
+    "date": "2026-09-03",
+    "id": 22,
+    "title": "Diplomatic Hostage Crisis",
+    "scenario": "A hostile government detains several of your citizens on disputed espionage charges, demanding a prisoner exchange for their release.",
+    "targets": { "stability": 40, "solvency": 30, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Agree to Prisoner Exchange",
+        "effects": { "stability": 5, "solvency": 0, "morality": 10 },
+        "realWorldContext": "Prisoner exchanges, like the 2022 swap that freed Brittney Griner, secure release but are criticized for incentivizing future hostage-taking."
+      },
+      {
+        "id": "B",
+        "title": "Impose Economic Sanctions",
+        "effects": { "stability": -5, "solvency": -10, "morality": 5 },
+        "realWorldContext": "Sanctions are a common response to state-sponsored detention, applying pressure without direct military engagement, though they rarely force quick releases."
+      },
+      {
+        "id": "C",
+        "title": "Quiet Backchannel Negotiation",
+        "effects": { "stability": 10, "solvency": 0, "morality": 5 },
+        "realWorldContext": "Many hostage releases are negotiated through discreet diplomatic backchannels rather than public confrontation, preserving both sides' political standing."
+      },
+      {
+        "id": "D",
+        "title": "Public Condemnation Campaign",
+        "effects": { "stability": -10, "solvency": 0, "morality": 10 },
+        "realWorldContext": "Public pressure campaigns raise awareness and can mobilize allied support, but risk provoking a detaining government to dig in further."
+      },
+      {
+        "id": "E",
+        "title": "Refuse Any Negotiation",
+        "effects": { "stability": 5, "solvency": 5, "morality": -20 },
+        "realWorldContext": "A strict no-negotiation stance, sometimes applied to non-state hostage-takers, avoids setting precedent but leaves detained citizens without a resolution path."
+      }
+    ],
+    "debrief": "Pursuing quiet backchannel negotiations while keeping a prisoner exchange on the table resolves the crisis without the precedent-setting risk of public capitulation."
+  },
+  {
+    "date": "2026-09-04",
+    "id": 23,
+    "title": "Foreign Election Interference Allegation",
+    "scenario": "Intelligence agencies report evidence that a foreign government attempted to manipulate the recent national election through disinformation campaigns.",
+    "targets": { "stability": 40, "solvency": 30, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Public Intelligence Disclosure",
+        "effects": { "stability": -5, "solvency": 0, "morality": 15 },
+        "realWorldContext": "US intelligence agencies publicly disclosed findings on foreign election interference in 2016 and 2020, informing the public at the cost of politicizing the findings."
+      },
+      {
+        "id": "B",
+        "title": "Impose Targeted Sanctions",
+        "effects": { "stability": 5, "solvency": -5, "morality": 10 },
+        "realWorldContext": "The US sanctioned individuals and entities tied to election interference efforts following the 2016 and 2020 elections."
+      },
+      {
+        "id": "C",
+        "title": "Strengthen Election Security Funding",
+        "effects": { "stability": 10, "solvency": -10, "morality": 10 },
+        "realWorldContext": "Congress increased funding for election infrastructure security after 2016, hardening systems against future interference attempts."
+      },
+      {
+        "id": "D",
+        "title": "Diplomatic Protest, No Action",
+        "effects": { "stability": 5, "solvency": 5, "morality": -10 },
+        "realWorldContext": "Formal diplomatic protests without concrete penalties are a lower-risk option, though critics argue they carry little deterrent value."
+      },
+      {
+        "id": "E",
+        "title": "Downplay to Avoid Unrest",
+        "effects": { "stability": 10, "solvency": 0, "morality": -20 },
+        "realWorldContext": "Downplaying interference findings to avoid public panic risks eroding trust further if the full scope later becomes known."
+      }
+    ],
+    "debrief": "Strengthening election security funding while imposing targeted sanctions addresses both the domestic vulnerability and the external actor without full public disclosure risk."
+  },
+  {
+    "date": "2026-09-05",
+    "id": 24,
+    "title": "Territorial Island Dispute",
+    "scenario": "A neighboring state lands survey teams on a small, resource-rich island your nation also claims, sparking a standoff between coast guard vessels.",
+    "targets": { "stability": 45, "solvency": 35, "morality": 35 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Deploy Naval Presence",
+        "effects": { "stability": 15, "solvency": -15, "morality": 0 },
+        "realWorldContext": "Naval presence deployments during territorial disputes, common in the South China Sea, assert claims but raise the risk of accidental escalation."
+      },
+      {
+        "id": "B",
+        "title": "File International Tribunal Case",
+        "effects": { "stability": 5, "solvency": 0, "morality": 15 },
+        "realWorldContext": "The Philippines won a 2016 international tribunal ruling against China's South China Sea claims, though China rejected the ruling's enforceability."
+      },
+      {
+        "id": "C",
+        "title": "Propose Joint Resource Development",
+        "effects": { "stability": 10, "solvency": 5, "morality": 10 },
+        "realWorldContext": "Joint development zones, used in several maritime disputes, let both claimants share resource revenue without resolving sovereignty outright."
+      },
+      {
+        "id": "D",
+        "title": "Diplomatic De-escalation Talks",
+        "effects": { "stability": 10, "solvency": 0, "morality": 5 },
+        "realWorldContext": "Bilateral talks to de-escalate maritime standoffs have defused several near-conflicts, buying time without resolving the underlying claim."
+      },
+      {
+        "id": "E",
+        "title": "Assert Claim by Force",
+        "effects": { "stability": -15, "solvency": -10, "morality": -15 },
+        "realWorldContext": "Forcibly asserting a territorial claim risks military conflict and international condemnation, a step most disputing states have historically avoided."
+      }
+    ],
+    "debrief": "Proposing joint resource development while opening de-escalation talks manages the standoff without conceding the claim or risking direct confrontation."
+  }, 
+{
+    "date": "2026-09-06",
+    "id": 25,
+    "title": "Peacekeeping Mission Overextension",
+    "scenario": "Your nation's peacekeeping troops abroad face a sudden escalation in local violence, and casualties are mounting faster than reinforcements can arrive.",
+    "targets": { "stability": 45, "solvency": 35, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Send Reinforcements",
+        "effects": { "stability": 10, "solvency": -20, "morality": 10 },
+        "realWorldContext": "Reinforcing overwhelmed peacekeeping missions, as the UN did in several Balkans deployments, stabilizes the mission but escalates cost and risk."
+      },
+      {
+        "id": "B",
+        "title": "Withdraw Troops Immediately",
+        "effects": { "stability": -10, "solvency": 15, "morality": -15 },
+        "realWorldContext": "The rapid 1994 withdrawal of peacekeepers from Rwanda amid escalating violence is widely cited as a failure that allowed the genocide to proceed."
+      },
+      {
+        "id": "C",
+        "title": "Request UN Mandate Expansion",
+        "effects": { "stability": 5, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Expanding a peacekeeping mission's mandate to allow more assertive intervention, as eventually happened in Bosnia, requires lengthy Security Council approval."
+      },
+      {
+        "id": "D",
+        "title": "Shift to Air Support Only",
+        "effects": { "stability": 0, "solvency": -5, "morality": 0 },
+        "realWorldContext": "Providing air support without ground reinforcement reduces risk to personnel but limits the mission's ability to protect civilians on the ground."
+      },
+      {
+        "id": "E",
+        "title": "Negotiate Local Ceasefire",
+        "effects": { "stability": 15, "solvency": 0, "morality": 10 },
+        "realWorldContext": "Direct negotiation with local factions for a temporary ceasefire has bought time for peacekeeping forces to stabilize in several past conflicts."
+      }
+    ],
+    "debrief": "Negotiating a local ceasefire while requesting a mandate expansion buys time for a sustainable response instead of an immediate, costly reinforcement or a reputation-damaging withdrawal."
+  },
+  {
+    "date": "2026-09-07",
+    "id": 26,
+    "title": "Trade War Retaliation",
+    "scenario": "A major trading partner imposes steep tariffs on your exports after a prolonged dispute, threatening thousands of manufacturing jobs at home.",
+    "targets": { "stability": 40, "solvency": 45, "morality": 30 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Retaliatory Tariffs",
+        "effects": { "stability": 5, "solvency": 10, "morality": -10 },
+        "realWorldContext": "The US-China trade war saw both sides impose escalating retaliatory tariffs from 2018 onward, raising costs for consumers on both sides."
+      },
+      {
+        "id": "B",
+        "title": "Seek WTO Dispute Resolution",
+        "effects": { "stability": 5, "solvency": 0, "morality": 10 },
+        "realWorldContext": "The World Trade Organization's dispute settlement process offers a formal path to challenge tariffs, though rulings can take years to resolve."
+      },
+      {
+        "id": "C",
+        "title": "Subsidize Affected Exporters",
+        "effects": { "stability": 10, "solvency": -15, "morality": 10 },
+        "realWorldContext": "The US provided direct payments to farmers hurt by retaliatory tariffs during the 2018-2019 trade war to offset lost export revenue."
+      },
+      {
+        "id": "D",
+        "title": "Diversify Export Markets",
+        "effects": { "stability": -5, "solvency": 5, "morality": 5 },
+        "realWorldContext": "Countries facing trade disputes often accelerate deals with alternative partners, as several nations did to reduce reliance on any single market."
+      },
+      {
+        "id": "E",
+        "title": "Back Down, Accept Terms",
+        "effects": { "stability": -15, "solvency": 15, "morality": -5 },
+        "realWorldContext": "Accepting unfavorable trade terms to end a dispute quickly avoids further economic damage but can invite future pressure from the same partner."
+      }
+    ],
+    "debrief": "Filing a formal WTO dispute while subsidizing the hardest-hit exporters protects jobs during the legal process without an immediate tit-for-tat escalation."
+  },
+  {
+    "date": "2026-09-08",
+    "id": 27,
+    "title": "Alliance Treaty Obligation Crisis",
+    "scenario": "A treaty ally is attacked by a hostile neighbor and formally invokes a mutual defense clause, requesting immediate military support.",
+    "targets": { "stability": 45, "solvency": 30, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Fulfill Treaty Obligation",
+        "effects": { "stability": 10, "solvency": -25, "morality": 15 },
+        "realWorldContext": "NATO's Article 5 has been invoked once, after 9/11, committing member states to collective defense obligations at real material and political cost."
+      },
+      {
+        "id": "B",
+        "title": "Provide Arms, Not Troops",
+        "effects": { "stability": 5, "solvency": -15, "morality": 5 },
+        "realWorldContext": "Western support for Ukraine after 2022 largely took the form of arms and financial aid rather than direct troop deployment, avoiding direct confrontation."
+      },
+      {
+        "id": "C",
+        "title": "Seek UN Security Council Backing",
+        "effects": { "stability": 5, "solvency": -5, "morality": 10 },
+        "realWorldContext": "Seeking Security Council authorization for military action adds international legitimacy, though a veto from a permanent member can block it entirely."
+      },
+      {
+        "id": "D",
+        "title": "Delay, Cite Domestic Politics",
+        "effects": { "stability": -10, "solvency": 5, "morality": -15 },
+        "realWorldContext": "Delaying treaty commitments due to domestic political resistance risks damaging alliance credibility for future crises."
+      },
+      {
+        "id": "E",
+        "title": "Offer Humanitarian Aid Only",
+        "effects": { "stability": -5, "solvency": -5, "morality": 5 },
+        "realWorldContext": "Providing humanitarian rather than military aid is a common lower-commitment response when full treaty obligations carry high domestic political risk."
+      }
+    ],
+    "debrief": "Providing arms and material support while seeking UN backing signals real commitment to the alliance without the immediate cost of deploying troops."
+  },
+  {
+    "date": "2026-09-09",
+    "id": 28,
+    "title": "Refugee Resettlement Standoff",
+    "scenario": "Neighboring countries close their borders to a growing refugee population fleeing conflict, leaving your nation as one of the few remaining entry points.",
+    "targets": { "stability": 40, "solvency": 35, "morality": 50 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Open Emergency Resettlement Camps",
+        "effects": { "stability": -5, "solvency": -15, "morality": 20 },
+        "realWorldContext": "Jordan and Turkey have hosted massive refugee camps during the Syrian civil war, absorbing large populations at significant strain to public services."
+      },
+      {
+        "id": "B",
+        "title": "Request International Burden-Sharing",
+        "effects": { "stability": 5, "solvency": 0, "morality": 15 },
+        "realWorldContext": "UNHCR-coordinated resettlement programs distribute refugee responsibility across countries, though participation has historically been inconsistent."
+      },
+      {
+        "id": "C",
+        "title": "Cap Admissions at Set Quota",
+        "effects": { "stability": 10, "solvency": 5, "morality": -10 },
+        "realWorldContext": "Many countries set annual refugee admission caps to manage capacity, a policy that provides predictability but leaves others without protection."
+      },
+      {
+        "id": "D",
+        "title": "Fund Regional Host Countries",
+        "effects": { "stability": 5, "solvency": -10, "morality": 10 },
+        "realWorldContext": "The EU has funded neighboring countries like Turkey to host refugees rather than accepting larger numbers directly, a widely debated tradeoff."
+      },
+      {
+        "id": "E",
+        "title": "Close the Border Entirely",
+        "effects": { "stability": 15, "solvency": 5, "morality": -25 },
+        "realWorldContext": "Full border closures during refugee crises, as seen in parts of the 2015 European migration crisis, reduce strain domestically but leave people without safe passage."
+      }
+    ],
+    "debrief": "Requesting international burden-sharing while funding regional host countries distributes the humanitarian and fiscal load rather than closing the door entirely."
+  },
+  {
+    "date": "2026-09-10",
+    "id": 29,
+    "title": "Judicial Independence Crisis",
+    "scenario": "The executive branch proposes legislation to gain greater control over judicial appointments, prompting mass protests and warnings from legal scholars.",
+    "targets": { "stability": 40, "solvency": 25, "morality": 50 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Withdraw the Legislation",
+        "effects": { "stability": 10, "solvency": 0, "morality": 20 },
+        "realWorldContext": "Israel's government partially paused judicial overhaul legislation in 2023 after mass protests, easing tension without fully abandoning reform goals."
+      },
+      {
+        "id": "B",
+        "title": "Push Legislation Through",
+        "effects": { "stability": -20, "solvency": -5, "morality": -20 },
+        "realWorldContext": "Poland's judicial reforms in the late 2010s, pushed through despite EU objections, drew years of legal and diplomatic conflict over rule-of-law concerns."
+      },
+      {
+        "id": "C",
+        "title": "Propose Independent Review Commission",
+        "effects": { "stability": 10, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Independent commissions to review judicial reform proposals have been used to slow contentious changes and build broader consensus."
+      },
+      {
+        "id": "D",
+        "title": "National Referendum on Reform",
+        "effects": { "stability": 0, "solvency": 0, "morality": 10 },
+        "realWorldContext": "Putting contested constitutional changes to a public referendum, as some countries have done, transfers the decision directly to voters."
+      },
+      {
+        "id": "E",
+        "title": "Crack Down on Protests",
+        "effects": { "stability": 5, "solvency": 0, "morality": -25 },
+        "realWorldContext": "Suppressing protests against judicial reform, as seen in several democratic backsliding cases, tends to deepen the very legitimacy crisis it's meant to end."
+      }
+    ],
+    "debrief": "Proposing an independent review commission slows the process enough to rebuild consensus without fully abandoning reform or escalating into a legitimacy crisis."
+  },
+  {
+    "date": "2026-09-11",
+    "id": 30,
+    "title": "Press Freedom Crackdown Backlash",
+    "scenario": "New restrictions on investigative journalism spark international condemnation and a wave of resignations at major state-adjacent media outlets.",
+    "targets": { "stability": 35, "solvency": 25, "morality": 50 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Repeal the Restrictions",
+        "effects": { "stability": -5, "solvency": 0, "morality": 20 },
+        "realWorldContext": "Governments facing sustained press freedom backlash have occasionally repealed restrictive laws to restore international standing and domestic legitimacy."
+      },
+      {
+        "id": "B",
+        "title": "Maintain Restrictions, Cite Security",
+        "effects": { "stability": 10, "solvency": 0, "morality": -20 },
+        "realWorldContext": "National security justifications for press restrictions are common globally, from wartime censorship to modern-day 'fake news' laws, and are frequently contested."
+      },
+      {
+        "id": "C",
+        "title": "Create Press Ombudsman Office",
+        "effects": { "stability": 5, "solvency": -5, "morality": 10 },
+        "realWorldContext": "Independent press ombudsman offices, used in several democracies, mediate disputes between government and media without direct censorship power."
+      },
+      {
+        "id": "D",
+        "title": "Offer State Media Subsidies",
+        "effects": { "stability": 5, "solvency": -10, "morality": -5 },
+        "realWorldContext": "Subsidizing state-aligned outlets while restricting independent press has been used to shape the media landscape in several countries, drawing criticism over bias."
+      },
+      {
+        "id": "E",
+        "title": "International Press Freedom Pledge",
+        "effects": { "stability": -5, "solvency": 0, "morality": 20 },
+        "realWorldContext": "Signing onto international press freedom commitments, as tracked by groups like Reporters Without Borders, signals intent though enforcement mechanisms are limited."
+      }
+    ],
+    "debrief": "Repealing the restrictions and signing an international press freedom pledge restores domestic and diplomatic legitimacy faster than maintaining the crackdown."
+  },
+  {
+    "date": "2026-09-12",
+    "id": 31,
+    "title": "Public Sector Strike Wave",
+    "scenario": "Teachers, nurses, and transit workers launch a coordinated general strike over stagnant wages, paralyzing major cities for a second week.",
+    "targets": { "stability": 45, "solvency": 35, "morality": 40 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Negotiate Wage Increase",
+        "effects": { "stability": 15, "solvency": -15, "morality": 10 },
+        "realWorldContext": "Negotiated wage settlements have ended most major public sector strikes historically, including the UK's 2023 nurses' and rail strikes."
+      },
+      {
+        "id": "B",
+        "title": "Declare Strike Illegal, Order Return",
+        "effects": { "stability": -15, "solvency": 5, "morality": -20 },
+        "realWorldContext": "President Reagan fired striking air traffic controllers in the 1981 PATCO strike after declaring it illegal, a move that reshaped US labor relations for decades."
+      },
+      {
+        "id": "C",
+        "title": "Bring In Temporary Replacement Workers",
+        "effects": { "stability": -5, "solvency": 5, "morality": -15 },
+        "realWorldContext": "Using replacement workers during strikes maintains services but is broadly seen as escalatory and has fueled longer, more bitter labor disputes historically."
+      },
+      {
+        "id": "D",
+        "title": "Independent Wage Arbitration",
+        "effects": { "stability": 10, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Binding arbitration panels have resolved major public sector disputes, such as several transit strikes, by having a neutral party set final terms."
+      },
+      {
+        "id": "E",
+        "title": "Wait Out the Strike",
+        "effects": { "stability": -20, "solvency": 0, "morality": -10 },
+        "realWorldContext": "Some governments have chosen to wait out strikes rather than negotiate, betting public pressure will force workers back, a strategy that risks prolonging disruption."
+      }
+    ],
+    "debrief": "Sending the dispute to independent arbitration ends the standoff on neutral terms without the escalation risk of declaring the strike illegal."
+  },
+  {
+    "date": "2026-09-13",
+    "id": 32,
+    "title": "Urban Housing Shortage Protests",
+    "scenario": "Skyrocketing rents in the capital spark tent encampments and mass protests demanding immediate government action on housing affordability.",
+    "targets": { "stability": 40, "solvency": 40, "morality": 40 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Impose Rent Control",
+        "effects": { "stability": 10, "solvency": -10, "morality": 15 },
+        "realWorldContext": "New York City's long-standing rent control system protects existing tenants but is widely debated for discouraging new housing construction."
+      },
+      {
+        "id": "B",
+        "title": "Fast-Track Zoning Reform",
+        "effects": { "stability": 0, "solvency": -5, "morality": 10 },
+        "realWorldContext": "Cities like Minneapolis have loosened single-family zoning to allow denser housing, a slower fix that increases supply over time."
+      },
+      {
+        "id": "C",
+        "title": "Public Housing Construction",
+        "effects": { "stability": 5, "solvency": -20, "morality": 15 },
+        "realWorldContext": "Vienna's large public housing program is often cited as a model for keeping a majority of residents in affordable, government-built units."
+      },
+      {
+        "id": "D",
+        "title": "Clear Encampments",
+        "effects": { "stability": 5, "solvency": 0, "morality": -20 },
+        "realWorldContext": "Encampment clearances during housing crises, common in several major US cities, address visible disorder but don't resolve the underlying shortage."
+      },
+      {
+        "id": "E",
+        "title": "Housing Voucher Expansion",
+        "effects": { "stability": 5, "solvency": -15, "morality": 10 },
+        "realWorldContext": "The US Section 8 housing voucher program subsidizes private rent for low-income tenants, a widely used but chronically underfunded approach."
+      }
+    ],
+    "debrief": "Fast-tracking zoning reform alongside expanded housing vouchers addresses both long-term supply and immediate affordability without the market distortions of strict rent control."
+  },
+  {
+    "date": "2026-09-14",
+    "id": 33,
+    "title": "Education Funding Referendum Failure",
+    "scenario": "Voters reject a ballot measure that would have raised property taxes to fund public schools, leaving the district facing deep budget cuts.",
+    "targets": { "stability": 30, "solvency": 40, "morality": 45 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Cut Non-Essential Programs",
+        "effects": { "stability": 0, "solvency": 20, "morality": -10 },
+        "realWorldContext": "School districts facing budget shortfalls commonly cut arts, sports, and elective programs first, a pattern seen across many US districts."
+      },
+      {
+        "id": "B",
+        "title": "Statewide Emergency Funding",
+        "effects": { "stability": 10, "solvency": -15, "morality": 15 },
+        "realWorldContext": "State governments sometimes step in with emergency education funding when local referendums fail, shifting the fiscal burden upward."
+      },
+      {
+        "id": "C",
+        "title": "Consolidate School Districts",
+        "effects": { "stability": -10, "solvency": 15, "morality": -5 },
+        "realWorldContext": "Merging smaller districts to cut administrative costs is a common response to funding shortfalls, though it often faces fierce local opposition."
+      },
+      {
+        "id": "D",
+        "title": "Corporate Education Partnership",
+        "effects": { "stability": 5, "solvency": 10, "morality": -5 },
+        "realWorldContext": "Some districts have turned to corporate sponsorships and partnerships to fill funding gaps, raising concerns about commercial influence in classrooms."
+      },
+      {
+        "id": "E",
+        "title": "Re-run the Referendum",
+        "effects": { "stability": -5, "solvency": 0, "morality": 10 },
+        "realWorldContext": "Districts sometimes bring a revised funding measure back to voters after a failed referendum, betting a smaller ask will pass."
+      }
+    ],
+    "debrief": "Securing statewide emergency funding while trimming non-essential programs avoids the political risk of another failed referendum in the short term."
+  },
+  {
+    "date": "2026-09-15",
+    "id": 34,
+    "title": "Police Reform Standoff",
+    "scenario": "After a high-profile incident of police misconduct, activists demand sweeping reforms while police unions warn of a recruitment and morale crisis.",
+    "targets": { "stability": 40, "solvency": 30, "morality": 50 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Independent Oversight Board",
+        "effects": { "stability": 5, "solvency": -5, "morality": 20 },
+        "realWorldContext": "Civilian oversight boards for police conduct have been established in many major US cities following high-profile misconduct cases."
+      },
+      {
+        "id": "B",
+        "title": "Increase Body Camera Funding",
+        "effects": { "stability": 5, "solvency": -10, "morality": 15 },
+        "realWorldContext": "Body camera programs expanded rapidly after the 2014 Ferguson protests, improving accountability though implementation and footage access vary widely."
+      },
+      {
+        "id": "C",
+        "title": "Reallocate Funds to Social Services",
+        "effects": { "stability": -10, "solvency": 5, "morality": 15 },
+        "realWorldContext": "Some cities shifted portions of police budgets toward mental health and social services after 2020, a contested reform with mixed early results."
+      },
+      {
+        "id": "D",
+        "title": "Increase Police Funding and Staffing",
+        "effects": { "stability": 10, "solvency": -15, "morality": -10 },
+        "realWorldContext": "Other cities responded to rising crime concerns by increasing police budgets and hiring, prioritizing capacity over reform-focused changes."
+      },
+      {
+        "id": "E",
+        "title": "Defend Current Practices Publicly",
+        "effects": { "stability": 5, "solvency": 0, "morality": -20 },
+        "realWorldContext": "Publicly defending existing practices without changes has, in several documented cases, deepened community distrust rather than resolving it."
+      }
+    ],
+    "debrief": "Establishing independent oversight while expanding body camera programs improves accountability without the abrupt budget disruption of a full funding overhaul."
+  },
+  {
+    "date": "2026-09-16",
+    "id": 35,
+    "title": "Religious Minority Rights Dispute",
+    "scenario": "A proposed law restricting religious dress in public schools draws condemnation from minority communities and civil liberties groups nationwide.",
+    "targets": { "stability": 40, "solvency": 20, "morality": 55 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Withdraw the Proposal",
+        "effects": { "stability": 5, "solvency": 0, "morality": 20 },
+        "realWorldContext": "Several proposed restrictions on religious dress have been withdrawn after public backlash and legal challenges in various countries."
+      },
+      {
+        "id": "B",
+        "title": "Pass Law, Cite Secularism",
+        "effects": { "stability": -10, "solvency": 0, "morality": -15 },
+        "realWorldContext": "France's laws restricting religious symbols in schools, grounded in its principle of laicite, have drawn both strong domestic support and international criticism."
+      },
+      {
+        "id": "C",
+        "title": "Refer to Constitutional Court",
+        "effects": { "stability": 10, "solvency": -5, "morality": 10 },
+        "realWorldContext": "Constitutional courts in several democracies have ruled on religious dress cases, providing a legal rather than purely political resolution."
+      },
+      {
+        "id": "D",
+        "title": "Community Consultation Process",
+        "effects": { "stability": 5, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Formal consultation with affected religious communities before legislating has been used to build consensus and reduce backlash in comparable disputes."
+      },
+      {
+        "id": "E",
+        "title": "Selective Enforcement by Region",
+        "effects": { "stability": -5, "solvency": 0, "morality": -10 },
+        "realWorldContext": "Applying restrictive laws unevenly across regions tends to create legal confusion and perceptions of discriminatory enforcement."
+      }
+    ],
+    "debrief": "Referring the law to constitutional review while running a community consultation process resolves the dispute through legitimate channels rather than unilateral action."
+  },
+  {
+    "date": "2026-09-17",
+    "id": 36,
+    "title": "Healthcare System Overload",
+    "scenario": "A severe flu season combined with staffing shortages pushes hospitals past capacity, forcing some to turn away non-critical patients.",
+    "targets": { "stability": 35, "solvency": 35, "morality": 50 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Emergency Staffing Deployment",
+        "effects": { "stability": 10, "solvency": -15, "morality": 15 },
+        "realWorldContext": "Governments have deployed military medical personnel to overwhelmed hospitals during crises, as several countries did during COVID-19 surges."
+      },
+      {
+        "id": "B",
+        "title": "Field Hospital Expansion",
+        "effects": { "stability": 5, "solvency": -15, "morality": 15 },
+        "realWorldContext": "Temporary field hospitals expanded capacity quickly during COVID-19 surges without requiring permanent new infrastructure."
+      },
+      {
+        "id": "C",
+        "title": "Ration Non-Critical Care",
+        "effects": { "stability": -5, "solvency": 10, "morality": -15 },
+        "realWorldContext": "Formal triage protocols to ration care during system overload were debated and implemented in several hospitals during COVID-19's worst surges."
+      },
+      {
+        "id": "D",
+        "title": "Emergency Import of Medical Staff",
+        "effects": { "stability": 5, "solvency": -10, "morality": 10 },
+        "realWorldContext": "Countries facing acute staffing shortages have fast-tracked visas for foreign-trained medical workers to fill immediate gaps."
+      },
+      {
+        "id": "E",
+        "title": "Public Health Advisory Only",
+        "effects": { "stability": -10, "solvency": 5, "morality": -5 },
+        "realWorldContext": "Relying solely on public advisories to reduce hospital demand, without added capacity, has historically been insufficient during severe surges."
+      }
+    ],
+    "debrief": "Deploying emergency staffing alongside temporary field hospitals expands real capacity fast, avoiding the ethical toll of formally rationing care."
+  },
+  {
+    "date": "2026-09-18",
+    "id": 37,
+    "title": "Voting Rights Legislation Fight",
+    "scenario": "A new state law requiring stricter voter ID and reducing early voting days sparks accusations of suppression ahead of a critical election.",
+    "targets": { "stability": 35, "solvency": 20, "morality": 55 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Challenge Law in Court",
+        "effects": { "stability": 0, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Numerous state voting laws have faced federal court challenges since the Voting Rights Act's 2013 partial rollback, with mixed rulings."
+      },
+      {
+        "id": "B",
+        "title": "Pass Federal Voting Standards",
+        "effects": { "stability": -10, "solvency": -5, "morality": 20 },
+        "realWorldContext": "Proposed federal voting rights legislation has repeatedly stalled in Congress amid partisan disagreement over election administration authority."
+      },
+      {
+        "id": "C",
+        "title": "Expand Mail-In Voting Access",
+        "effects": { "stability": 5, "solvency": -10, "morality": 15 },
+        "realWorldContext": "Mail-in voting expanded significantly during the 2020 election, increasing turnout in many states while becoming a politically contested practice."
+      },
+      {
+        "id": "D",
+        "title": "Defend Law, Cite Election Security",
+        "effects": { "stability": 5, "solvency": 0, "morality": -15 },
+        "realWorldContext": "Supporters of stricter voter ID laws cite election security concerns, though independent studies have found in-person voter fraud to be extremely rare."
+      },
+      {
+        "id": "E",
+        "title": "Bipartisan Election Commission",
+        "effects": { "stability": 10, "solvency": -5, "morality": 10 },
+        "realWorldContext": "Independent, bipartisan election administration bodies, used in countries like Canada and the UK, aim to remove partisan control over voting rules."
+      }
+    ],
+    "debrief": "Establishing a bipartisan election commission while expanding mail-in access addresses turnout concerns without the years-long uncertainty of a court battle alone."
+  },
+  {
+    "date": "2026-09-19",
+    "id": 38,
+    "title": "Public Pension Reform Backlash",
+    "scenario": "A proposal to convert the public pension system to a hybrid private model triggers nationwide protests from unions representing millions of workers.",
+    "targets": { "stability": 40, "solvency": 40, "morality": 40 },
+    "cards": [
+      {
+        "id": "A",
+        "title": "Withdraw the Reform",
+        "effects": { "stability": 10, "solvency": -15, "morality": 15 },
+        "realWorldContext": "Several governments have withdrawn or delayed pension privatization proposals after sustained union opposition and public protest."
+      },
+      {
+        "id": "B",
+        "title": "Phase In Gradually",
+        "effects": { "stability": 5, "solvency": 5, "morality": 5 },
+        "realWorldContext": "Sweden's pension reform in the 1990s introduced a hybrid public-private system gradually over years, easing the political transition."
+      },
+      {
+        "id": "C",
+        "title": "Grandfather Existing Workers",
+        "effects": { "stability": 10, "solvency": -5, "morality": 15 },
+        "realWorldContext": "Exempting current workers from pension changes while applying new rules only to future hires is a common compromise used in many reform efforts."
+      },
+      {
+        "id": "D",
+        "title": "Push Reform Through Unchanged",
+        "effects": { "stability": -20, "solvency": 15, "morality": -15 },
+        "realWorldContext": "France's 2023 pension reform was pushed through via special constitutional powers despite mass protests, achieving fiscal goals at high political cost."
+      },
+      {
+        "id": "E",
+        "title": "National Referendum on Reform",
+        "effects": { "stability": -5, "solvency": 0, "morality": 15 },
+        "realWorldContext": "Putting major pension changes to a public vote, as Switzerland has done multiple times, gives the reform direct democratic legitimacy either way."
+      }
+    ],
+    "debrief": "Grandfathering existing workers while phasing the reform in gradually achieves long-term solvency without provoking the immediate mass backlash of an abrupt overhaul."
+  }
 ]
+
+
