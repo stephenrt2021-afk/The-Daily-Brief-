@@ -99,11 +99,28 @@ export default function App() {
   const [history, setHistory] = useState<string[]>([]);
   const [expandedInfo, setExpandedInfo] = useState<string | null>(null);
 
-  useEffect(() => {
+ useEffect(() => {
     // Uses local timezone date (YYYY-MM-DD)
     const today = new Date().toLocaleDateString('en-CA');
-    const foundBrief = (briefsData as Brief[]).find(b => b.date === today) || (briefsData as Brief[])[0];
-    setCurrentBrief(foundBrief);
+    const briefs = briefsData as Brief[];
+    const foundBrief = briefs.find(b => b.date === today);
+
+    let selectedBrief: Brief;
+    if (foundBrief) {
+      selectedBrief = foundBrief;
+    } else {
+      // No scenario scheduled for today — cycle through existing briefs based on
+      // days elapsed since the first one, instead of silently repeating brief #1.
+      const firstDate = new Date(briefs[0].date + 'T00:00:00');
+      const todayDate = new Date(today + 'T00:00:00');
+      const daysSinceStart = Math.floor((todayDate.getTime() - firstDate.getTime()) / 86400000);
+      const index = ((daysSinceStart % briefs.length) + briefs.length) % briefs.length;
+      selectedBrief = briefs[index];
+      console.warn(
+        `[The Brief] No scenario scheduled for ${today} — falling back to brief #${selectedBrief.id} ("${selectedBrief.title}"). Add more entries to briefs.json.`
+      );
+    }
+    setCurrentBrief(selectedBrief);
 
     const savedStreak = parseInt(localStorage.getItem('tb_streak') || '0', 10);
     const savedHistory: string[] = JSON.parse(localStorage.getItem('tb_history') || '[]');
@@ -123,7 +140,6 @@ export default function App() {
       }
     }
   }, []);
-
   if (!currentBrief) return <div className="bg-[#121212] min-h-screen text-white p-8">Loading Brief...</div>;
 
   const toggleCard = (card: Card) => {
