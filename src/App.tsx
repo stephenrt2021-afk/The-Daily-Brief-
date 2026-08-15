@@ -226,8 +226,7 @@ export default function App() {
     localStorage.setItem('tb_streak', newStreak.toString());
     localStorage.setItem('tb_history', JSON.stringify(newHistory));
   };
-
-  const copyResults = () => {
+const copyResults = async () => {
     // Prefer the saved record for today's date — it's accurate even if the
     // page was reloaded or the player is revisiting after already finishing.
     // Live gameState/attemptsLeft are only trustworthy in the same session
@@ -236,11 +235,20 @@ export default function App() {
     const outcome: 'won' | 'lost' = saved?.outcome ?? (gameState === 'won' ? 'won' : 'lost');
     const attemptsUsed = saved?.attemptsUsed ?? (3 - attemptsLeft);
 
-    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${outcome === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${attemptsUsed}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
-    navigator.clipboard.writeText(shareText);
-    alert('Results copied to clipboard!');
-  };
+    // Visible in browser dev tools (F12 -> Console) for easy debugging if the
+    // shared result ever looks wrong again.
+    console.log('[The Brief] Sharing result:', { saved, gameState, outcome, attemptsUsed });
 
+    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${outcome === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${attemptsUsed}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
+
+    try {
+      await navigator.clipboard.writeText(shareText);
+      alert('Results copied to clipboard!');
+    } catch (err) {
+      console.error('[The Brief] Clipboard write failed:', err);
+      alert('Could not copy automatically — here is your result:\n\n' + shareText);
+    }
+  };
   return (
     <>
       <Analytics />
