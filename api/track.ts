@@ -1,8 +1,6 @@
 import { kv } from '@vercel/kv';
-import { geolocation } from '@vercel/functions';
 
-// Edge runtime (not Node) — this is required to get free geolocation data on
-// Vercel's Hobby plan. Web-standard Request/Response API instead of req/res.
+// Edge runtime (not Node) — Web-standard Request/Response API instead of req/res.
 export const config = { runtime: 'edge' };
 
 // Self-owned, permanent analytics — independent of Vercel Analytics, which only
@@ -34,10 +32,10 @@ export default async function handler(request: Request) {
         return json({ error: 'visitorId required' }, 400);
       }
       try {
-        // country is a best-effort 2-letter code (e.g. "US") derived from the
-        // requester's IP by Vercel's edge network — free, no external API call.
-        const { country } = geolocation(request);
-        const countryCode = country || 'unknown';
+        // Vercel's edge network injects this header on every request — a
+        // best-effort 2-letter country code (e.g. "US") derived from the
+        // visitor's IP. Free, no external package or API call needed.
+        const countryCode = request.headers.get('x-vercel-ip-country') || 'unknown';
 
         const [totalVisits] = await Promise.all([
           kv.incr('brief:visits:total'),
