@@ -537,7 +537,7 @@
         "title": "Bank Recapitalization Fund",
         "effects": {
           "stability": -5,
-          "solvency": 25,
+          "solvency": 38,
           "morality": -5
         },
         "realWorldContext": "TARP in 2008 injected public capital directly into failing banks. It stabilized the financial system but was widely seen as bailing out Wall Street over homeowners."
@@ -573,7 +573,7 @@
         "realWorldContext": "Some economists argue intervention only delays necessary corrections; Iceland largely let its banks fail in 2008 rather than bail them out."
       }
     ],
-    "debrief": "Cutting interest rates to ease borrowing costs while offering targeted mortgage relief prevents mass foreclosures without fully socializing bank losses."
+    "debrief": "Combining Mortgage Relief Program with Bank Recapitalization Fund is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-22",
@@ -630,14 +630,14 @@
         "id": "E",
         "title": "Seek IMF Standby Facility",
         "effects": {
-          "stability": 5,
+          "stability": 13,
           "solvency": 10,
           "morality": 5
         },
         "realWorldContext": "IMF standby arrangements provide emergency currency support, as used by South Korea in 1997, in exchange for economic reform commitments."
       }
     ],
-    "debrief": "Imposing capital controls to limit outflows while floating the currency avoids draining reserves in a defense the state is unlikely to win."
+    "debrief": "Combining Emergency Rate Hike with Seek IMF Standby Facility is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-23",
@@ -656,7 +656,7 @@
         "effects": {
           "stability": 15,
           "solvency": 0,
-          "morality": 5
+          "morality": 18
         },
         "realWorldContext": "US stock exchanges use circuit breakers that pause trading during steep drops, a tool introduced after the 1987 crash to prevent panic selling."
       },
@@ -701,7 +701,7 @@
         "realWorldContext": "Some policymakers, echoing Alan Greenspan's early stance on the dot-com bubble, argue markets self-correct and intervention only delays the reckoning."
       }
     ],
-    "debrief": "Halting trading to prevent panic while backstopping pension funds protects ordinary retirees without fully insulating speculative investors from losses."
+    "debrief": "Combining Circuit Breaker Trading Halts with Loosen Margin Requirements is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-24",
@@ -719,7 +719,7 @@
         "title": "Phased Wage Increase",
         "effects": {
           "stability": 10,
-          "solvency": -5,
+          "solvency": 18,
           "morality": 15
         },
         "realWorldContext": "Many US states have raised minimum wages gradually over several years rather than all at once, softening the shock to small employers."
@@ -765,7 +765,7 @@
         "realWorldContext": "Cities like Stockton, California piloted direct cash payments instead of wage mandates, showing promising results but at real fiscal cost."
       }
     ],
-    "debrief": "A phased wage increase paired with small business tax credits raises worker pay without an abrupt shock to employers who can't absorb it overnight."
+    "debrief": "Combining Phased Wage Increase with Index Wages to Inflation is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-25",
@@ -793,7 +793,7 @@
         "title": "Increase Payroll Contributions",
         "effects": {
           "stability": -5,
-          "solvency": 15,
+          "solvency": 38,
           "morality": 5
         },
         "realWorldContext": "Raising payroll tax contributions is a common lever to shore up pension systems, spreading the cost across current workers rather than retirees."
@@ -829,7 +829,7 @@
         "realWorldContext": "Chile's 1980s shift to private pension accounts became a global model, though it later drew criticism for leaving many with inadequate retirement savings."
       }
     ],
-    "debrief": "Raising payroll contributions alongside modest benefit adjustments spreads the burden across generations rather than placing it entirely on retirees or workers."
+    "debrief": "Combining Increase Payroll Contributions with General Fund Bailout is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-26",
@@ -975,7 +975,7 @@
         "title": "Robot Tax on Automation",
         "effects": {
           "stability": 5,
-          "solvency": 5,
+          "solvency": 23,
           "morality": 10
         },
         "realWorldContext": "Proposals to tax companies for automating jobs, floated by figures like Bill Gates, aim to fund worker transition programs, though few countries have implemented one."
@@ -1021,7 +1021,7 @@
         "realWorldContext": "Classical economic theory holds that automation-driven displacement is eventually offset by new job creation, though the transition can take a generation."
       }
     ],
-    "debrief": "Funding worker retraining while extending benefits during the transition softens the blow to affected towns without freezing productivity-boosting automation."
+    "debrief": "Combining Robot Tax on Automation with Worker Retraining Program is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-29",
@@ -1079,13 +1079,13 @@
         "title": "Negotiate Emergency Supply Deal",
         "effects": {
           "stability": 5,
-          "solvency": 10,
+          "solvency": 23,
           "morality": 0
         },
         "realWorldContext": "Governments often negotiate emergency bilateral energy deals during shortages, similar to Europe's rapid LNG deals after 2022."
       }
     ],
-    "debrief": "Releasing strategic reserves alongside a negotiated emergency supply deal eases prices immediately while a longer-term contract is arranged."
+    "debrief": "Combining Release Strategic Petroleum Reserve with Negotiate Emergency Supply Deal is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-30",
@@ -1113,7 +1113,7 @@
         "title": "Independent Oversight Board",
         "effects": {
           "stability": 10,
-          "solvency": 5,
+          "solvency": 13,
           "morality": 10
         },
         "realWorldContext": "Norway's sovereign wealth fund is governed by strict independent oversight and ethical investment guidelines, widely cited as a model for transparency."
@@ -1149,7 +1149,7 @@
         "realWorldContext": "Rapidly selling off speculative assets to limit further losses can lock in a bad price, but stops the bleeding immediately."
       }
     ],
-    "debrief": "Installing independent oversight and requiring public transparency prevents the next mismanagement scandal, even though it invites short-term political scrutiny."
+    "debrief": "Combining Fire Fund Management with Independent Oversight Board is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-08-31",
@@ -1187,8 +1187,8 @@
         "title": "Regional Resettlement Agreement",
         "effects": {
           "stability": 5,
-          "solvency": -5,
-          "morality": 15
+          "solvency": 18,
+          "morality": 23
         },
         "realWorldContext": "The EU's burden-sharing agreements during the 2015 migration crisis attempted to distribute asylum seekers across member states, with uneven cooperation."
       },
@@ -1213,7 +1213,7 @@
         "realWorldContext": "US aid programs targeting the economic causes of migration in Central America aim to reduce departures at the source, though results take years to show."
       }
     ],
-    "debrief": "Expanding processing capacity while pursuing a regional resettlement agreement manages the immediate surge without the legal exposure of a full border closure."
+    "debrief": "Combining Deploy Border Patrol Surge with Regional Resettlement Agreement is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-01",
@@ -1241,7 +1241,7 @@
         "title": "International Arbitration Request",
         "effects": {
           "stability": 5,
-          "solvency": 0,
+          "solvency": 13,
           "morality": 15
         },
         "realWorldContext": "The International Court of Justice has ruled on transboundary water disputes before, though enforcement of rulings remains difficult."
@@ -1277,7 +1277,7 @@
         "realWorldContext": "The Indus Waters Treaty between India and Pakistan has managed shared river resources for decades despite broader political tension between the two."
       }
     ],
-    "debrief": "Pursuing a negotiated water-sharing treaty while formally requesting international arbitration addresses the dispute through durable, cooperative channels."
+    "debrief": "Combining International Arbitration Request with Negotiate Water-Sharing Treaty is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-02",
@@ -1305,7 +1305,7 @@
         "title": "Propose Bilateral Arms Talks",
         "effects": {
           "stability": 10,
-          "solvency": 0,
+          "solvency": 18,
           "morality": 15
         },
         "realWorldContext": "Arms control negotiations like SALT and START defused Cold War tensions through verified mutual reductions rather than continued buildup."
@@ -1341,7 +1341,7 @@
         "realWorldContext": "Preemptive troop movements near a disputed border risk being read as provocation rather than deterrence, as seen in several historical near-miss crises."
       }
     ],
-    "debrief": "Strengthening alliance commitments while opening bilateral arms talks signals resolve without the fiscal and moral cost of an unchecked buildup."
+    "debrief": "Combining Propose Bilateral Arms Talks with Strengthen Defensive Alliances is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-03",
@@ -1423,7 +1423,7 @@
         "title": "Public Intelligence Disclosure",
         "effects": {
           "stability": -5,
-          "solvency": 0,
+          "solvency": 8,
           "morality": 15
         },
         "realWorldContext": "US intelligence agencies publicly disclosed findings on foreign election interference in 2016 and 2020, informing the public at the cost of politicizing the findings."
@@ -1432,7 +1432,7 @@
         "id": "B",
         "title": "Impose Targeted Sanctions",
         "effects": {
-          "stability": 5,
+          "stability": 18,
           "solvency": -5,
           "morality": 10
         },
@@ -1469,7 +1469,7 @@
         "realWorldContext": "Downplaying interference findings to avoid public panic risks eroding trust further if the full scope later becomes known."
       }
     ],
-    "debrief": "Strengthening election security funding while imposing targeted sanctions addresses both the domestic vulnerability and the external actor without full public disclosure risk."
+    "debrief": "Combining Public Intelligence Disclosure with Impose Targeted Sanctions is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-05",
@@ -1591,13 +1591,13 @@
         "title": "Negotiate Local Ceasefire",
         "effects": {
           "stability": 15,
-          "solvency": 0,
+          "solvency": 13,
           "morality": 10
         },
         "realWorldContext": "Direct negotiation with local factions for a temporary ceasefire has bought time for peacekeeping forces to stabilize in several past conflicts."
       }
     ],
-    "debrief": "Negotiating a local ceasefire while requesting a mandate expansion buys time for a sustainable response instead of an immediate, costly reinforcement or a reputation-damaging withdrawal."
+    "debrief": "Combining Request UN Mandate Expansion with Negotiate Local Ceasefire is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-07",
@@ -1615,7 +1615,7 @@
         "title": "Retaliatory Tariffs",
         "effects": {
           "stability": 5,
-          "solvency": 10,
+          "solvency": 18,
           "morality": -10
         },
         "realWorldContext": "The US-China trade war saw both sides impose escalating retaliatory tariffs from 2018 onward, raising costs for consumers on both sides."
@@ -1661,7 +1661,7 @@
         "realWorldContext": "Accepting unfavorable trade terms to end a dispute quickly avoids further economic damage but can invite future pressure from the same partner."
       }
     ],
-    "debrief": "Filing a formal WTO dispute while subsidizing the hardest-hit exporters protects jobs during the legal process without an immediate tit-for-tat escalation."
+    "debrief": "Combining Retaliatory Tariffs with Seek WTO Dispute Resolution is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-08",
@@ -1688,7 +1688,7 @@
         "id": "B",
         "title": "Provide Arms, Not Troops",
         "effects": {
-          "stability": 5,
+          "stability": 13,
           "solvency": -15,
           "morality": 5
         },
@@ -1699,7 +1699,7 @@
         "title": "Seek UN Security Council Backing",
         "effects": {
           "stability": 5,
-          "solvency": -5,
+          "solvency": 18,
           "morality": 10
         },
         "realWorldContext": "Seeking Security Council authorization for military action adds international legitimacy, though a veto from a permanent member can block it entirely."
@@ -1725,7 +1725,7 @@
         "realWorldContext": "Providing humanitarian rather than military aid is a common lower-commitment response when full treaty obligations carry high domestic political risk."
       }
     ],
-    "debrief": "Providing arms and material support while seeking UN backing signals real commitment to the alliance without the immediate cost of deploying troops."
+    "debrief": "Combining Provide Arms, Not Troops with Seek UN Security Council Backing is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-09",
@@ -1754,7 +1754,7 @@
         "effects": {
           "stability": 5,
           "solvency": 0,
-          "morality": 15
+          "morality": 33
         },
         "realWorldContext": "UNHCR-coordinated resettlement programs distribute refugee responsibility across countries, though participation has historically been inconsistent."
       },
@@ -1789,7 +1789,7 @@
         "realWorldContext": "Full border closures during refugee crises, as seen in parts of the 2015 European migration crisis, reduce strain domestically but leave people without safe passage."
       }
     ],
-    "debrief": "Requesting international burden-sharing while funding regional host countries distributes the humanitarian and fiscal load rather than closing the door entirely."
+    "debrief": "Combining Request International Burden-Sharing with Cap Admissions at Set Quota is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-10",
@@ -1890,7 +1890,7 @@
         "id": "C",
         "title": "Create Press Ombudsman Office",
         "effects": {
-          "stability": 5,
+          "stability": 13,
           "solvency": -5,
           "morality": 10
         },
@@ -1917,7 +1917,7 @@
         "realWorldContext": "Signing onto international press freedom commitments, as tracked by groups like Reporters Without Borders, signals intent though enforcement mechanisms are limited."
       }
     ],
-    "debrief": "Repealing the restrictions and signing an international press freedom pledge restores domestic and diplomatic legitimacy faster than maintaining the crackdown."
+    "debrief": "Combining Repeal the Restrictions with Create Press Ombudsman Office is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-12",
@@ -1965,7 +1965,7 @@
         "title": "Independent Wage Arbitration",
         "effects": {
           "stability": 10,
-          "solvency": -5,
+          "solvency": 23,
           "morality": 15
         },
         "realWorldContext": "Binding arbitration panels have resolved major public sector disputes, such as several transit strikes, by having a neutral party set final terms."
@@ -1981,7 +1981,7 @@
         "realWorldContext": "Some governments have chosen to wait out strikes rather than negotiate, betting public pressure will force workers back, a strategy that risks prolonging disruption."
       }
     ],
-    "debrief": "Sending the dispute to independent arbitration ends the standoff on neutral terms without the escalation risk of declaring the strike illegal."
+    "debrief": "Combining Negotiate Wage Increase with Independent Wage Arbitration is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-13",
@@ -2009,7 +2009,7 @@
         "title": "Fast-Track Zoning Reform",
         "effects": {
           "stability": 0,
-          "solvency": -5,
+          "solvency": 23,
           "morality": 10
         },
         "realWorldContext": "Cities like Minneapolis have loosened single-family zoning to allow denser housing, a slower fix that increases supply over time."
@@ -2045,7 +2045,7 @@
         "realWorldContext": "The US Section 8 housing voucher program subsidizes private rent for low-income tenants, a widely used but chronically underfunded approach."
       }
     ],
-    "debrief": "Fast-tracking zoning reform alongside expanded housing vouchers addresses both long-term supply and immediate affordability without the market distortions of strict rent control."
+    "debrief": "Combining Impose Rent Control with Fast-Track Zoning Reform is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-14",
@@ -2104,12 +2104,12 @@
         "effects": {
           "stability": -5,
           "solvency": 0,
-          "morality": 10
+          "morality": 23
         },
         "realWorldContext": "Districts sometimes bring a revised funding measure back to voters after a failed referendum, betting a smaller ask will pass."
       }
     ],
-    "debrief": "Securing statewide emergency funding while trimming non-essential programs avoids the political risk of another failed referendum in the short term."
+    "debrief": "Combining Corporate Education Partnership with Re-run the Referendum is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-15",
@@ -2127,7 +2127,7 @@
         "title": "Independent Oversight Board",
         "effects": {
           "stability": 5,
-          "solvency": -5,
+          "solvency": 13,
           "morality": 20
         },
         "realWorldContext": "Civilian oversight boards for police conduct have been established in many major US cities following high-profile misconduct cases."
@@ -2173,7 +2173,7 @@
         "realWorldContext": "Publicly defending existing practices without changes has, in several documented cases, deepened community distrust rather than resolving it."
       }
     ],
-    "debrief": "Establishing independent oversight while expanding body camera programs improves accountability without the abrupt budget disruption of a full funding overhaul."
+    "debrief": "Combining Independent Oversight Board with Increase Body Camera Funding is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-16",
@@ -2256,7 +2256,7 @@
         "effects": {
           "stability": 10,
           "solvency": -15,
-          "morality": 15
+          "morality": 38
         },
         "realWorldContext": "Governments have deployed military medical personnel to overwhelmed hospitals during crises, as several countries did during COVID-19 surges."
       },
@@ -2275,7 +2275,7 @@
         "title": "Ration Non-Critical Care",
         "effects": {
           "stability": -5,
-          "solvency": 10,
+          "solvency": 23,
           "morality": -15
         },
         "realWorldContext": "Formal triage protocols to ration care during system overload were debated and implemented in several hospitals during COVID-19's worst surges."
@@ -2301,7 +2301,7 @@
         "realWorldContext": "Relying solely on public advisories to reduce hospital demand, without added capacity, has historically been insufficient during severe surges."
       }
     ],
-    "debrief": "Deploying emergency staffing alongside temporary field hospitals expands real capacity fast, avoiding the ethical toll of formally rationing care."
+    "debrief": "Combining Emergency Staffing Deployment with Ration Non-Critical Care is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   },
   {
     "date": "2026-09-18",
@@ -2393,7 +2393,7 @@
         "title": "Phase In Gradually",
         "effects": {
           "stability": 5,
-          "solvency": 5,
+          "solvency": 18,
           "morality": 5
         },
         "realWorldContext": "Sweden's pension reform in the 1990s introduced a hybrid public-private system gradually over years, easing the political transition."
@@ -2429,7 +2429,6 @@
         "realWorldContext": "Putting major pension changes to a public vote, as Switzerland has done multiple times, gives the reform direct democratic legitimacy either way."
       }
     ],
-    "debrief": "Grandfathering existing workers while phasing the reform in gradually achieves long-term solvency without provoking the immediate mass backlash of an abrupt overhaul."
+    "debrief": "Combining Phase In Gradually with Grandfather Existing Workers is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
   }
 ]
-
