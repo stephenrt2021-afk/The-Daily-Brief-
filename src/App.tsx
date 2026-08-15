@@ -178,9 +178,10 @@ export default function App() {
     const nextAttempts = attemptsLeft - 1;
     setAttemptsLeft(nextAttempts);
 
-    if (winCondition) {
+  if (winCondition) {
       setGameState('won');
       updateStreak(true);
+      saveResult('won', 3 - nextAttempts);
 
       // Instantly push completion path for Vercel Analytics pageview logging
       window.history.pushState({}, '', '/completed/won');
@@ -188,9 +189,32 @@ export default function App() {
     } else if (nextAttempts === 0) {
       setGameState('lost');
       updateStreak(false);
+      saveResult('lost', 3 - nextAttempts);
 
       window.history.pushState({}, '', '/completed/lost');
       window.dispatchEvent(new Event('popstate'));
+    }
+  };
+
+  // Persists the real outcome + attempts used for a given date, so the share
+  // button stays accurate even after a page reload, revisit, or when someone
+  // returns after already completing today's brief (gameState === 'played').
+  const saveResult = (outcome: 'won' | 'lost', attemptsUsed: number) => {
+    try {
+      const results = JSON.parse(localStorage.getItem('tb_results') || '{}');
+      results[currentBrief.date] = { outcome, attemptsUsed };
+      localStorage.setItem('tb_results', JSON.stringify(results));
+    } catch {
+      // Non-critical: sharing will fall back to live state if this fails.
+    }
+  };
+
+  const getSavedResult = (): { outcome: 'won' | 'lost'; attemptsUsed: number } | null => {
+    try {
+      const results = JSON.parse(localStorage.getItem('tb_results') || '{}');
+      return results[currentBrief.date] ?? null;
+    } catch {
+      return null;
     }
   };
 
@@ -204,7 +228,15 @@ export default function App() {
   };
 
   const copyResults = () => {
-    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${gameState === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${3 - attemptsLeft}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
+    // Prefer the saved record for today's date — it's accurate even if the
+    // page was reloaded or the player is revisiting after already finishing.
+    // Live gameState/attemptsLeft are only trustworthy in the same session
+    // the round was actually completed in.
+    const saved = getSavedResult();
+    const outcome: 'won' | 'lost' = saved?.outcome ?? (gameState === 'won' ? 'won' : 'lost');
+    const attemptsUsed = saved?.attemptsUsed ?? (3 - attemptsLeft);
+
+    const shareText = `The Brief #${currentBrief.id} 🏛️\nStatus: ${outcome === 'won' ? 'PASSED 🟩' : 'FAILED 🟥'}\nAttempts: ${attemptsUsed}/3\n🔥 Streak: ${streak} Days\n\nCan you handle today's crisis?\nhttps://${window.location.host}`;
     navigator.clipboard.writeText(shareText);
     alert('Results copied to clipboard!');
   };
