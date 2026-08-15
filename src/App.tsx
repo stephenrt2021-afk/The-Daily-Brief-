@@ -99,7 +99,7 @@ export default function App() {
   const [history, setHistory] = useState<string[]>([]);
   const [expandedInfo, setExpandedInfo] = useState<string | null>(null);
 
- useEffect(() => {
+  useEffect(() => {
     // Uses local timezone date (YYYY-MM-DD)
     const today = new Date().toLocaleDateString('en-CA');
     const briefs = briefsData as Brief[];
@@ -139,7 +139,26 @@ export default function App() {
         window.history.pushState({}, '', '/completed/played');
       }
     }
+
+    // Record this page load in our own permanent, self-owned ledger (Vercel KV).
+    // visitorId is a random, anonymous ID stored locally — not a cookie, not
+    // linked to identity — used only so repeat visits from the same browser
+    // count once toward lifetime unique visitors, while every load still
+    // counts toward total visits. This never expires, unlike Vercel Analytics.
+    let visitorId = localStorage.getItem('tb_visitor_id');
+    if (!visitorId) {
+      visitorId = crypto.randomUUID();
+      localStorage.setItem('tb_visitor_id', visitorId);
+    }
+    fetch('/api/track', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'visit', visitorId }),
+    }).catch(() => {
+      // Non-critical: never blocks the game if tracking fails.
+    });
   }, []);
+
   if (!currentBrief) return <div className="bg-[#121212] min-h-screen text-white p-8">Loading Brief...</div>;
 
   const toggleCard = (card: Card) => {
@@ -178,10 +197,11 @@ export default function App() {
     const nextAttempts = attemptsLeft - 1;
     setAttemptsLeft(nextAttempts);
 
-  if (winCondition) {
+    if (winCondition) {
       setGameState('won');
       updateStreak(true);
       saveResult('won', 3 - nextAttempts);
+      trackCompletion('won');
 
       // Instantly push completion path for Vercel Analytics pageview logging
       window.history.pushState({}, '', '/completed/won');
@@ -190,10 +210,22 @@ export default function App() {
       setGameState('lost');
       updateStreak(false);
       saveResult('lost', 3 - nextAttempts);
+      trackCompletion('lost');
 
       window.history.pushState({}, '', '/completed/lost');
       window.dispatchEvent(new Event('popstate'));
     }
+  };
+
+  // Increments the permanent, self-owned completion counter (Vercel KV).
+  const trackCompletion = (outcome: 'won' | 'lost') => {
+    fetch('/api/track', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: outcome }),
+    }).catch(() => {
+      // Non-critical: never blocks the game if tracking fails.
+    });
   };
 
   // Persists the real outcome + attempts used for a given date, so the share
@@ -226,7 +258,8 @@ export default function App() {
     localStorage.setItem('tb_streak', newStreak.toString());
     localStorage.setItem('tb_history', JSON.stringify(newHistory));
   };
-const copyResults = async () => {
+
+  const copyResults = async () => {
     // Prefer the saved record for today's date — it's accurate even if the
     // page was reloaded or the player is revisiting after already finishing.
     // Live gameState/attemptsLeft are only trustworthy in the same session
@@ -249,6 +282,7 @@ const copyResults = async () => {
       alert('Could not copy automatically — here is your result:\n\n' + shareText);
     }
   };
+
   return (
     <>
       <Analytics />
