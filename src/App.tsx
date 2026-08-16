@@ -67,28 +67,6 @@ const METER_META: Record<MeterKey, {
 
 const METER_ORDER: MeterKey[] = ['stability', 'solvency', 'morality'];
 
-function EffectBadge({ meterKey, value }: { meterKey: MeterKey; value: number }) {
-  const meta = METER_META[meterKey];
-  const sign = value > 0 ? '+' : '';
-  const isZero = value === 0;
-  return (
-    <span
-      style={{
-        fontSize: '10px',
-        fontWeight: 600,
-        padding: '2px 6px',
-        borderRadius: '4px',
-        backgroundColor: isZero ? '#232326' : meta.badgeBg,
-        color: isZero ? '#666' : meta.badgeText,
-        fontFamily: 'monospace',
-        letterSpacing: '0.2px',
-      }}
-    >
-      {meta.short} {sign}{value}
-    </span>
-  );
-}
-
 export default function App() {
   const [currentBrief, setCurrentBrief] = useState<Brief | null>(null);
   const [selectedCards, setSelectedCards] = useState<Card[]>([]);
@@ -348,9 +326,6 @@ export default function App() {
                 >
                   <span className="text-left">{card.title}</span>
                   <span className="flex items-center gap-1 shrink-0">
-                    {METER_ORDER.map((key) => (
-                      <EffectBadge key={key} meterKey={key} value={card.effects[key]} />
-                    ))}
                     {card.realWorldContext && (
                       <span
                         role="button"
