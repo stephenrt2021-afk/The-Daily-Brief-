@@ -11,6 +11,14 @@ interface Card {
     morality: number;
   };
   realWorldContext?: string;
+  policyExplanation?: string;
+  concept?: string;
+}
+
+interface PhilosopherReactions {
+  utilitarian: string;
+  rawlsian: string;
+  libertarian: string;
 }
 
 interface Brief {
@@ -25,6 +33,7 @@ interface Brief {
   };
   cards: Card[];
   debrief: string;
+  philosopherReactions?: PhilosopherReactions;
 }
 
 const INITIAL_METERS = { stability: 30, solvency: 30, morality: 30 };
@@ -76,6 +85,7 @@ export default function App() {
   const [streak, setStreak] = useState<number>(0);
   const [history, setHistory] = useState<string[]>([]);
   const [expandedInfo, setExpandedInfo] = useState<string | null>(null);
+  const [exploreMode, setExploreMode] = useState<boolean>(false);
 
   useEffect(() => {
     // Uses local timezone date (YYYY-MM-DD)
@@ -309,7 +319,20 @@ export default function App() {
         </div>
 
         <div className="w-full max-w-md grid grid-cols-1 gap-2 mb-6">
-          <p className="text-xs text-gray-400 mb-1">Select 2 Levers ({selectedCards.length}/2):</p>
+          <div className="flex items-center justify-between mb-1">
+            <p className="text-xs text-gray-400">Select 2 Levers ({selectedCards.length}/2):</p>
+            <button
+              onClick={() => setExploreMode(!exploreMode)}
+              className="text-xs font-medium px-2 py-1 rounded-md transition"
+              style={{
+                backgroundColor: exploreMode ? '#2a2a2a' : 'transparent',
+                color: exploreMode ? '#e0a030' : '#666',
+                border: '1px solid #333',
+              }}
+            >
+              🔍 Explore Mode {exploreMode ? 'On' : 'Off'}
+            </button>
+          </div>
           {currentBrief.cards.map((card) => {
             const isSelected = selectedCards.some(c => c.id === card.id);
             const isExpanded = expandedInfo === card.id;
@@ -324,12 +347,42 @@ export default function App() {
                       : 'bg-[#1c1c1e] text-gray-300 border-gray-800 hover:border-gray-700'
                   }`}
                 >
-                  <span className="text-left">{card.title}</span>
+                  <span className="text-left">
+                    {card.title}
+                    {exploreMode && card.concept && (
+                      <span className="block text-[10px] font-normal opacity-60 mt-0.5">{card.concept}</span>
+                    )}
+                  </span>
                   <span className="flex items-center gap-1 shrink-0">
-                    {card.realWorldContext && (
+                    {exploreMode && (
+                      <span className="flex gap-1 mr-1">
+                        {METER_ORDER.map((key) => {
+                          const meta = METER_META[key];
+                          const v = card.effects[key];
+                          const sign = v > 0 ? '+' : '';
+                          return (
+                            <span
+                              key={key}
+                              style={{
+                                fontSize: '10px',
+                                fontWeight: 600,
+                                padding: '2px 5px',
+                                borderRadius: '4px',
+                                backgroundColor: v === 0 ? '#232326' : meta.badgeBg,
+                                color: v === 0 ? '#666' : meta.badgeText,
+                                fontFamily: 'monospace',
+                              }}
+                            >
+                              {meta.short} {sign}{v}
+                            </span>
+                          );
+                        })}
+                      </span>
+                    )}
+                    {(card.policyExplanation || card.realWorldContext) && (
                       <span
                         role="button"
-                        aria-label={`Real-world context for ${card.title}`}
+                        aria-label={`Explanation for ${card.title}`}
                         onClick={(e) => {
                           e.stopPropagation();
                           setExpandedInfo(isExpanded ? null : card.id);
@@ -350,15 +403,35 @@ export default function App() {
                     )}
                   </span>
                 </button>
-                {isExpanded && card.realWorldContext && (
+                {isExpanded && (card.policyExplanation || card.realWorldContext) && (
                   <div
-                    className="text-xs text-gray-400 leading-relaxed px-3 py-2 mt-1 rounded-lg"
+                    className="text-xs text-gray-400 leading-relaxed px-3 py-2 mt-1 rounded-lg space-y-2"
                     style={{ backgroundColor: '#161618', border: '1px solid #2a2a2a' }}
                   >
-                    <span className="text-gray-500 font-semibold uppercase tracking-wide" style={{ fontSize: '9px' }}>
-                      In the real world
-                    </span>
-                    <p className="mt-1">{card.realWorldContext}</p>
+                    {card.concept && (
+                      <span
+                        className="inline-block text-[10px] font-semibold px-2 py-0.5 rounded-full"
+                        style={{ backgroundColor: '#232326', color: '#e0a030' }}
+                      >
+                        {card.concept}
+                      </span>
+                    )}
+                    {card.policyExplanation && (
+                      <div>
+                        <span className="text-gray-500 font-semibold uppercase tracking-wide" style={{ fontSize: '9px' }}>
+                          What this does
+                        </span>
+                        <p className="mt-1">{card.policyExplanation}</p>
+                      </div>
+                    )}
+                    {card.realWorldContext && (
+                      <div>
+                        <span className="text-gray-500 font-semibold uppercase tracking-wide" style={{ fontSize: '9px' }}>
+                          In the real world
+                        </span>
+                        <p className="mt-1">{card.realWorldContext}</p>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -395,6 +468,28 @@ export default function App() {
             )}
 
             <p className="text-xs text-gray-300 leading-relaxed">{currentBrief.debrief}</p>
+
+            {currentBrief.philosopherReactions && gameState !== 'played' && (
+              <div className="text-left space-y-2 pt-1">
+                <span className="text-gray-500 font-semibold uppercase tracking-wide" style={{ fontSize: '9px' }}>
+                  How different philosophies see it
+                </span>
+                <div className="space-y-2">
+                  <div className="text-xs text-gray-400 leading-relaxed">
+                    <span className="font-semibold text-gray-300">Utilitarian: </span>
+                    {currentBrief.philosopherReactions.utilitarian}
+                  </div>
+                  <div className="text-xs text-gray-400 leading-relaxed">
+                    <span className="font-semibold text-gray-300">Rawlsian: </span>
+                    {currentBrief.philosopherReactions.rawlsian}
+                  </div>
+                  <div className="text-xs text-gray-400 leading-relaxed">
+                    <span className="font-semibold text-gray-300">Libertarian: </span>
+                    {currentBrief.philosopherReactions.libertarian}
+                  </div>
+                </div>
+              </div>
+            )}
             
             <button
               onClick={copyResults}
