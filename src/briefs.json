@@ -18,7 +18,9 @@
           "solvency": -10,
           "morality": 10
         },
-        "realWorldContext": "Venezuela and Weimar Germany both capped prices during hyperinflation crises. It eases pain immediately, but producers often stop selling at a loss, causing shortages."
+        "realWorldContext": "Venezuela and Weimar Germany both capped prices during hyperinflation crises. It eases pain immediately, but producers often stop selling at a loss, causing shortages.",
+        "policyExplanation": "A government-mandated cap on how much sellers can charge for goods, meant to keep essentials affordable during a crisis.",
+        "concept": "Market Distortion"
       },
       {
         "id": "B",
@@ -28,7 +30,9 @@
           "solvency": 25,
           "morality": 0
         },
-        "realWorldContext": "Modeled on the US Federal Reserve's rate hikes under Paul Volcker in the early 1980s, which broke double-digit inflation but triggered a sharp recession."
+        "realWorldContext": "Modeled on the US Federal Reserve's rate hikes under Paul Volcker in the early 1980s, which broke double-digit inflation but triggered a sharp recession.",
+        "policyExplanation": "Making it more expensive to borrow money, which slows spending and cools inflation, but also slows the broader economy.",
+        "concept": "Monetary Policy"
       },
       {
         "id": "C",
@@ -38,7 +42,9 @@
           "solvency": -20,
           "morality": 10
         },
-        "realWorldContext": "Governments like Egypt have long subsidized food imports to keep prices affordable. It works short-term but drains foreign currency reserves fast."
+        "realWorldContext": "Governments like Egypt have long subsidized food imports to keep prices affordable. It works short-term but drains foreign currency reserves fast.",
+        "policyExplanation": "Government payments that lower the cost of imported goods, making them cheaper for consumers to buy.",
+        "concept": "Fiscal Intervention"
       },
       {
         "id": "D",
@@ -48,7 +54,9 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "Britain and the US both rationed goods during World War II. It protects fair access but requires heavy enforcement and is deeply unpopular."
+        "realWorldContext": "Britain and the US both rationed goods during World War II. It protects fair access but requires heavy enforcement and is deeply unpopular.",
+        "policyExplanation": "A formal limit on how much of a scarce good each person or household can buy, meant to ensure fair access.",
+        "concept": "Distributive Justice"
       },
       {
         "id": "E",
@@ -58,10 +66,17 @@
           "solvency": -10,
           "morality": -10
         },
-        "realWorldContext": "India and Russia have restricted grain exports during shortages to protect domestic supply, though this can breach trade agreements and invite retaliation."
+        "realWorldContext": "India and Russia have restricted grain exports during shortages to protect domestic supply, though this can breach trade agreements and invite retaliation.",
+        "policyExplanation": "Government limits or bans on selling certain goods abroad, keeping more of the domestic supply at home.",
+        "concept": "Trade Protectionism"
       }
     ],
-    "debrief": "Pairing interest rate hikes to contain economic insolvency with targeted price controls provides the essential bridge to maintain political stability."
+    "debrief": "Pairing interest rate hikes to contain economic insolvency with targeted price controls provides the essential bridge to maintain political stability.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever combination stabilizes prices fastest for the most people, even if it means some producers lose out.",
+      "rawlsian": "Would ask whether the poorest, who suffer most from inflation, are protected first \u2014 favoring rationing or subsidies over policies that primarily help those with savings.",
+      "libertarian": "Would object to price controls and rationing as coercive interference, arguing markets should be left to correct themselves."
+    }
   },
   {
     "date": "2026-08-14",
@@ -82,7 +97,9 @@
           "solvency": -10,
           "morality": 10
         },
-        "realWorldContext": "Modeled on FDIC deposit insurance created after 1930s bank runs. It restores depositor confidence fast, but ultimately shifts risk onto taxpayers."
+        "realWorldContext": "Modeled on FDIC deposit insurance created after 1930s bank runs. It restores depositor confidence fast, but ultimately shifts risk onto taxpayers.",
+        "policyExplanation": "A government promise to reimburse depositors if their bank fails, meant to stop panicked withdrawals.",
+        "concept": "Moral Hazard"
       },
       {
         "id": "B",
@@ -92,7 +109,9 @@
           "solvency": 25,
           "morality": 0
         },
-        "realWorldContext": "The Federal Reserve's discount window lends directly to solvent banks facing short-term cash shortages, stopping panic from becoming real insolvency."
+        "realWorldContext": "The Federal Reserve's discount window lends directly to solvent banks facing short-term cash shortages, stopping panic from becoming real insolvency.",
+        "policyExplanation": "A facility that lets banks borrow cash directly from the central bank when they're short on funds but not actually insolvent.",
+        "concept": "Lender of Last Resort"
       },
       {
         "id": "C",
@@ -102,7 +121,9 @@
           "solvency": 10,
           "morality": -10
         },
-        "realWorldContext": "FDR closed every US bank for a 'bank holiday' in 1933 to halt withdrawals and audit banks before reopening. It stops the bleeding but freezes the economy."
+        "realWorldContext": "FDR closed every US bank for a 'bank holiday' in 1933 to halt withdrawals and audit banks before reopening. It stops the bleeding but freezes the economy.",
+        "policyExplanation": "A government order temporarily closing all banks to stop withdrawals while regulators assess which banks are actually solvent.",
+        "concept": "State Intervention"
       },
       {
         "id": "D",
@@ -112,7 +133,9 @@
           "solvency": 5,
           "morality": 15
         },
-        "realWorldContext": "Cyprus's 2013 'bail-in' forced depositors and bank shareholders to absorb losses directly. It raises funds without new borrowing, but punishes savers."
+        "realWorldContext": "Cyprus's 2013 'bail-in' forced depositors and bank shareholders to absorb losses directly. It raises funds without new borrowing, but punishes savers.",
+        "policyExplanation": "Forcing banks (or their shareholders and large depositors) to absorb losses directly, rather than using public funds to cover them.",
+        "concept": "Bail-In vs. Bailout"
       },
       {
         "id": "E",
@@ -122,10 +145,17 @@
           "solvency": -15,
           "morality": 5
         },
-        "realWorldContext": "Capping interest rates limits how much banks can charge, echoing historical usury caps, but can also make it harder for banks to attract capital in a crisis."
+        "realWorldContext": "Capping interest rates limits how much banks can charge, echoing historical usury caps, but can also make it harder for banks to attract capital in a crisis.",
+        "policyExplanation": "A legal limit on how much interest banks can charge or pay, intended to control lending costs during a crisis.",
+        "concept": "Price Ceiling"
       }
     ],
-    "debrief": "Opening a Central Bank Liquidity Window solves institutional solvency while an Emergency Deposit Guarantee restores public confidence to halt retail bank runs."
+    "debrief": "Opening a Central Bank Liquidity Window solves institutional solvency while an Emergency Deposit Guarantee restores public confidence to halt retail bank runs.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whatever stops the panic fastest and protects the most depositors, even if it costs taxpayers.",
+      "rawlsian": "Would scrutinize who actually bears the cost \u2014 a bail-in that protects wealthy shareholders while ordinary depositors lose money would be unjust.",
+      "libertarian": "Would argue failing banks should be allowed to fail, seeing bailouts as rewarding risky behavior at public expense."
+    }
   },
   {
     "date": "2026-08-15",
@@ -146,7 +176,9 @@
           "solvency": 30,
           "morality": 5
         },
-        "realWorldContext": "Greece (2010) and Argentina (repeatedly) received IMF emergency loans tied to reform conditions. It solves the immediate cash crunch but usually forces unpopular austerity."
+        "realWorldContext": "Greece (2010) and Argentina (repeatedly) received IMF emergency loans tied to reform conditions. It solves the immediate cash crunch but usually forces unpopular austerity.",
+        "policyExplanation": "An emergency loan from the International Monetary Fund, usually granted in exchange for economic reforms the borrowing country agrees to make.",
+        "concept": "Conditional Sovereignty"
       },
       {
         "id": "B",
@@ -156,7 +188,9 @@
           "solvency": -5,
           "morality": 0
         },
-        "realWorldContext": "Iceland (2008) and Greece (2015) restricted money leaving the country to stop capital flight, stabilizing the currency short-term at the cost of investor confidence."
+        "realWorldContext": "Iceland (2008) and Greece (2015) restricted money leaving the country to stop capital flight, stabilizing the currency short-term at the cost of investor confidence.",
+        "policyExplanation": "Government restrictions on how much money can leave the country, meant to stop a rapid outflow of capital during a currency crisis.",
+        "concept": "Capital Flight"
       },
       {
         "id": "C",
@@ -166,7 +200,9 @@
           "solvency": 15,
           "morality": 10
         },
-        "realWorldContext": "Argentina has restructured its sovereign debt multiple times, easing the immediate burden but often locking the country out of credit markets for years."
+        "realWorldContext": "Argentina has restructured its sovereign debt multiple times, easing the immediate burden but often locking the country out of credit markets for years.",
+        "policyExplanation": "Renegotiating the terms of a country's debt with its creditors, often reducing what's owed or extending repayment timelines.",
+        "concept": "Debt Sustainability"
       },
       {
         "id": "D",
@@ -176,7 +212,9 @@
           "solvency": 20,
           "morality": -15
         },
-        "realWorldContext": "Greece's post-2010 austerity program cut pensions and public spending sharply to satisfy bailout terms, reducing deficits but triggering major unemployment and unrest."
+        "realWorldContext": "Greece's post-2010 austerity program cut pensions and public spending sharply to satisfy bailout terms, reducing deficits but triggering major unemployment and unrest.",
+        "policyExplanation": "Reducing government spending (often on pensions, subsidies, or public services) to shrink a budget deficit.",
+        "concept": "Fiscal Consolidation"
       },
       {
         "id": "E",
@@ -186,10 +224,17 @@
           "solvency": -15,
           "morality": 0
         },
-        "realWorldContext": "Argentina's 1990s currency board pegged the peso to the US dollar to control inflation. Pegs hold until reserves run low, then often collapse abruptly."
+        "realWorldContext": "Argentina's 1990s currency board pegged the peso to the US dollar to control inflation. Pegs hold until reserves run low, then often collapse abruptly.",
+        "policyExplanation": "Fixing a currency's value to another currency (often the US dollar) to control inflation and stabilize expectations.",
+        "concept": "Exchange Rate Regime"
       }
     ],
-    "debrief": "Pairing an IMF Bailout with Emergency Capital Controls secures immediate liquidity while stemming capital flight to stabilize domestic currency."
+    "debrief": "Pairing an IMF Bailout with Emergency Capital Controls secures immediate liquidity while stemming capital flight to stabilize domestic currency.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh short-term suffering from austerity against long-term stability, favoring whichever path minimizes total harm.",
+      "rawlsian": "Would object to austerity that cuts pensions and services relied on by the poorest, even if it improves the country's overall finances.",
+      "libertarian": "Would favor debt restructuring and market solutions over IMF conditions that constrain a country's sovereign economic choices."
+    }
   },
   {
     "date": "2026-08-16",
@@ -210,7 +255,9 @@
           "solvency": -10,
           "morality": 5
         },
-        "realWorldContext": "Governments have nationalized critical infrastructure during wartime (e.g. rail networks) to guarantee coordinated response, trading market efficiency for direct control."
+        "realWorldContext": "Governments have nationalized critical infrastructure during wartime (e.g. rail networks) to guarantee coordinated response, trading market efficiency for direct control.",
+        "policyExplanation": "The government taking direct ownership and control of energy companies, usually to guarantee coordinated action during a crisis.",
+        "concept": "Public Ownership"
       },
       {
         "id": "B",
@@ -220,7 +267,9 @@
           "solvency": 10,
           "morality": -10
         },
-        "realWorldContext": "Contracting private cybersecurity firms can patch vulnerabilities faster than public agencies, but shifts accountability for critical infrastructure to private actors."
+        "realWorldContext": "Contracting private cybersecurity firms can patch vulnerabilities faster than public agencies, but shifts accountability for critical infrastructure to private actors.",
+        "policyExplanation": "Government funding for private companies to help secure critical infrastructure faster than public agencies alone could.",
+        "concept": "Privatization"
       },
       {
         "id": "C",
@@ -230,7 +279,9 @@
           "solvency": 15,
           "morality": 5
         },
-        "realWorldContext": "US state National Guard units include dedicated cyber response teams that have supported real infrastructure attacks, providing trained capacity fast."
+        "realWorldContext": "US state National Guard units include dedicated cyber response teams that have supported real infrastructure attacks, providing trained capacity fast.",
+        "policyExplanation": "Activating military reserve units for domestic support roles, including responding to infrastructure or security emergencies.",
+        "concept": "State Coercive Power"
       },
       {
         "id": "D",
@@ -240,7 +291,9 @@
           "solvency": -10,
           "morality": -15
         },
-        "realWorldContext": "'Hack-back' retaliation is a real and controversial cybersecurity policy debate. Attribution is often uncertain, and retaliation risks escalating a conflict."
+        "realWorldContext": "'Hack-back' retaliation is a real and controversial cybersecurity policy debate. Attribution is often uncertain, and retaliation risks escalating a conflict.",
+        "policyExplanation": "Launching a counter-cyberattack against whoever is believed responsible for the original attack.",
+        "concept": "Deterrence Theory"
       },
       {
         "id": "E",
@@ -250,10 +303,17 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "Direct relief funding for affected communities mirrors FEMA's role after infrastructure disasters, prioritizing citizens' immediate needs over rebuilding first."
+        "realWorldContext": "Direct relief funding for affected communities mirrors FEMA's role after infrastructure disasters, prioritizing citizens' immediate needs over rebuilding first.",
+        "policyExplanation": "Direct financial or material aid sent to affected communities to help them cope with an immediate crisis.",
+        "concept": "Social Contract"
       }
     ],
-    "debrief": "Deploying the National Guard maintains public order while Nationalizing Utilities mobilizes direct state investment into critical infrastructure repair."
+    "debrief": "Deploying the National Guard maintains public order while Nationalizing Utilities mobilizes direct state investment into critical infrastructure repair.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor the fastest restoration of power for the most people, regardless of who controls the fix.",
+      "rawlsian": "Would ask whether vulnerable communities without backup power are prioritized in the response.",
+      "libertarian": "Would be wary of nationalizing utilities, preferring private-sector solutions even during a crisis."
+    }
   },
   {
     "date": "2026-08-17",
@@ -274,7 +334,9 @@
           "solvency": -20,
           "morality": 15
         },
-        "realWorldContext": "Lockdowns were used worldwide during COVID-19 to protect health systems. Effective at slowing transmission, but caused major economic contraction."
+        "realWorldContext": "Lockdowns were used worldwide during COVID-19 to protect health systems. Effective at slowing transmission, but caused major economic contraction.",
+        "policyExplanation": "Government orders restricting movement and business activity in specific areas to slow the spread of disease.",
+        "concept": "Liberty vs. Collective Welfare"
       },
       {
         "id": "B",
@@ -284,7 +346,9 @@
           "solvency": 10,
           "morality": 15
         },
-        "realWorldContext": "The US 'Operation Warp Speed' funded vaccine development and distribution directly, spreading cost across taxpayers to reach immunity faster."
+        "realWorldContext": "The US 'Operation Warp Speed' funded vaccine development and distribution directly, spreading cost across taxpayers to reach immunity faster.",
+        "policyExplanation": "Government funding that covers the cost of vaccine development and distribution so it's free or cheap for the public.",
+        "concept": "Public Good Provision"
       },
       {
         "id": "C",
@@ -294,7 +358,9 @@
           "solvency": 20,
           "morality": -20
         },
-        "realWorldContext": "Sweden kept commercial activity running longer than most countries during COVID, trading some public health risk for continued trade and lower unemployment."
+        "realWorldContext": "Sweden kept commercial activity running longer than most countries during COVID, trading some public health risk for continued trade and lower unemployment.",
+        "policyExplanation": "Choosing to keep trade and economic activity running during a health crisis, accepting more public health risk in exchange for economic stability.",
+        "concept": "Utilitarian Tradeoff"
       },
       {
         "id": "D",
@@ -304,7 +370,9 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "Field hospitals like the one set up in NYC's Javits Center during COVID expanded medical capacity quickly without shutting down the broader economy."
+        "realWorldContext": "Field hospitals like the one set up in NYC's Javits Center during COVID expanded medical capacity quickly without shutting down the broader economy.",
+        "policyExplanation": "Rapidly setting up temporary medical facilities to expand treatment capacity without shutting down the broader economy.",
+        "concept": "State Capacity"
       },
       {
         "id": "E",
@@ -314,10 +382,17 @@
           "solvency": 5,
           "morality": -25
         },
-        "realWorldContext": "Mandating continued labor output echoes historical 'essential worker' policies that prioritized production over individual choice, at real ethical cost."
+        "realWorldContext": "Mandating continued labor output echoes historical 'essential worker' policies that prioritized production over individual choice, at real ethical cost.",
+        "policyExplanation": "Government orders requiring people to keep working in essential roles during a crisis, prioritizing continued production over individual choice.",
+        "concept": "Coercion vs. Consent"
       }
     ],
-    "debrief": "Universal Vaccine Subsidies paired with Emergency Hospital Mobilization expands medical bandwidth rapidly without forcing an economic shutdown."
+    "debrief": "Universal Vaccine Subsidies paired with Emergency Hospital Mobilization expands medical bandwidth rapidly without forcing an economic shutdown.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whichever policy saves the most lives, even at real economic cost.",
+      "rawlsian": "Would ask who bears the burden of lockdowns \u2014 often lower-income workers who can't work remotely.",
+      "libertarian": "Would resist mandates on movement or labor, favoring voluntary measures over state coercion, even during a health crisis."
+    }
   },
   {
     "date": "2026-08-18",
@@ -338,7 +413,9 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "The US and China both maintain strategic grain reserves, released during shortages to stabilize prices immediately without waiting on new harvests."
+        "realWorldContext": "The US and China both maintain strategic grain reserves, released during shortages to stabilize prices immediately without waiting on new harvests.",
+        "policyExplanation": "Releasing government-held emergency food stockpiles onto the market to quickly ease shortages.",
+        "concept": "Buffer Stock Policy"
       },
       {
         "id": "B",
@@ -348,7 +425,9 @@
           "solvency": 20,
           "morality": 0
         },
-        "realWorldContext": "Lowering food import tariffs, a common shortage response, increases supply from abroad and brings prices down relatively quickly."
+        "realWorldContext": "Lowering food import tariffs, a common shortage response, increases supply from abroad and brings prices down relatively quickly.",
+        "policyExplanation": "Lowering or removing taxes on imported food, making it cheaper and increasing available supply.",
+        "concept": "Free Trade"
       },
       {
         "id": "C",
@@ -358,7 +437,9 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "Direct payments to farmers, similar to Depression-era US farm relief programs, cushion income loss without directly changing market prices."
+        "realWorldContext": "Direct payments to farmers, similar to Depression-era US farm relief programs, cushion income loss without directly changing market prices.",
+        "policyExplanation": "Direct government payments to farmers to offset lost income, without changing market prices.",
+        "concept": "Income Transfer"
       },
       {
         "id": "D",
@@ -368,7 +449,9 @@
           "solvency": -10,
           "morality": 5
         },
-        "realWorldContext": "Israel's major investment in desalination after prolonged droughts shows real long-term payoff, though it's slow and capital-intensive."
+        "realWorldContext": "Israel's major investment in desalination after prolonged droughts shows real long-term payoff, though it's slow and capital-intensive.",
+        "policyExplanation": "Government financing for facilities that convert seawater into fresh water, addressing water scarcity long-term.",
+        "concept": "Public Investment"
       },
       {
         "id": "E",
@@ -378,10 +461,17 @@
           "solvency": 5,
           "morality": -10
         },
-        "realWorldContext": "Centrally planned economies have mandated specific crop production during shortages. It can address scarcity but undermines farmer autonomy and market signals."
+        "realWorldContext": "Centrally planned economies have mandated specific crop production during shortages. It can address scarcity but undermines farmer autonomy and market signals.",
+        "policyExplanation": "Government orders requiring farmers to grow specific crops the country needs most, overriding their own planting choices.",
+        "concept": "Central Planning"
       }
     ],
-    "debrief": "Releasing Strategic Grain Reserves directly stabilizes food availability while Tariff Deregulation lowers import costs to protect the nation's bottom line."
+    "debrief": "Releasing Strategic Grain Reserves directly stabilizes food availability while Tariff Deregulation lowers import costs to protect the nation's bottom line.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whatever gets food to the most people fastest, whether through reserves, imports, or aid.",
+      "rawlsian": "Would prioritize struggling farmers and food-insecure households over broad market fixes that help everyone equally.",
+      "libertarian": "Would oppose mandatory crop reallocation as government overreach into private land and labor decisions."
+    }
   },
   {
     "date": "2026-08-19",
@@ -402,7 +492,9 @@
           "solvency": -10,
           "morality": 5
         },
-        "realWorldContext": "Convoy protection for merchant shipping was used in both World Wars and more recently in the Persian Gulf and Red Sea. It restores safe passage but risks military escalation."
+        "realWorldContext": "Convoy protection for merchant shipping was used in both World Wars and more recently in the Persian Gulf and Red Sea. It restores safe passage but risks military escalation.",
+        "policyExplanation": "Using military ships to protect merchant vessels traveling through dangerous or blockaded waters.",
+        "concept": "Collective Security"
       },
       {
         "id": "B",
@@ -412,7 +504,9 @@
           "solvency": 25,
           "morality": 0
         },
-        "realWorldContext": "The EU rerouted trade to new energy partners after 2022 to reduce dependence on Russia. It restores solvency but takes time to build new logistics."
+        "realWorldContext": "The EU rerouted trade to new energy partners after 2022 to reduce dependence on Russia. It restores solvency but takes time to build new logistics.",
+        "policyExplanation": "Redirecting trade toward a new partner country to replace a disrupted supply route.",
+        "concept": "Economic Diversification"
       },
       {
         "id": "C",
@@ -422,7 +516,9 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "Coordinated sanctions, like those against Russia after 2022, pressure the opposing party diplomatically but often take months to have real effect."
+        "realWorldContext": "Coordinated sanctions, like those against Russia after 2022, pressure the opposing party diplomatically but often take months to have real effect.",
+        "policyExplanation": "Coordinated economic penalties imposed on another country to pressure it into changing its behavior.",
+        "concept": "Coercive Diplomacy"
       },
       {
         "id": "D",
@@ -432,7 +528,9 @@
           "solvency": -20,
           "morality": 5
         },
-        "realWorldContext": "Supporting domestic industry to replace blocked imports mirrors wartime industrial mobilization: it protects jobs but is expensive and slow to scale."
+        "realWorldContext": "Supporting domestic industry to replace blocked imports mirrors wartime industrial mobilization: it protects jobs but is expensive and slow to scale.",
+        "policyExplanation": "Government funding for domestic manufacturers to help them replace goods that can no longer be imported.",
+        "concept": "Import Substitution"
       },
       {
         "id": "E",
@@ -442,10 +540,17 @@
           "solvency": 15,
           "morality": -20
         },
-        "realWorldContext": "Freezing a foreign state's assets, as Western nations did with Russian central bank reserves in 2022, provides leverage but risks major diplomatic fallout."
+        "realWorldContext": "Freezing a foreign state's assets, as Western nations did with Russian central bank reserves in 2022, provides leverage but risks major diplomatic fallout.",
+        "policyExplanation": "Taking control of another country's assets located within your borders, often as leverage in a dispute.",
+        "concept": "Sovereign Immunity"
       }
     ],
-    "debrief": "Deploying Naval Escort Convoys reopens commercial shipping lanes while a Strategic Bilateral Trade Pivot secures financial solvency through alternative trade routes."
+    "debrief": "Deploying Naval Escort Convoys reopens commercial shipping lanes while a Strategic Bilateral Trade Pivot secures financial solvency through alternative trade routes.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor the fastest reopening of trade, regardless of whether it's achieved through force, diplomacy, or new partnerships.",
+      "rawlsian": "Would ask which citizens are hurt worst by the blockade and prioritize protecting them first.",
+      "libertarian": "Would favor market-based solutions like new trade partners over state actions like asset seizures or military escorts."
+    }
   },
   {
     "date": "2026-08-20",
@@ -466,7 +571,9 @@
           "solvency": -15,
           "morality": 5
         },
-        "realWorldContext": "Recent US and EU critical minerals initiatives fund domestic mining to reduce import dependence, though payoff takes years, not months."
+        "realWorldContext": "Recent US and EU critical minerals initiatives fund domestic mining to reduce import dependence, though payoff takes years, not months.",
+        "policyExplanation": "Government funding to speed up domestic mining projects and reduce reliance on imported materials.",
+        "concept": "Industrial Policy"
       },
       {
         "id": "B",
@@ -476,7 +583,9 @@
           "solvency": 15,
           "morality": 0
         },
-        "realWorldContext": "The US National Defense Stockpile holds reserves of critical minerals for exactly this scenario: releasing them eases shortages without new production."
+        "realWorldContext": "The US National Defense Stockpile holds reserves of critical minerals for exactly this scenario: releasing them eases shortages without new production.",
+        "policyExplanation": "Selling off government-held reserves of a critical material to ease a shortage without waiting for new production.",
+        "concept": "Resource Security"
       },
       {
         "id": "C",
@@ -486,7 +595,9 @@
           "solvency": 10,
           "morality": 10
         },
-        "realWorldContext": "The US and allies have pursued new mineral supply agreements to diversify away from single-source dependence, a real ongoing trade strategy."
+        "realWorldContext": "The US and allies have pursued new mineral supply agreements to diversify away from single-source dependence, a real ongoing trade strategy.",
+        "policyExplanation": "A trade agreement between two countries that guarantees each side reliable access to specific goods or materials.",
+        "concept": "Comparative Advantage"
       },
       {
         "id": "D",
@@ -496,7 +607,9 @@
           "solvency": 10,
           "morality": -10
         },
-        "realWorldContext": "Restricting exports of finished tech goods to pressure a trading partner mirrors real export-control tools, though it can invite retaliation."
+        "realWorldContext": "Restricting exports of finished tech goods to pressure a trading partner mirrors real export-control tools, though it can invite retaliation.",
+        "policyExplanation": "A tax on exporting finished technology products, used as leverage to pressure a trading partner.",
+        "concept": "Economic Statecraft"
       },
       {
         "id": "E",
@@ -506,10 +619,17 @@
           "solvency": 5,
           "morality": -20
         },
-        "realWorldContext": "Loosening environmental permitting to speed up mining approvals accelerates supply, but carries real ecological and community costs debated in actual mining policy."
+        "realWorldContext": "Loosening environmental permitting to speed up mining approvals accelerates supply, but carries real ecological and community costs debated in actual mining policy.",
+        "policyExplanation": "Loosening environmental rules around mining to speed up approval and production, at the cost of ecological protections.",
+        "concept": "Externalities"
       }
     ],
-    "debrief": "Auctioning strategic mineral reserves bridges immediate manufacturing deficits while negotiating a bilateral trade pact secures long-term raw material imports."
+    "debrief": "Auctioning strategic mineral reserves bridges immediate manufacturing deficits while negotiating a bilateral trade pact secures long-term raw material imports.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whichever combination restores supply fastest, regardless of long-term dependence.",
+      "rawlsian": "Would ask whether the burden of scarcity falls disproportionately on specific industries or communities.",
+      "libertarian": "Would favor new trade deals and market diversification over government subsidies or deregulation shortcuts."
+    }
   },
   {
     "date": "2026-08-21",
