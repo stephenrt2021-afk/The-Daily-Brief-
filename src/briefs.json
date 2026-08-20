@@ -650,7 +650,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "The US HAMP program after 2008 modified troubled mortgages to keep families in homes, easing hardship but costing the government billions."
+        "realWorldContext": "The US HAMP program after 2008 modified troubled mortgages to keep families in homes, easing hardship but costing the government billions.",
+        "policyExplanation": "A government program that modifies mortgage terms so struggling homeowners can afford to keep their homes.",
+        "concept": "Debt Restructuring"
       },
       {
         "id": "B",
@@ -660,7 +662,9 @@
           "solvency": 38,
           "morality": -5
         },
-        "realWorldContext": "TARP in 2008 injected public capital directly into failing banks. It stabilized the financial system but was widely seen as bailing out Wall Street over homeowners."
+        "realWorldContext": "TARP in 2008 injected public capital directly into failing banks. It stabilized the financial system but was widely seen as bailing out Wall Street over homeowners.",
+        "policyExplanation": "Public funds injected directly into failing banks to keep them solvent and lending.",
+        "concept": "Financial Bailout"
       },
       {
         "id": "C",
@@ -670,7 +674,9 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "Temporary foreclosure freezes, used during COVID-19, prevent mass evictions but leave lenders unable to recover losses in the interim."
+        "realWorldContext": "Temporary foreclosure freezes, used during COVID-19, prevent mass evictions but leave lenders unable to recover losses in the interim.",
+        "policyExplanation": "A temporary legal freeze on banks foreclosing on homes, giving struggling owners breathing room.",
+        "concept": "Regulatory Intervention"
       },
       {
         "id": "D",
@@ -680,7 +686,9 @@
           "solvency": 15,
           "morality": 0
         },
-        "realWorldContext": "Central banks routinely cut rates during housing crashes, as the Fed did after 2008, to make borrowing cheaper and support prices."
+        "realWorldContext": "Central banks routinely cut rates during housing crashes, as the Fed did after 2008, to make borrowing cheaper and support prices.",
+        "policyExplanation": "Lowering the cost of borrowing money to make mortgages and loans cheaper across the economy.",
+        "concept": "Monetary Policy"
       },
       {
         "id": "E",
@@ -690,10 +698,17 @@
           "solvency": 10,
           "morality": -10
         },
-        "realWorldContext": "Some economists argue intervention only delays necessary corrections; Iceland largely let its banks fail in 2008 rather than bail them out."
+        "realWorldContext": "Some economists argue intervention only delays necessary corrections; Iceland largely let its banks fail in 2008 rather than bail them out.",
+        "policyExplanation": "Choosing not to intervene, letting prices and institutions adjust on their own.",
+        "concept": "Laissez-Faire"
       }
     ],
-    "debrief": "Combining Mortgage Relief Program with Bank Recapitalization Fund is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Mortgage Relief Program with Bank Recapitalization Fund is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever combination stabilizes the housing market fastest for the most people, even if it means bailing out banks.",
+      "rawlsian": "Would ask whether homeowners at risk of losing their homes are protected before bank shareholders are.",
+      "libertarian": "Would oppose bailouts, arguing failing institutions and overextended borrowers should face the consequences of market risk."
+    }
   },
   {
     "date": "2026-08-22",
@@ -714,7 +729,9 @@
           "solvency": -20,
           "morality": 0
         },
-        "realWorldContext": "The UK spent billions defending the pound against speculators on Black Wednesday in 1992 before abandoning the peg entirely."
+        "realWorldContext": "The UK spent billions defending the pound against speculators on Black Wednesday in 1992 before abandoning the peg entirely.",
+        "policyExplanation": "Using national reserves to buy back currency and keep its value fixed against speculators.",
+        "concept": "Fixed Exchange Rate"
       },
       {
         "id": "B",
@@ -724,7 +741,9 @@
           "solvency": 15,
           "morality": 0
         },
-        "realWorldContext": "Letting a currency float freely, as the UK ultimately did in 1992, ends a costly defense but causes a sharp, visible devaluation."
+        "realWorldContext": "Letting a currency float freely, as the UK ultimately did in 1992, ends a costly defense but causes a sharp, visible devaluation.",
+        "policyExplanation": "Letting the currency's value move freely based on market supply and demand.",
+        "concept": "Floating Exchange Rate"
       },
       {
         "id": "C",
@@ -734,7 +753,9 @@
           "solvency": 20,
           "morality": -5
         },
-        "realWorldContext": "Countries facing speculative attacks often hike rates sharply to make holding the currency more attractive, as several Asian economies tried in 1997."
+        "realWorldContext": "Countries facing speculative attacks often hike rates sharply to make holding the currency more attractive, as several Asian economies tried in 1997.",
+        "policyExplanation": "A sharp, sudden increase in interest rates to make holding the currency more attractive.",
+        "concept": "Monetary Policy"
       },
       {
         "id": "D",
@@ -744,7 +765,9 @@
           "solvency": -5,
           "morality": -5
         },
-        "realWorldContext": "Malaysia imposed capital controls during the 1997 Asian financial crisis rather than follow IMF orthodoxy, drawing criticism but limiting outflows."
+        "realWorldContext": "Malaysia imposed capital controls during the 1997 Asian financial crisis rather than follow IMF orthodoxy, drawing criticism but limiting outflows.",
+        "policyExplanation": "Government limits on how much money can be moved out of the country.",
+        "concept": "Capital Controls"
       },
       {
         "id": "E",
@@ -754,10 +777,17 @@
           "solvency": 10,
           "morality": 5
         },
-        "realWorldContext": "IMF standby arrangements provide emergency currency support, as used by South Korea in 1997, in exchange for economic reform commitments."
+        "realWorldContext": "IMF standby arrangements provide emergency currency support, as used by South Korea in 1997, in exchange for economic reform commitments.",
+        "policyExplanation": "An emergency line of credit from the IMF, available if a currency crisis worsens.",
+        "concept": "International Lending"
       }
     ],
-    "debrief": "Combining Emergency Rate Hike with Seek IMF Standby Facility is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Emergency Rate Hike with Seek IMF Standby Facility is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever response stabilizes the economy fastest, regardless of whether it's a peg defense or a float.",
+      "rawlsian": "Would ask who bears the cost of a currency collapse \u2014 often those with the least savings to absorb a shock.",
+      "libertarian": "Would favor letting the currency float freely rather than spending reserves to prop up an artificial peg."
+    }
   },
   {
     "date": "2026-08-23",
@@ -778,7 +808,9 @@
           "solvency": 0,
           "morality": 18
         },
-        "realWorldContext": "US stock exchanges use circuit breakers that pause trading during steep drops, a tool introduced after the 1987 crash to prevent panic selling."
+        "realWorldContext": "US stock exchanges use circuit breakers that pause trading during steep drops, a tool introduced after the 1987 crash to prevent panic selling.",
+        "policyExplanation": "Automatic, temporary pauses in stock trading during extreme price drops to prevent panic selling.",
+        "concept": "Market Regulation"
       },
       {
         "id": "B",
@@ -788,7 +820,9 @@
           "solvency": -15,
           "morality": 20
         },
-        "realWorldContext": "Governments have occasionally stepped in to guarantee pension obligations when fund assets collapse, protecting retirees at direct fiscal cost."
+        "realWorldContext": "Governments have occasionally stepped in to guarantee pension obligations when fund assets collapse, protecting retirees at direct fiscal cost.",
+        "policyExplanation": "A government guarantee to cover pension losses if fund investments collapse.",
+        "concept": "Social Insurance"
       },
       {
         "id": "C",
@@ -798,7 +832,9 @@
           "solvency": 15,
           "morality": -10
         },
-        "realWorldContext": "Reducing how much collateral investors need can ease liquidity crunches, but critics say it enables further speculative risk-taking."
+        "realWorldContext": "Reducing how much collateral investors need can ease liquidity crunches, but critics say it enables further speculative risk-taking.",
+        "policyExplanation": "Reducing how much collateral investors need to trade, freeing up more capital to move.",
+        "concept": "Financial Deregulation"
       },
       {
         "id": "D",
@@ -808,7 +844,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Major tech bubbles have often prompted renewed antitrust scrutiny, as seen after the dot-com crash, addressing concentration but adding market uncertainty."
+        "realWorldContext": "Major tech bubbles have often prompted renewed antitrust scrutiny, as seen after the dot-com crash, addressing concentration but adding market uncertainty.",
+        "policyExplanation": "A government investigation into whether large companies are unfairly dominating a market.",
+        "concept": "Antitrust Policy"
       },
       {
         "id": "E",
@@ -818,10 +856,17 @@
           "solvency": 10,
           "morality": -5
         },
-        "realWorldContext": "Some policymakers, echoing Alan Greenspan's early stance on the dot-com bubble, argue markets self-correct and intervention only delays the reckoning."
+        "realWorldContext": "Some policymakers, echoing Alan Greenspan's early stance on the dot-com bubble, argue markets self-correct and intervention only delays the reckoning.",
+        "policyExplanation": "Allowing the market to correct on its own without government action.",
+        "concept": "Laissez-Faire"
       }
     ],
-    "debrief": "Combining Circuit Breaker Trading Halts with Loosen Margin Requirements is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Circuit Breaker Trading Halts with Loosen Margin Requirements is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whatever prevents the widest financial damage, even if it means intervening in markets.",
+      "rawlsian": "Would ask whether ordinary retirees, not just wealthy investors, are protected from the crash.",
+      "libertarian": "Would resist government intervention, arguing a market correction should be allowed to run its course."
+    }
   },
   {
     "date": "2026-08-24",
@@ -842,7 +887,9 @@
           "solvency": 18,
           "morality": 15
         },
-        "realWorldContext": "Many US states have raised minimum wages gradually over several years rather than all at once, softening the shock to small employers."
+        "realWorldContext": "Many US states have raised minimum wages gradually over several years rather than all at once, softening the shock to small employers.",
+        "policyExplanation": "Raising the minimum wage gradually over time instead of all at once.",
+        "concept": "Incremental Reform"
       },
       {
         "id": "B",
@@ -852,7 +899,9 @@
           "solvency": -10,
           "morality": 10
         },
-        "realWorldContext": "Offsetting wage increases with tax credits for small employers is a common compromise used in several state-level minimum wage laws."
+        "realWorldContext": "Offsetting wage increases with tax credits for small employers is a common compromise used in several state-level minimum wage laws.",
+        "policyExplanation": "Tax breaks that offset the cost of higher wages for small businesses.",
+        "concept": "Fiscal Offset"
       },
       {
         "id": "C",
@@ -862,7 +911,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Several countries and US states automatically adjust minimum wage to inflation, avoiding repeated political fights but locking in future cost increases."
+        "realWorldContext": "Several countries and US states automatically adjust minimum wage to inflation, avoiding repeated political fights but locking in future cost increases.",
+        "policyExplanation": "Automatically adjusting the minimum wage to keep pace with inflation.",
+        "concept": "Automatic Stabilizer"
       },
       {
         "id": "D",
@@ -872,7 +923,9 @@
           "solvency": 15,
           "morality": -20
         },
-        "realWorldContext": "Business lobbies have long argued minimum wage freezes protect jobs; opponents note this leaves low-wage workers behind during inflation."
+        "realWorldContext": "Business lobbies have long argued minimum wage freezes protect jobs; opponents note this leaves low-wage workers behind during inflation.",
+        "policyExplanation": "Keeping wages unchanged to avoid the risk of job losses for businesses.",
+        "concept": "Status Quo Policy"
       },
       {
         "id": "E",
@@ -882,10 +935,17 @@
           "solvency": -20,
           "morality": 20
         },
-        "realWorldContext": "Cities like Stockton, California piloted direct cash payments instead of wage mandates, showing promising results but at real fiscal cost."
+        "realWorldContext": "Cities like Stockton, California piloted direct cash payments instead of wage mandates, showing promising results but at real fiscal cost.",
+        "policyExplanation": "Giving people a fixed cash payment regardless of employment status, instead of raising wages.",
+        "concept": "Universal Basic Income"
       }
     ],
-    "debrief": "Combining Phased Wage Increase with Index Wages to Inflation is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Phased Wage Increase with Index Wages to Inflation is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh whether higher wages help more workers than they hurt through potential job losses.",
+      "rawlsian": "Would favor policies that most directly help the lowest-paid workers, even if businesses bear real costs.",
+      "libertarian": "Would oppose wage mandates entirely, favoring voluntary agreements between employers and workers."
+    }
   },
   {
     "date": "2026-08-25",
@@ -906,7 +966,9 @@
           "solvency": 20,
           "morality": -10
         },
-        "realWorldContext": "France's 2023 pension reform raising the retirement age from 62 to 64 sparked massive strikes and protests despite improving fund solvency."
+        "realWorldContext": "France's 2023 pension reform raising the retirement age from 62 to 64 sparked massive strikes and protests despite improving fund solvency.",
+        "policyExplanation": "Requiring people to work and pay into the system longer before they can retire.",
+        "concept": "Entitlement Reform"
       },
       {
         "id": "B",
@@ -916,7 +978,9 @@
           "solvency": 38,
           "morality": 5
         },
-        "realWorldContext": "Raising payroll tax contributions is a common lever to shore up pension systems, spreading the cost across current workers rather than retirees."
+        "realWorldContext": "Raising payroll tax contributions is a common lever to shore up pension systems, spreading the cost across current workers rather than retirees.",
+        "policyExplanation": "Increasing how much current workers pay into the pension system.",
+        "concept": "Payroll Taxation"
       },
       {
         "id": "C",
@@ -926,7 +990,9 @@
           "solvency": 20,
           "morality": -15
         },
-        "realWorldContext": "Greece cut public pensions repeatedly during its debt crisis under bailout terms, restoring solvency but causing significant hardship for retirees."
+        "realWorldContext": "Greece cut public pensions repeatedly during its debt crisis under bailout terms, restoring solvency but causing significant hardship for retirees.",
+        "policyExplanation": "Reducing the amount retirees receive from their pensions.",
+        "concept": "Benefit Reduction"
       },
       {
         "id": "D",
@@ -936,7 +1002,9 @@
           "solvency": -20,
           "morality": 15
         },
-        "realWorldContext": "Some US states have used general tax revenue to shore up underfunded pension systems, protecting retirees but straining the broader budget."
+        "realWorldContext": "Some US states have used general tax revenue to shore up underfunded pension systems, protecting retirees but straining the broader budget.",
+        "policyExplanation": "Using general government tax revenue to cover pension shortfalls.",
+        "concept": "Fiscal Transfer"
       },
       {
         "id": "E",
@@ -946,10 +1014,17 @@
           "solvency": 5,
           "morality": -5
         },
-        "realWorldContext": "Chile's 1980s shift to private pension accounts became a global model, though it later drew criticism for leaving many with inadequate retirement savings."
+        "realWorldContext": "Chile's 1980s shift to private pension accounts became a global model, though it later drew criticism for leaving many with inadequate retirement savings.",
+        "policyExplanation": "Moving retirement savings out of the public system and into individually managed private accounts.",
+        "concept": "Privatization"
       }
     ],
-    "debrief": "Combining Increase Payroll Contributions with General Fund Bailout is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Increase Payroll Contributions with General Fund Bailout is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whichever reform keeps the pension system solvent for the most people long-term.",
+      "rawlsian": "Would object to benefit cuts that hurt current retirees who can no longer adjust their plans.",
+      "libertarian": "Would favor shifting to private accounts, giving individuals more control over their own retirement savings."
+    }
   },
   {
     "date": "2026-08-26",
@@ -970,7 +1045,9 @@
           "solvency": 10,
           "morality": -5
         },
-        "realWorldContext": "The US imposed steel and aluminum tariffs in 2018 to protect domestic manufacturing, though this raised costs for downstream industries and invited retaliation."
+        "realWorldContext": "The US imposed steel and aluminum tariffs in 2018 to protect domestic manufacturing, though this raised costs for downstream industries and invited retaliation.",
+        "policyExplanation": "A tax on imported goods, making them more expensive to encourage buying domestic products.",
+        "concept": "Protectionism"
       },
       {
         "id": "B",
@@ -980,7 +1057,9 @@
           "solvency": 15,
           "morality": 0
         },
-        "realWorldContext": "China has been accused of managing its currency's value to keep exports competitive, a strategy that boosts trade balances but invites accusations of manipulation."
+        "realWorldContext": "China has been accused of managing its currency's value to keep exports competitive, a strategy that boosts trade balances but invites accusations of manipulation.",
+        "policyExplanation": "Deliberately lowering a currency's value to make exports cheaper and more competitive abroad.",
+        "concept": "Currency Manipulation"
       },
       {
         "id": "C",
@@ -990,7 +1069,9 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "The US CHIPS Act subsidized domestic semiconductor manufacturing to reduce import dependence, a costly but targeted industrial policy."
+        "realWorldContext": "The US CHIPS Act subsidized domestic semiconductor manufacturing to reduce import dependence, a costly but targeted industrial policy.",
+        "policyExplanation": "Government funding to help domestic factories compete with cheaper imports.",
+        "concept": "Industrial Policy"
       },
       {
         "id": "D",
@@ -1000,7 +1081,9 @@
           "solvency": 5,
           "morality": 5
         },
-        "realWorldContext": "Renegotiating trade terms, as the US did with NAFTA into USMCA, can rebalance trade rules but takes years of negotiation to finalize."
+        "realWorldContext": "Renegotiating trade terms, as the US did with NAFTA into USMCA, can rebalance trade rules but takes years of negotiation to finalize.",
+        "policyExplanation": "Renegotiating the terms of trade with another country.",
+        "concept": "Trade Diplomacy"
       },
       {
         "id": "E",
@@ -1010,10 +1093,17 @@
           "solvency": 5,
           "morality": -5
         },
-        "realWorldContext": "Mainstream economists have long argued trade deficits self-correct through currency markets over time, though the adjustment can be politically painful."
+        "realWorldContext": "Mainstream economists have long argued trade deficits self-correct through currency markets over time, though the adjustment can be politically painful.",
+        "policyExplanation": "Letting currency markets correct the imbalance naturally over time.",
+        "concept": "Laissez-Faire"
       }
     ],
-    "debrief": "Targeted manufacturing subsidies paired with new trade negotiations address the imbalance without the retaliation risk of broad tariffs."
+    "debrief": "Targeted manufacturing subsidies paired with new trade negotiations address the imbalance without the retaliation risk of broad tariffs.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever fix narrows the trade deficit fastest, even if it raises consumer prices.",
+      "rawlsian": "Would ask whether tariffs disproportionately raise costs for lower-income households.",
+      "libertarian": "Would oppose tariffs and subsidies, preferring free trade with minimal government interference."
+    }
   },
   {
     "date": "2026-08-27",
@@ -1034,7 +1124,9 @@
           "solvency": 5,
           "morality": 10
         },
-        "realWorldContext": "Regulators froze assets tied to FTX after its 2022 collapse to preserve whatever funds remained for eventual creditor recovery."
+        "realWorldContext": "Regulators froze assets tied to FTX after its 2022 collapse to preserve whatever funds remained for eventual creditor recovery.",
+        "policyExplanation": "Legally locking remaining funds in place so they can't be moved or hidden before an investigation.",
+        "concept": "Asset Preservation"
       },
       {
         "id": "B",
@@ -1044,7 +1136,9 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "FTX founder Sam Bankman-Fried was criminally prosecuted and convicted of fraud, a process that took years but delivered public accountability."
+        "realWorldContext": "FTX founder Sam Bankman-Fried was criminally prosecuted and convicted of fraud, a process that took years but delivered public accountability.",
+        "policyExplanation": "A formal legal case pursuing criminal charges against those responsible for the collapse.",
+        "concept": "Criminal Accountability"
       },
       {
         "id": "C",
@@ -1054,7 +1148,9 @@
           "solvency": -20,
           "morality": 15
         },
-        "realWorldContext": "Some jurisdictions have explored compensation funds for retail crypto losses, similar in spirit to securities investor protection funds, though rarely at full value."
+        "realWorldContext": "Some jurisdictions have explored compensation funds for retail crypto losses, similar in spirit to securities investor protection funds, though rarely at full value.",
+        "policyExplanation": "A fund that reimburses at least part of what retail investors lost.",
+        "concept": "Investor Protection"
       },
       {
         "id": "D",
@@ -1064,7 +1160,9 @@
           "solvency": 5,
           "morality": 5
         },
-        "realWorldContext": "The EU's MiCA framework, developed after several major collapses, imposes licensing and reserve requirements on crypto exchanges to prevent future failures."
+        "realWorldContext": "The EU's MiCA framework, developed after several major collapses, imposes licensing and reserve requirements on crypto exchanges to prevent future failures.",
+        "policyExplanation": "New rules requiring exchanges to hold reserves and follow licensing requirements.",
+        "concept": "Financial Regulation"
       },
       {
         "id": "E",
@@ -1074,10 +1172,17 @@
           "solvency": 10,
           "morality": -20
         },
-        "realWorldContext": "Some regulators have taken a hands-off stance toward crypto losses, arguing investors knowingly took on unregulated risk \u2014 a position that leaves victims without recourse."
+        "realWorldContext": "Some regulators have taken a hands-off stance toward crypto losses, arguing investors knowingly took on unregulated risk \u2014 a position that leaves victims without recourse.",
+        "policyExplanation": "Taking the position that investors knowingly took on risk and are not owed compensation.",
+        "concept": "Regulatory Non-Intervention"
       }
     ],
-    "debrief": "Freezing remaining assets while pursuing a criminal fraud case protects what funds remain and delivers accountability without the state absorbing private losses outright."
+    "debrief": "Freezing remaining assets while pursuing a criminal fraud case protects what funds remain and delivers accountability without the state absorbing private losses outright.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whichever response recovers the most funds for the most affected investors.",
+      "rawlsian": "Would prioritize compensating smaller retail investors over large institutional ones.",
+      "libertarian": "Would argue investors accepted the risk of an unregulated market and aren't entitled to a bailout."
+    }
   },
   {
     "date": "2026-08-28",
@@ -1098,7 +1203,9 @@
           "solvency": 23,
           "morality": 10
         },
-        "realWorldContext": "Proposals to tax companies for automating jobs, floated by figures like Bill Gates, aim to fund worker transition programs, though few countries have implemented one."
+        "realWorldContext": "Proposals to tax companies for automating jobs, floated by figures like Bill Gates, aim to fund worker transition programs, though few countries have implemented one.",
+        "policyExplanation": "A tax on companies that replace workers with automated systems, meant to fund worker transitions.",
+        "concept": "Redistributive Taxation"
       },
       {
         "id": "B",
@@ -1108,7 +1215,9 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "Germany's dual vocational training system is often cited as a model for retraining displaced workers into new skilled trades."
+        "realWorldContext": "Germany's dual vocational training system is often cited as a model for retraining displaced workers into new skilled trades.",
+        "policyExplanation": "Government-funded training to help displaced workers learn new skills for new jobs.",
+        "concept": "Human Capital Investment"
       },
       {
         "id": "C",
@@ -1118,7 +1227,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "Extending jobless benefits during major economic disruptions, as many governments did during COVID, cushions workers but adds fiscal strain."
+        "realWorldContext": "Extending jobless benefits during major economic disruptions, as many governments did during COVID, cushions workers but adds fiscal strain.",
+        "policyExplanation": "Longer-lasting jobless benefits to support workers while they search for new employment.",
+        "concept": "Social Safety Net"
       },
       {
         "id": "D",
@@ -1128,7 +1239,9 @@
           "solvency": -10,
           "morality": 5
         },
-        "realWorldContext": "Regional development subsidies to relocate industry into affected towns have been used in the US Rust Belt with mixed long-term success."
+        "realWorldContext": "Regional development subsidies to relocate industry into affected towns have been used in the US Rust Belt with mixed long-term success.",
+        "policyExplanation": "Financial incentives to relocate factories and jobs into affected communities.",
+        "concept": "Regional Development Policy"
       },
       {
         "id": "E",
@@ -1138,10 +1251,17 @@
           "solvency": 10,
           "morality": -15
         },
-        "realWorldContext": "Classical economic theory holds that automation-driven displacement is eventually offset by new job creation, though the transition can take a generation."
+        "realWorldContext": "Classical economic theory holds that automation-driven displacement is eventually offset by new job creation, though the transition can take a generation.",
+        "policyExplanation": "Trusting that new jobs will eventually replace the ones lost to automation.",
+        "concept": "Laissez-Faire"
       }
     ],
-    "debrief": "Combining Robot Tax on Automation with Worker Retraining Program is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Robot Tax on Automation with Worker Retraining Program is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would support whichever policy eases the transition for the most displaced workers overall.",
+      "rawlsian": "Would prioritize direct support for workers who have the fewest resources to retrain on their own.",
+      "libertarian": "Would resist a robot tax, arguing automation's economic benefits shouldn't be penalized."
+    }
   },
   {
     "date": "2026-08-29",
@@ -1162,7 +1282,9 @@
           "solvency": -5,
           "morality": 5
         },
-        "realWorldContext": "The US released oil from its Strategic Petroleum Reserve in 2022 to ease prices after Russia's invasion of Ukraine disrupted global supply."
+        "realWorldContext": "The US released oil from its Strategic Petroleum Reserve in 2022 to ease prices after Russia's invasion of Ukraine disrupted global supply.",
+        "policyExplanation": "Releasing government-held emergency oil supplies to ease prices immediately.",
+        "concept": "Strategic Reserve Policy"
       },
       {
         "id": "B",
@@ -1172,7 +1294,9 @@
           "solvency": -20,
           "morality": 15
         },
-        "realWorldContext": "Many governments subsidize fuel prices during shocks to protect consumers, though this can become a costly, hard-to-remove long-term burden."
+        "realWorldContext": "Many governments subsidize fuel prices during shocks to protect consumers, though this can become a costly, hard-to-remove long-term burden.",
+        "policyExplanation": "Government payments that lower the price consumers pay for fuel.",
+        "concept": "Price Subsidy"
       },
       {
         "id": "C",
@@ -1182,7 +1306,9 @@
           "solvency": 5,
           "morality": 10
         },
-        "realWorldContext": "The 1970s oil crisis prompted fuel rationing in several countries, including odd-even license plate purchasing days in the US."
+        "realWorldContext": "The 1970s oil crisis prompted fuel rationing in several countries, including odd-even license plate purchasing days in the US.",
+        "policyExplanation": "Formal limits on how much fuel individuals or businesses can purchase.",
+        "concept": "Rationing"
       },
       {
         "id": "D",
@@ -1192,7 +1318,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "Oil shocks have historically accelerated renewable energy investment, as seen after the 1970s crisis spurred early US solar and efficiency programs."
+        "realWorldContext": "Oil shocks have historically accelerated renewable energy investment, as seen after the 1970s crisis spurred early US solar and efficiency programs.",
+        "policyExplanation": "Government funding to speed up the shift toward renewable energy sources.",
+        "concept": "Industrial Policy"
       },
       {
         "id": "E",
@@ -1202,10 +1330,17 @@
           "solvency": 23,
           "morality": 0
         },
-        "realWorldContext": "Governments often negotiate emergency bilateral energy deals during shortages, similar to Europe's rapid LNG deals after 2022."
+        "realWorldContext": "Governments often negotiate emergency bilateral energy deals during shortages, similar to Europe's rapid LNG deals after 2022.",
+        "policyExplanation": "A government-to-government deal securing a reliable, alternative energy supply.",
+        "concept": "Economic Diplomacy"
       }
     ],
-    "debrief": "Combining Release Strategic Petroleum Reserve with Negotiate Emergency Supply Deal is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Release Strategic Petroleum Reserve with Negotiate Emergency Supply Deal is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever response eases fuel costs for the most people fastest.",
+      "rawlsian": "Would ask whether relief reaches lower-income households who spend a larger share of income on fuel.",
+      "libertarian": "Would oppose subsidies and rationing, preferring to let fuel prices adjust naturally."
+    }
   },
   {
     "date": "2026-08-30",
@@ -1226,7 +1361,9 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "Public outcry over sovereign fund losses has historically forced leadership changes, as seen in several state pension and wealth fund scandals."
+        "realWorldContext": "Public outcry over sovereign fund losses has historically forced leadership changes, as seen in several state pension and wealth fund scandals.",
+        "policyExplanation": "Removing the people responsible for the fund's losses.",
+        "concept": "Accountability Mechanism"
       },
       {
         "id": "B",
@@ -1236,7 +1373,9 @@
           "solvency": 13,
           "morality": 10
         },
-        "realWorldContext": "Norway's sovereign wealth fund is governed by strict independent oversight and ethical investment guidelines, widely cited as a model for transparency."
+        "realWorldContext": "Norway's sovereign wealth fund is governed by strict independent oversight and ethical investment guidelines, widely cited as a model for transparency.",
+        "policyExplanation": "An independent group that reviews and approves major fund decisions to prevent future mismanagement.",
+        "concept": "Institutional Oversight"
       },
       {
         "id": "C",
@@ -1246,7 +1385,9 @@
           "solvency": -15,
           "morality": -15
         },
-        "realWorldContext": "Some governments have downplayed fund losses to avoid political fallout, a pattern that erodes public trust when the losses eventually surface."
+        "realWorldContext": "Some governments have downplayed fund losses to avoid political fallout, a pattern that erodes public trust when the losses eventually surface.",
+        "policyExplanation": "Choosing not to publicly disclose the losses to avoid political backlash.",
+        "concept": "Non-Disclosure"
       },
       {
         "id": "D",
@@ -1256,7 +1397,9 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "Requiring public disclosure of fund holdings and performance, as several transparency-focused funds now do, restores accountability at the cost of political exposure."
+        "realWorldContext": "Requiring public disclosure of fund holdings and performance, as several transparency-focused funds now do, restores accountability at the cost of political exposure.",
+        "policyExplanation": "Requiring the fund to publicly report its holdings and performance regularly.",
+        "concept": "Transparency Policy"
       },
       {
         "id": "E",
@@ -1266,10 +1409,17 @@
           "solvency": 15,
           "morality": 5
         },
-        "realWorldContext": "Rapidly selling off speculative assets to limit further losses can lock in a bad price, but stops the bleeding immediately."
+        "realWorldContext": "Rapidly selling off speculative assets to limit further losses can lock in a bad price, but stops the bleeding immediately.",
+        "policyExplanation": "Selling off high-risk investments quickly to stop further losses.",
+        "concept": "Risk Mitigation"
       }
     ],
-    "debrief": "Combining Fire Fund Management with Independent Oversight Board is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Fire Fund Management with Independent Oversight Board is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever response restores public trust and fund performance fastest.",
+      "rawlsian": "Would emphasize transparency, since the public \u2014 not just fund managers \u2014 bears the cost of mismanagement.",
+      "libertarian": "Would question why a sovereign fund exists at all, preferring capital stay in private hands."
+    }
   },
   {
     "date": "2026-08-31",
@@ -1290,7 +1440,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "The US has repeatedly expanded temporary processing facilities during migration surges, easing backlogs at significant short-term cost."
+        "realWorldContext": "The US has repeatedly expanded temporary processing facilities during migration surges, easing backlogs at significant short-term cost.",
+        "policyExplanation": "Building out more facilities to process migrants and asylum claims faster.",
+        "concept": "Administrative Capacity"
       },
       {
         "id": "B",
@@ -1300,7 +1452,9 @@
           "solvency": -10,
           "morality": -5
         },
-        "realWorldContext": "Surging border enforcement personnel during migration spikes is a common US response, improving order but drawing criticism over conditions in detention."
+        "realWorldContext": "Surging border enforcement personnel during migration spikes is a common US response, improving order but drawing criticism over conditions in detention.",
+        "policyExplanation": "Sending more enforcement personnel to manage the surge at the border.",
+        "concept": "Border Enforcement"
       },
       {
         "id": "C",
@@ -1310,7 +1464,9 @@
           "solvency": 18,
           "morality": 23
         },
-        "realWorldContext": "The EU's burden-sharing agreements during the 2015 migration crisis attempted to distribute asylum seekers across member states, with uneven cooperation."
+        "realWorldContext": "The EU's burden-sharing agreements during the 2015 migration crisis attempted to distribute asylum seekers across member states, with uneven cooperation.",
+        "policyExplanation": "An agreement with neighboring countries to share responsibility for hosting migrants.",
+        "concept": "Burden-Sharing"
       },
       {
         "id": "D",
@@ -1320,7 +1476,9 @@
           "solvency": 5,
           "morality": -20
         },
-        "realWorldContext": "Full border closures, like Title 42 during COVID-19, sharply reduce crossings but face legal challenges and humanitarian criticism."
+        "realWorldContext": "Full border closures, like Title 42 during COVID-19, sharply reduce crossings but face legal challenges and humanitarian criticism.",
+        "policyExplanation": "Fully closing the border to new arrivals.",
+        "concept": "Restrictionist Policy"
       },
       {
         "id": "E",
@@ -1330,10 +1488,17 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "US aid programs targeting the economic causes of migration in Central America aim to reduce departures at the source, though results take years to show."
+        "realWorldContext": "US aid programs targeting the economic causes of migration in Central America aim to reduce departures at the source, though results take years to show.",
+        "policyExplanation": "Funding programs abroad meant to reduce the economic pressures that cause people to migrate.",
+        "concept": "Foreign Aid"
       }
     ],
-    "debrief": "Combining Deploy Border Patrol Surge with Regional Resettlement Agreement is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Deploy Border Patrol Surge with Regional Resettlement Agreement is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever policy processes the most people fairly and quickly.",
+      "rawlsian": "Would prioritize protecting the most vulnerable migrants, regardless of the strain on the system.",
+      "libertarian": "Would favor more open movement, seeing strict border closures as an infringement on individual freedom."
+    }
   },
   {
     "date": "2026-09-01",
@@ -1354,7 +1519,9 @@
           "solvency": 0,
           "morality": 10
         },
-        "realWorldContext": "Downstream water shortages from upstream damming have prompted rationing in several river basins, including the Nile and Mekong."
+        "realWorldContext": "Downstream water shortages from upstream damming have prompted rationing in several river basins, including the Nile and Mekong.",
+        "policyExplanation": "Government-mandated limits on water use to stretch a shrinking supply.",
+        "concept": "Resource Rationing"
       },
       {
         "id": "B",
@@ -1364,7 +1531,9 @@
           "solvency": 13,
           "morality": 15
         },
-        "realWorldContext": "The International Court of Justice has ruled on transboundary water disputes before, though enforcement of rulings remains difficult."
+        "realWorldContext": "The International Court of Justice has ruled on transboundary water disputes before, though enforcement of rulings remains difficult.",
+        "policyExplanation": "Taking the dispute to an international legal body for a binding ruling.",
+        "concept": "International Arbitration"
       },
       {
         "id": "C",
@@ -1374,7 +1543,9 @@
           "solvency": -10,
           "morality": -5
         },
-        "realWorldContext": "Egypt has repeatedly signaled economic and diplomatic retaliation over Ethiopia's Grand Renaissance Dam on the Nile, without resorting to force."
+        "realWorldContext": "Egypt has repeatedly signaled economic and diplomatic retaliation over Ethiopia's Grand Renaissance Dam on the Nile, without resorting to force.",
+        "policyExplanation": "Using trade as leverage to pressure the other country over the water dispute.",
+        "concept": "Economic Coercion"
       },
       {
         "id": "D",
@@ -1384,7 +1555,9 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "Gulf states facing water scarcity have invested heavily in desalination as an alternative to contested freshwater sources."
+        "realWorldContext": "Gulf states facing water scarcity have invested heavily in desalination as an alternative to contested freshwater sources.",
+        "policyExplanation": "Investing in technology that creates fresh water from seawater, reducing reliance on the disputed source.",
+        "concept": "Public Investment"
       },
       {
         "id": "E",
@@ -1394,10 +1567,17 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "The Indus Waters Treaty between India and Pakistan has managed shared river resources for decades despite broader political tension between the two."
+        "realWorldContext": "The Indus Waters Treaty between India and Pakistan has managed shared river resources for decades despite broader political tension between the two.",
+        "policyExplanation": "A formal agreement setting out how the shared water resource will be divided.",
+        "concept": "International Treaty"
       }
     ],
-    "debrief": "Combining International Arbitration Request with Negotiate Water-Sharing Treaty is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining International Arbitration Request with Negotiate Water-Sharing Treaty is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever solution provides water to the most people, even if it means costly infrastructure.",
+      "rawlsian": "Would ask whether the poorest downstream communities are protected first.",
+      "libertarian": "Would prefer negotiated, voluntary agreements over threats of retaliation."
+    }
   },
   {
     "date": "2026-09-02",
@@ -1418,7 +1598,9 @@
           "solvency": -20,
           "morality": -5
         },
-        "realWorldContext": "Arms race dynamics, like the Cold War buildup between the US and USSR, often escalate mutually rather than resolving the underlying tension."
+        "realWorldContext": "Arms race dynamics, like the Cold War buildup between the US and USSR, often escalate mutually rather than resolving the underlying tension.",
+        "policyExplanation": "Increasing your own military spending to match a rival's buildup.",
+        "concept": "Arms Race Dynamics"
       },
       {
         "id": "B",
@@ -1428,7 +1610,9 @@
           "solvency": 18,
           "morality": 15
         },
-        "realWorldContext": "Arms control negotiations like SALT and START defused Cold War tensions through verified mutual reductions rather than continued buildup."
+        "realWorldContext": "Arms control negotiations like SALT and START defused Cold War tensions through verified mutual reductions rather than continued buildup.",
+        "policyExplanation": "Formal negotiations aimed at both sides reducing weapons together.",
+        "concept": "Arms Control"
       },
       {
         "id": "C",
@@ -1438,7 +1622,9 @@
           "solvency": -10,
           "morality": 5
         },
-        "realWorldContext": "NATO's collective defense framework under Article 5 is designed to deter aggression by making an attack on one member an attack on all."
+        "realWorldContext": "NATO's collective defense framework under Article 5 is designed to deter aggression by making an attack on one member an attack on all.",
+        "policyExplanation": "Deepening a mutual-defense agreement with allies to deter aggression.",
+        "concept": "Collective Security"
       },
       {
         "id": "D",
@@ -1448,7 +1634,9 @@
           "solvency": 5,
           "morality": 0
         },
-        "realWorldContext": "Strong public statements of resolve, without material buildup, are a lower-cost signaling tool used frequently in diplomatic brinkmanship."
+        "realWorldContext": "Strong public statements of resolve, without material buildup, are a lower-cost signaling tool used frequently in diplomatic brinkmanship.",
+        "policyExplanation": "A strong public statement of resolve without an actual military buildup.",
+        "concept": "Signaling"
       },
       {
         "id": "E",
@@ -1458,10 +1646,17 @@
           "solvency": -15,
           "morality": -15
         },
-        "realWorldContext": "Preemptive troop movements near a disputed border risk being read as provocation rather than deterrence, as seen in several historical near-miss crises."
+        "realWorldContext": "Preemptive troop movements near a disputed border risk being read as provocation rather than deterrence, as seen in several historical near-miss crises.",
+        "policyExplanation": "Moving troops or weapons toward the border preemptively.",
+        "concept": "Military Posturing"
       }
     ],
-    "debrief": "Combining Propose Bilateral Arms Talks with Strengthen Defensive Alliances is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Propose Bilateral Arms Talks with Strengthen Defensive Alliances is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh whether deterrence prevents more harm than an arms buildup risks causing.",
+      "rawlsian": "Would ask whether ordinary citizens are made less secure by an arms race neither side really wants.",
+      "libertarian": "Would be skeptical of large defense spending funded by taxpayers with little say in the matter."
+    }
   },
   {
     "date": "2026-09-03",
@@ -1482,7 +1677,9 @@
           "solvency": 0,
           "morality": 10
         },
-        "realWorldContext": "Prisoner exchanges, like the 2022 swap that freed Brittney Griner, secure release but are criticized for incentivizing future hostage-taking."
+        "realWorldContext": "Prisoner exchanges, like the 2022 swap that freed Brittney Griner, secure release but are criticized for incentivizing future hostage-taking.",
+        "policyExplanation": "Trading a prisoner you hold for the release of your detained citizens.",
+        "concept": "Prisoner Exchange"
       },
       {
         "id": "B",
@@ -1492,7 +1689,9 @@
           "solvency": -10,
           "morality": 5
         },
-        "realWorldContext": "Sanctions are a common response to state-sponsored detention, applying pressure without direct military engagement, though they rarely force quick releases."
+        "realWorldContext": "Sanctions are a common response to state-sponsored detention, applying pressure without direct military engagement, though they rarely force quick releases.",
+        "policyExplanation": "Economic penalties placed on the detaining country to pressure a release.",
+        "concept": "Coercive Diplomacy"
       },
       {
         "id": "C",
@@ -1502,7 +1701,9 @@
           "solvency": 0,
           "morality": 5
         },
-        "realWorldContext": "Many hostage releases are negotiated through discreet diplomatic backchannels rather than public confrontation, preserving both sides' political standing."
+        "realWorldContext": "Many hostage releases are negotiated through discreet diplomatic backchannels rather than public confrontation, preserving both sides' political standing.",
+        "policyExplanation": "Private, informal negotiations conducted outside of public view.",
+        "concept": "Track II Diplomacy"
       },
       {
         "id": "D",
@@ -1512,7 +1713,9 @@
           "solvency": 0,
           "morality": 10
         },
-        "realWorldContext": "Public pressure campaigns raise awareness and can mobilize allied support, but risk provoking a detaining government to dig in further."
+        "realWorldContext": "Public pressure campaigns raise awareness and can mobilize allied support, but risk provoking a detaining government to dig in further.",
+        "policyExplanation": "Publicly pressuring the detaining government through statements and media attention.",
+        "concept": "Public Diplomacy"
       },
       {
         "id": "E",
@@ -1522,10 +1725,17 @@
           "solvency": 5,
           "morality": -20
         },
-        "realWorldContext": "A strict no-negotiation stance, sometimes applied to non-state hostage-takers, avoids setting precedent but leaves detained citizens without a resolution path."
+        "realWorldContext": "A strict no-negotiation stance, sometimes applied to non-state hostage-takers, avoids setting precedent but leaves detained citizens without a resolution path.",
+        "policyExplanation": "A firm policy of never negotiating, regardless of the circumstances.",
+        "concept": "Deterrence Policy"
       }
     ],
-    "debrief": "Pursuing quiet backchannel negotiations while keeping a prisoner exchange on the table resolves the crisis without the precedent-setting risk of public capitulation."
+    "debrief": "Pursuing quiet backchannel negotiations while keeping a prisoner exchange on the table resolves the crisis without the precedent-setting risk of public capitulation.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever approach secures release fastest, even if it sets a risky precedent.",
+      "rawlsian": "Would prioritize the wellbeing of the detained individuals over abstract policy consistency.",
+      "libertarian": "Would be wary of sanctions that harm ordinary citizens of the other country for their government's actions."
+    }
   },
   {
     "date": "2026-09-04",
@@ -1546,7 +1756,9 @@
           "solvency": 8,
           "morality": 15
         },
-        "realWorldContext": "US intelligence agencies publicly disclosed findings on foreign election interference in 2016 and 2020, informing the public at the cost of politicizing the findings."
+        "realWorldContext": "US intelligence agencies publicly disclosed findings on foreign election interference in 2016 and 2020, informing the public at the cost of politicizing the findings.",
+        "policyExplanation": "Publicly releasing intelligence findings about the interference.",
+        "concept": "Transparency Policy"
       },
       {
         "id": "B",
@@ -1556,7 +1768,9 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "The US sanctioned individuals and entities tied to election interference efforts following the 2016 and 2020 elections."
+        "realWorldContext": "The US sanctioned individuals and entities tied to election interference efforts following the 2016 and 2020 elections.",
+        "policyExplanation": "Financial penalties aimed at those responsible for the interference.",
+        "concept": "Coercive Diplomacy"
       },
       {
         "id": "C",
@@ -1566,7 +1780,9 @@
           "solvency": -10,
           "morality": 10
         },
-        "realWorldContext": "Congress increased funding for election infrastructure security after 2016, hardening systems against future interference attempts."
+        "realWorldContext": "Congress increased funding for election infrastructure security after 2016, hardening systems against future interference attempts.",
+        "policyExplanation": "Investing in stronger systems to prevent future election tampering.",
+        "concept": "Institutional Resilience"
       },
       {
         "id": "D",
@@ -1576,7 +1792,9 @@
           "solvency": 5,
           "morality": -10
         },
-        "realWorldContext": "Formal diplomatic protests without concrete penalties are a lower-risk option, though critics argue they carry little deterrent value."
+        "realWorldContext": "Formal diplomatic protests without concrete penalties are a lower-risk option, though critics argue they carry little deterrent value.",
+        "policyExplanation": "A formal diplomatic objection without any real penalty attached.",
+        "concept": "Symbolic Diplomacy"
       },
       {
         "id": "E",
@@ -1586,10 +1804,17 @@
           "solvency": 0,
           "morality": -20
         },
-        "realWorldContext": "Downplaying interference findings to avoid public panic risks eroding trust further if the full scope later becomes known."
+        "realWorldContext": "Downplaying interference findings to avoid public panic risks eroding trust further if the full scope later becomes known.",
+        "policyExplanation": "Choosing not to publicize the findings to avoid causing public alarm.",
+        "concept": "Non-Disclosure"
       }
     ],
-    "debrief": "Combining Public Intelligence Disclosure with Impose Targeted Sanctions is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Public Intelligence Disclosure with Impose Targeted Sanctions is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever response protects election integrity for the most people.",
+      "rawlsian": "Would argue the public has a right to know, regardless of political discomfort.",
+      "libertarian": "Would be cautious of government overreach in the name of security, even during a real threat."
+    }
   },
   {
     "date": "2026-09-05",
@@ -1610,7 +1835,9 @@
           "solvency": -15,
           "morality": 0
         },
-        "realWorldContext": "Naval presence deployments during territorial disputes, common in the South China Sea, assert claims but raise the risk of accidental escalation."
+        "realWorldContext": "Naval presence deployments during territorial disputes, common in the South China Sea, assert claims but raise the risk of accidental escalation.",
+        "policyExplanation": "Sending military ships to visibly assert a territorial claim.",
+        "concept": "Military Posturing"
       },
       {
         "id": "B",
@@ -1620,7 +1847,9 @@
           "solvency": 0,
           "morality": 15
         },
-        "realWorldContext": "The Philippines won a 2016 international tribunal ruling against China's South China Sea claims, though China rejected the ruling's enforceability."
+        "realWorldContext": "The Philippines won a 2016 international tribunal ruling against China's South China Sea claims, though China rejected the ruling's enforceability.",
+        "policyExplanation": "Taking the dispute to an international legal body for a binding ruling.",
+        "concept": "International Arbitration"
       },
       {
         "id": "C",
@@ -1630,7 +1859,9 @@
           "solvency": 5,
           "morality": 10
         },
-        "realWorldContext": "Joint development zones, used in several maritime disputes, let both claimants share resource revenue without resolving sovereignty outright."
+        "realWorldContext": "Joint development zones, used in several maritime disputes, let both claimants share resource revenue without resolving sovereignty outright.",
+        "policyExplanation": "An agreement to share the disputed resources without resolving who owns the territory.",
+        "concept": "Functional Cooperation"
       },
       {
         "id": "D",
@@ -1640,7 +1871,9 @@
           "solvency": 0,
           "morality": 5
         },
-        "realWorldContext": "Bilateral talks to de-escalate maritime standoffs have defused several near-conflicts, buying time without resolving the underlying claim."
+        "realWorldContext": "Bilateral talks to de-escalate maritime standoffs have defused several near-conflicts, buying time without resolving the underlying claim.",
+        "policyExplanation": "Direct talks aimed at lowering tensions without conceding the claim.",
+        "concept": "Diplomatic De-escalation"
       },
       {
         "id": "E",
@@ -1650,10 +1883,17 @@
           "solvency": -10,
           "morality": -15
         },
-        "realWorldContext": "Forcibly asserting a territorial claim risks military conflict and international condemnation, a step most disputing states have historically avoided."
+        "realWorldContext": "Forcibly asserting a territorial claim risks military conflict and international condemnation, a step most disputing states have historically avoided.",
+        "policyExplanation": "Using military force to physically take control of the disputed territory.",
+        "concept": "Use of Force"
       }
     ],
-    "debrief": "Proposing joint resource development while opening de-escalation talks manages the standoff without conceding the claim or risking direct confrontation."
+    "debrief": "Proposing joint resource development while opening de-escalation talks manages the standoff without conceding the claim or risking direct confrontation.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever approach avoids conflict while securing the most benefit from the disputed resources.",
+      "rawlsian": "Would ask whether the dispute's resolution accounts for affected local communities, not just national pride.",
+      "libertarian": "Would favor peaceful resolution over state assertion of force in property disputes."
+    }
   },
   {
     "date": "2026-09-06",
@@ -1674,7 +1914,9 @@
           "solvency": -20,
           "morality": 10
         },
-        "realWorldContext": "Reinforcing overwhelmed peacekeeping missions, as the UN did in several Balkans deployments, stabilizes the mission but escalates cost and risk."
+        "realWorldContext": "Reinforcing overwhelmed peacekeeping missions, as the UN did in several Balkans deployments, stabilizes the mission but escalates cost and risk.",
+        "policyExplanation": "Sending more troops to support an overwhelmed peacekeeping mission.",
+        "concept": "Military Escalation"
       },
       {
         "id": "B",
@@ -1684,7 +1926,9 @@
           "solvency": 15,
           "morality": -15
         },
-        "realWorldContext": "The rapid 1994 withdrawal of peacekeepers from Rwanda amid escalating violence is widely cited as a failure that allowed the genocide to proceed."
+        "realWorldContext": "The rapid 1994 withdrawal of peacekeepers from Rwanda amid escalating violence is widely cited as a failure that allowed the genocide to proceed.",
+        "policyExplanation": "Pulling troops out of the mission entirely.",
+        "concept": "Withdrawal"
       },
       {
         "id": "C",
@@ -1694,7 +1938,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Expanding a peacekeeping mission's mandate to allow more assertive intervention, as eventually happened in Bosnia, requires lengthy Security Council approval."
+        "realWorldContext": "Expanding a peacekeeping mission's mandate to allow more assertive intervention, as eventually happened in Bosnia, requires lengthy Security Council approval.",
+        "policyExplanation": "Asking for approval to expand what peacekeepers are allowed to do.",
+        "concept": "International Authorization"
       },
       {
         "id": "D",
@@ -1704,7 +1950,9 @@
           "solvency": -5,
           "morality": 0
         },
-        "realWorldContext": "Providing air support without ground reinforcement reduces risk to personnel but limits the mission's ability to protect civilians on the ground."
+        "realWorldContext": "Providing air support without ground reinforcement reduces risk to personnel but limits the mission's ability to protect civilians on the ground.",
+        "policyExplanation": "Supporting the mission from the air instead of adding ground troops.",
+        "concept": "Limited Engagement"
       },
       {
         "id": "E",
@@ -1714,10 +1962,17 @@
           "solvency": 13,
           "morality": 10
         },
-        "realWorldContext": "Direct negotiation with local factions for a temporary ceasefire has bought time for peacekeeping forces to stabilize in several past conflicts."
+        "realWorldContext": "Direct negotiation with local factions for a temporary ceasefire has bought time for peacekeeping forces to stabilize in several past conflicts.",
+        "policyExplanation": "Direct talks with local factions to pause the fighting temporarily.",
+        "concept": "Conflict Mediation"
       }
     ],
-    "debrief": "Combining Request UN Mandate Expansion with Negotiate Local Ceasefire is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Request UN Mandate Expansion with Negotiate Local Ceasefire is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever choice saves the most lives, including both peacekeepers and civilians.",
+      "rawlsian": "Would argue the most vulnerable civilians deserve protection even if it's costly to provide.",
+      "libertarian": "Would question the cost and legitimacy of extended foreign military commitments funded by taxpayers."
+    }
   },
   {
     "date": "2026-09-07",
@@ -1738,7 +1993,9 @@
           "solvency": 18,
           "morality": -10
         },
-        "realWorldContext": "The US-China trade war saw both sides impose escalating retaliatory tariffs from 2018 onward, raising costs for consumers on both sides."
+        "realWorldContext": "The US-China trade war saw both sides impose escalating retaliatory tariffs from 2018 onward, raising costs for consumers on both sides.",
+        "policyExplanation": "Imposing your own tariffs in response to another country's tariffs.",
+        "concept": "Retaliatory Tariffs"
       },
       {
         "id": "B",
@@ -1748,7 +2005,9 @@
           "solvency": 0,
           "morality": 10
         },
-        "realWorldContext": "The World Trade Organization's dispute settlement process offers a formal path to challenge tariffs, though rulings can take years to resolve."
+        "realWorldContext": "The World Trade Organization's dispute settlement process offers a formal path to challenge tariffs, though rulings can take years to resolve.",
+        "policyExplanation": "Filing a formal complaint with the World Trade Organization to challenge the tariffs legally.",
+        "concept": "International Trade Law"
       },
       {
         "id": "C",
@@ -1758,7 +2017,9 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "The US provided direct payments to farmers hurt by retaliatory tariffs during the 2018-2019 trade war to offset lost export revenue."
+        "realWorldContext": "The US provided direct payments to farmers hurt by retaliatory tariffs during the 2018-2019 trade war to offset lost export revenue.",
+        "policyExplanation": "Direct payments to exporters who are losing money because of the tariffs.",
+        "concept": "Fiscal Offset"
       },
       {
         "id": "D",
@@ -1768,7 +2029,9 @@
           "solvency": 5,
           "morality": 5
         },
-        "realWorldContext": "Countries facing trade disputes often accelerate deals with alternative partners, as several nations did to reduce reliance on any single market."
+        "realWorldContext": "Countries facing trade disputes often accelerate deals with alternative partners, as several nations did to reduce reliance on any single market.",
+        "policyExplanation": "Finding new countries to trade with to reduce reliance on the original partner.",
+        "concept": "Economic Diversification"
       },
       {
         "id": "E",
@@ -1778,10 +2041,17 @@
           "solvency": 15,
           "morality": -5
         },
-        "realWorldContext": "Accepting unfavorable trade terms to end a dispute quickly avoids further economic damage but can invite future pressure from the same partner."
+        "realWorldContext": "Accepting unfavorable trade terms to end a dispute quickly avoids further economic damage but can invite future pressure from the same partner.",
+        "policyExplanation": "Accepting the other country's trade terms to end the dispute quickly.",
+        "concept": "Trade Concession"
       }
     ],
-    "debrief": "Combining Retaliatory Tariffs with Seek WTO Dispute Resolution is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Retaliatory Tariffs with Seek WTO Dispute Resolution is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever approach ends the trade war fastest with the least total economic harm.",
+      "rawlsian": "Would ask whether retaliatory tariffs disproportionately hurt lower-income consumers.",
+      "libertarian": "Would oppose tariffs altogether, favoring free trade regardless of what the other country does."
+    }
   },
   {
     "date": "2026-09-08",
@@ -1802,7 +2072,9 @@
           "solvency": -25,
           "morality": 15
         },
-        "realWorldContext": "NATO's Article 5 has been invoked once, after 9/11, committing member states to collective defense obligations at real material and political cost."
+        "realWorldContext": "NATO's Article 5 has been invoked once, after 9/11, committing member states to collective defense obligations at real material and political cost.",
+        "policyExplanation": "Sending your own troops to defend an ally under attack, as a treaty requires.",
+        "concept": "Collective Defense"
       },
       {
         "id": "B",
@@ -1812,7 +2084,9 @@
           "solvency": -15,
           "morality": 5
         },
-        "realWorldContext": "Western support for Ukraine after 2022 largely took the form of arms and financial aid rather than direct troop deployment, avoiding direct confrontation."
+        "realWorldContext": "Western support for Ukraine after 2022 largely took the form of arms and financial aid rather than direct troop deployment, avoiding direct confrontation.",
+        "policyExplanation": "Supporting an ally with weapons and funding, but not troops.",
+        "concept": "Indirect Military Support"
       },
       {
         "id": "C",
@@ -1822,7 +2096,9 @@
           "solvency": 18,
           "morality": 10
         },
-        "realWorldContext": "Seeking Security Council authorization for military action adds international legitimacy, though a veto from a permanent member can block it entirely."
+        "realWorldContext": "Seeking Security Council authorization for military action adds international legitimacy, though a veto from a permanent member can block it entirely.",
+        "policyExplanation": "Seeking formal approval from the UN before taking action.",
+        "concept": "International Authorization"
       },
       {
         "id": "D",
@@ -1832,7 +2108,9 @@
           "solvency": 5,
           "morality": -15
         },
-        "realWorldContext": "Delaying treaty commitments due to domestic political resistance risks damaging alliance credibility for future crises."
+        "realWorldContext": "Delaying treaty commitments due to domestic political resistance risks damaging alliance credibility for future crises.",
+        "policyExplanation": "Slowing down your response due to political resistance at home.",
+        "concept": "Domestic Political Constraint"
       },
       {
         "id": "E",
@@ -1842,10 +2120,17 @@
           "solvency": -5,
           "morality": 5
         },
-        "realWorldContext": "Providing humanitarian rather than military aid is a common lower-commitment response when full treaty obligations carry high domestic political risk."
+        "realWorldContext": "Providing humanitarian rather than military aid is a common lower-commitment response when full treaty obligations carry high domestic political risk.",
+        "policyExplanation": "Providing only humanitarian, non-military assistance.",
+        "concept": "Humanitarian Aid"
       }
     ],
-    "debrief": "Combining Provide Arms, Not Troops with Seek UN Security Council Backing is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Provide Arms, Not Troops with Seek UN Security Council Backing is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh the cost of fulfilling the treaty against the harm of appearing unreliable to allies.",
+      "rawlsian": "Would ask whether the citizens of the attacked ally are being protected fairly.",
+      "libertarian": "Would be skeptical of costly foreign military commitments, even under treaty obligation."
+    }
   },
   {
     "date": "2026-09-09",
@@ -1866,7 +2151,9 @@
           "solvency": -15,
           "morality": 20
         },
-        "realWorldContext": "Jordan and Turkey have hosted massive refugee camps during the Syrian civil war, absorbing large populations at significant strain to public services."
+        "realWorldContext": "Jordan and Turkey have hosted massive refugee camps during the Syrian civil war, absorbing large populations at significant strain to public services.",
+        "policyExplanation": "Setting up emergency camps to house large numbers of refugees.",
+        "concept": "Humanitarian Response"
       },
       {
         "id": "B",
@@ -1876,7 +2163,9 @@
           "solvency": 0,
           "morality": 33
         },
-        "realWorldContext": "UNHCR-coordinated resettlement programs distribute refugee responsibility across countries, though participation has historically been inconsistent."
+        "realWorldContext": "UNHCR-coordinated resettlement programs distribute refugee responsibility across countries, though participation has historically been inconsistent.",
+        "policyExplanation": "Asking other countries to help share the responsibility of hosting refugees.",
+        "concept": "Burden-Sharing"
       },
       {
         "id": "C",
@@ -1886,7 +2175,9 @@
           "solvency": 5,
           "morality": -10
         },
-        "realWorldContext": "Many countries set annual refugee admission caps to manage capacity, a policy that provides predictability but leaves others without protection."
+        "realWorldContext": "Many countries set annual refugee admission caps to manage capacity, a policy that provides predictability but leaves others without protection.",
+        "policyExplanation": "Setting a hard limit on how many refugees will be accepted.",
+        "concept": "Restrictionist Policy"
       },
       {
         "id": "D",
@@ -1896,7 +2187,9 @@
           "solvency": -10,
           "morality": 10
         },
-        "realWorldContext": "The EU has funded neighboring countries like Turkey to host refugees rather than accepting larger numbers directly, a widely debated tradeoff."
+        "realWorldContext": "The EU has funded neighboring countries like Turkey to host refugees rather than accepting larger numbers directly, a widely debated tradeoff.",
+        "policyExplanation": "Paying nearby countries to host refugees instead of accepting them directly.",
+        "concept": "Foreign Aid"
       },
       {
         "id": "E",
@@ -1906,10 +2199,17 @@
           "solvency": 5,
           "morality": -25
         },
-        "realWorldContext": "Full border closures during refugee crises, as seen in parts of the 2015 European migration crisis, reduce strain domestically but leave people without safe passage."
+        "realWorldContext": "Full border closures during refugee crises, as seen in parts of the 2015 European migration crisis, reduce strain domestically but leave people without safe passage.",
+        "policyExplanation": "Fully closing the border to refugees.",
+        "concept": "Restrictionist Policy"
       }
     ],
-    "debrief": "Combining Request International Burden-Sharing with Cap Admissions at Set Quota is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Request International Burden-Sharing with Cap Admissions at Set Quota is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever approach helps the most refugees at the lowest overall cost.",
+      "rawlsian": "Would prioritize protecting the most vulnerable refugees, even if it strains domestic resources.",
+      "libertarian": "Would favor voluntary private and community sponsorship over government-run resettlement programs."
+    }
   },
   {
     "date": "2026-09-10",
@@ -1930,7 +2230,9 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "Israel's government partially paused judicial overhaul legislation in 2023 after mass protests, easing tension without fully abandoning reform goals."
+        "realWorldContext": "Israel's government partially paused judicial overhaul legislation in 2023 after mass protests, easing tension without fully abandoning reform goals.",
+        "policyExplanation": "Pulling back a proposal that would have reduced judicial independence.",
+        "concept": "Political Concession"
       },
       {
         "id": "B",
@@ -1940,7 +2242,9 @@
           "solvency": -5,
           "morality": -20
         },
-        "realWorldContext": "Poland's judicial reforms in the late 2010s, pushed through despite EU objections, drew years of legal and diplomatic conflict over rule-of-law concerns."
+        "realWorldContext": "Poland's judicial reforms in the late 2010s, pushed through despite EU objections, drew years of legal and diplomatic conflict over rule-of-law concerns.",
+        "policyExplanation": "Passing the law despite public opposition.",
+        "concept": "Executive Overreach"
       },
       {
         "id": "C",
@@ -1950,7 +2254,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Independent commissions to review judicial reform proposals have been used to slow contentious changes and build broader consensus."
+        "realWorldContext": "Independent commissions to review judicial reform proposals have been used to slow contentious changes and build broader consensus.",
+        "policyExplanation": "Forming an independent group to review the proposal before it moves forward.",
+        "concept": "Institutional Oversight"
       },
       {
         "id": "D",
@@ -1960,7 +2266,9 @@
           "solvency": 0,
           "morality": 10
         },
-        "realWorldContext": "Putting contested constitutional changes to a public referendum, as some countries have done, transfers the decision directly to voters."
+        "realWorldContext": "Putting contested constitutional changes to a public referendum, as some countries have done, transfers the decision directly to voters.",
+        "policyExplanation": "Putting the decision directly to a public vote.",
+        "concept": "Direct Democracy"
       },
       {
         "id": "E",
@@ -1970,10 +2278,17 @@
           "solvency": 0,
           "morality": -25
         },
-        "realWorldContext": "Suppressing protests against judicial reform, as seen in several democratic backsliding cases, tends to deepen the very legitimacy crisis it's meant to end."
+        "realWorldContext": "Suppressing protests against judicial reform, as seen in several democratic backsliding cases, tends to deepen the very legitimacy crisis it's meant to end.",
+        "policyExplanation": "Using force to suppress protests against the proposal.",
+        "concept": "State Coercion"
       }
     ],
-    "debrief": "Proposing an independent review commission slows the process enough to rebuild consensus without fully abandoning reform or escalating into a legitimacy crisis."
+    "debrief": "Proposing an independent review commission slows the process enough to rebuild consensus without fully abandoning reform or escalating into a legitimacy crisis.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh whether the reform's benefits to governance outweigh the unrest it causes.",
+      "rawlsian": "Would be deeply skeptical of any measure that concentrates power and undermines checks on government.",
+      "libertarian": "Would strongly oppose reducing judicial independence, seeing it as a core check on state power."
+    }
   },
   {
     "date": "2026-09-11",
@@ -1994,7 +2309,9 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "Governments facing sustained press freedom backlash have occasionally repealed restrictive laws to restore international standing and domestic legitimacy."
+        "realWorldContext": "Governments facing sustained press freedom backlash have occasionally repealed restrictive laws to restore international standing and domestic legitimacy.",
+        "policyExplanation": "Removing the restrictions on journalism that caused the backlash.",
+        "concept": "Political Concession"
       },
       {
         "id": "B",
@@ -2004,7 +2321,9 @@
           "solvency": 0,
           "morality": -20
         },
-        "realWorldContext": "National security justifications for press restrictions are common globally, from wartime censorship to modern-day 'fake news' laws, and are frequently contested."
+        "realWorldContext": "National security justifications for press restrictions are common globally, from wartime censorship to modern-day 'fake news' laws, and are frequently contested.",
+        "policyExplanation": "Keeping the restrictions in place, justified by national security concerns.",
+        "concept": "Security Justification"
       },
       {
         "id": "C",
@@ -2014,7 +2333,9 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "Independent press ombudsman offices, used in several democracies, mediate disputes between government and media without direct censorship power."
+        "realWorldContext": "Independent press ombudsman offices, used in several democracies, mediate disputes between government and media without direct censorship power.",
+        "policyExplanation": "An independent office that mediates disputes between government and media.",
+        "concept": "Institutional Oversight"
       },
       {
         "id": "D",
@@ -2024,7 +2345,9 @@
           "solvency": -10,
           "morality": -5
         },
-        "realWorldContext": "Subsidizing state-aligned outlets while restricting independent press has been used to shape the media landscape in several countries, drawing criticism over bias."
+        "realWorldContext": "Subsidizing state-aligned outlets while restricting independent press has been used to shape the media landscape in several countries, drawing criticism over bias.",
+        "policyExplanation": "Government funding for media outlets that support official positions.",
+        "concept": "State Media Control"
       },
       {
         "id": "E",
@@ -2034,10 +2357,17 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "Signing onto international press freedom commitments, as tracked by groups like Reporters Without Borders, signals intent though enforcement mechanisms are limited."
+        "realWorldContext": "Signing onto international press freedom commitments, as tracked by groups like Reporters Without Borders, signals intent though enforcement mechanisms are limited.",
+        "policyExplanation": "Formally committing to international press freedom standards.",
+        "concept": "International Commitment"
       }
     ],
-    "debrief": "Combining Repeal the Restrictions with Create Press Ombudsman Office is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Repeal the Restrictions with Create Press Ombudsman Office is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh whether restrictions genuinely improve security enough to justify limiting free expression.",
+      "rawlsian": "Would be wary of restrictions that disproportionately silence marginalized voices.",
+      "libertarian": "Would strongly oppose any restriction on press freedom as a core violation of individual rights."
+    }
   },
   {
     "date": "2026-09-12",
@@ -2058,7 +2388,9 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "Negotiated wage settlements have ended most major public sector strikes historically, including the UK's 2023 nurses' and rail strikes."
+        "realWorldContext": "Negotiated wage settlements have ended most major public sector strikes historically, including the UK's 2023 nurses' and rail strikes.",
+        "policyExplanation": "Agreeing to raise wages to end the strike.",
+        "concept": "Collective Bargaining"
       },
       {
         "id": "B",
@@ -2068,7 +2400,9 @@
           "solvency": 5,
           "morality": -20
         },
-        "realWorldContext": "President Reagan fired striking air traffic controllers in the 1981 PATCO strike after declaring it illegal, a move that reshaped US labor relations for decades."
+        "realWorldContext": "President Reagan fired striking air traffic controllers in the 1981 PATCO strike after declaring it illegal, a move that reshaped US labor relations for decades.",
+        "policyExplanation": "Using legal authority to declare the strike illegal and order workers back.",
+        "concept": "State Coercion"
       },
       {
         "id": "C",
@@ -2078,7 +2412,9 @@
           "solvency": 5,
           "morality": -15
         },
-        "realWorldContext": "Using replacement workers during strikes maintains services but is broadly seen as escalatory and has fueled longer, more bitter labor disputes historically."
+        "realWorldContext": "Using replacement workers during strikes maintains services but is broadly seen as escalatory and has fueled longer, more bitter labor disputes historically.",
+        "policyExplanation": "Hiring temporary workers to keep services running during the strike.",
+        "concept": "Labor Substitution"
       },
       {
         "id": "D",
@@ -2088,7 +2424,9 @@
           "solvency": 23,
           "morality": 15
         },
-        "realWorldContext": "Binding arbitration panels have resolved major public sector disputes, such as several transit strikes, by having a neutral party set final terms."
+        "realWorldContext": "Binding arbitration panels have resolved major public sector disputes, such as several transit strikes, by having a neutral party set final terms.",
+        "policyExplanation": "Sending the wage dispute to a neutral third party to decide the outcome.",
+        "concept": "Binding Arbitration"
       },
       {
         "id": "E",
@@ -2098,10 +2436,17 @@
           "solvency": 0,
           "morality": -10
         },
-        "realWorldContext": "Some governments have chosen to wait out strikes rather than negotiate, betting public pressure will force workers back, a strategy that risks prolonging disruption."
+        "realWorldContext": "Some governments have chosen to wait out strikes rather than negotiate, betting public pressure will force workers back, a strategy that risks prolonging disruption.",
+        "policyExplanation": "Refusing to negotiate and waiting for the strike to end on its own.",
+        "concept": "Non-Negotiation"
       }
     ],
-    "debrief": "Combining Negotiate Wage Increase with Independent Wage Arbitration is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Negotiate Wage Increase with Independent Wage Arbitration is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever resolution restores public services fastest with the least total disruption.",
+      "rawlsian": "Would side with workers seeking fair wages over measures that suppress their right to strike.",
+      "libertarian": "Would support workers' right to strike, but be wary of government forcing any particular wage outcome."
+    }
   },
   {
     "date": "2026-09-13",
@@ -2122,7 +2467,9 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "New York City's long-standing rent control system protects existing tenants but is widely debated for discouraging new housing construction."
+        "realWorldContext": "New York City's long-standing rent control system protects existing tenants but is widely debated for discouraging new housing construction.",
+        "policyExplanation": "Legally capping how much landlords can raise rent.",
+        "concept": "Price Ceiling"
       },
       {
         "id": "B",
@@ -2132,7 +2479,9 @@
           "solvency": 23,
           "morality": 10
         },
-        "realWorldContext": "Cities like Minneapolis have loosened single-family zoning to allow denser housing, a slower fix that increases supply over time."
+        "realWorldContext": "Cities like Minneapolis have loosened single-family zoning to allow denser housing, a slower fix that increases supply over time.",
+        "policyExplanation": "Changing zoning laws to allow more housing to be built.",
+        "concept": "Land Use Reform"
       },
       {
         "id": "C",
@@ -2142,7 +2491,9 @@
           "solvency": -20,
           "morality": 15
         },
-        "realWorldContext": "Vienna's large public housing program is often cited as a model for keeping a majority of residents in affordable, government-built units."
+        "realWorldContext": "Vienna's large public housing program is often cited as a model for keeping a majority of residents in affordable, government-built units.",
+        "policyExplanation": "The government directly building affordable housing.",
+        "concept": "Public Provision"
       },
       {
         "id": "D",
@@ -2152,7 +2503,9 @@
           "solvency": 0,
           "morality": -20
         },
-        "realWorldContext": "Encampment clearances during housing crises, common in several major US cities, address visible disorder but don't resolve the underlying shortage."
+        "realWorldContext": "Encampment clearances during housing crises, common in several major US cities, address visible disorder but don't resolve the underlying shortage.",
+        "policyExplanation": "Removing homeless encampments from public spaces.",
+        "concept": "Enforcement Action"
       },
       {
         "id": "E",
@@ -2162,10 +2515,17 @@
           "solvency": -15,
           "morality": 10
         },
-        "realWorldContext": "The US Section 8 housing voucher program subsidizes private rent for low-income tenants, a widely used but chronically underfunded approach."
+        "realWorldContext": "The US Section 8 housing voucher program subsidizes private rent for low-income tenants, a widely used but chronically underfunded approach.",
+        "policyExplanation": "Government subsidies that help low-income renters afford private housing.",
+        "concept": "Income Transfer"
       }
     ],
-    "debrief": "Combining Impose Rent Control with Fast-Track Zoning Reform is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Impose Rent Control with Fast-Track Zoning Reform is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever policy houses the most people effectively, regardless of market impact.",
+      "rawlsian": "Would prioritize the housing security of the poorest residents over overall market efficiency.",
+      "libertarian": "Would oppose rent control, favoring zoning reform that lets the market build more supply."
+    }
   },
   {
     "date": "2026-09-14",
@@ -2186,7 +2546,9 @@
           "solvency": 20,
           "morality": -10
         },
-        "realWorldContext": "School districts facing budget shortfalls commonly cut arts, sports, and elective programs first, a pattern seen across many US districts."
+        "realWorldContext": "School districts facing budget shortfalls commonly cut arts, sports, and elective programs first, a pattern seen across many US districts.",
+        "policyExplanation": "Reducing spending on non-core programs like arts and sports.",
+        "concept": "Budget Cuts"
       },
       {
         "id": "B",
@@ -2196,7 +2558,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "State governments sometimes step in with emergency education funding when local referendums fail, shifting the fiscal burden upward."
+        "realWorldContext": "State governments sometimes step in with emergency education funding when local referendums fail, shifting the fiscal burden upward.",
+        "policyExplanation": "The state government stepping in to cover the funding gap.",
+        "concept": "Fiscal Transfer"
       },
       {
         "id": "C",
@@ -2206,7 +2570,9 @@
           "solvency": 15,
           "morality": -5
         },
-        "realWorldContext": "Merging smaller districts to cut administrative costs is a common response to funding shortfalls, though it often faces fierce local opposition."
+        "realWorldContext": "Merging smaller districts to cut administrative costs is a common response to funding shortfalls, though it often faces fierce local opposition.",
+        "policyExplanation": "Merging smaller school districts to reduce administrative costs.",
+        "concept": "Administrative Consolidation"
       },
       {
         "id": "D",
@@ -2216,7 +2582,9 @@
           "solvency": 10,
           "morality": -5
         },
-        "realWorldContext": "Some districts have turned to corporate sponsorships and partnerships to fill funding gaps, raising concerns about commercial influence in classrooms."
+        "realWorldContext": "Some districts have turned to corporate sponsorships and partnerships to fill funding gaps, raising concerns about commercial influence in classrooms.",
+        "policyExplanation": "Accepting corporate sponsorship to fill funding gaps.",
+        "concept": "Public-Private Partnership"
       },
       {
         "id": "E",
@@ -2226,10 +2594,17 @@
           "solvency": 0,
           "morality": 23
         },
-        "realWorldContext": "Districts sometimes bring a revised funding measure back to voters after a failed referendum, betting a smaller ask will pass."
+        "realWorldContext": "Districts sometimes bring a revised funding measure back to voters after a failed referendum, betting a smaller ask will pass.",
+        "policyExplanation": "Asking voters to approve a new, revised funding measure.",
+        "concept": "Direct Democracy"
       }
     ],
-    "debrief": "Combining Corporate Education Partnership with Re-run the Referendum is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Corporate Education Partnership with Re-run the Referendum is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever funding fix serves the most students effectively.",
+      "rawlsian": "Would prioritize protecting students in the lowest-funded schools first.",
+      "libertarian": "Would favor local control and voluntary funding over state intervention or corporate partnerships."
+    }
   },
   {
     "date": "2026-09-15",
@@ -2250,7 +2625,9 @@
           "solvency": 13,
           "morality": 20
         },
-        "realWorldContext": "Civilian oversight boards for police conduct have been established in many major US cities following high-profile misconduct cases."
+        "realWorldContext": "Civilian oversight boards for police conduct have been established in many major US cities following high-profile misconduct cases.",
+        "policyExplanation": "An independent civilian group that reviews police conduct.",
+        "concept": "Institutional Oversight"
       },
       {
         "id": "B",
@@ -2260,7 +2637,9 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "Body camera programs expanded rapidly after the 2014 Ferguson protests, improving accountability though implementation and footage access vary widely."
+        "realWorldContext": "Body camera programs expanded rapidly after the 2014 Ferguson protests, improving accountability though implementation and footage access vary widely.",
+        "policyExplanation": "Expanding the use of body cameras to increase accountability.",
+        "concept": "Transparency Policy"
       },
       {
         "id": "C",
@@ -2270,7 +2649,9 @@
           "solvency": 5,
           "morality": 15
         },
-        "realWorldContext": "Some cities shifted portions of police budgets toward mental health and social services after 2020, a contested reform with mixed early results."
+        "realWorldContext": "Some cities shifted portions of police budgets toward mental health and social services after 2020, a contested reform with mixed early results.",
+        "policyExplanation": "Shifting some police funding toward mental health and social services.",
+        "concept": "Budget Reallocation"
       },
       {
         "id": "D",
@@ -2280,7 +2661,9 @@
           "solvency": -15,
           "morality": -10
         },
-        "realWorldContext": "Other cities responded to rising crime concerns by increasing police budgets and hiring, prioritizing capacity over reform-focused changes."
+        "realWorldContext": "Other cities responded to rising crime concerns by increasing police budgets and hiring, prioritizing capacity over reform-focused changes.",
+        "policyExplanation": "Increasing police budgets and hiring more officers.",
+        "concept": "Law Enforcement Expansion"
       },
       {
         "id": "E",
@@ -2290,10 +2673,17 @@
           "solvency": 0,
           "morality": -20
         },
-        "realWorldContext": "Publicly defending existing practices without changes has, in several documented cases, deepened community distrust rather than resolving it."
+        "realWorldContext": "Publicly defending existing practices without changes has, in several documented cases, deepened community distrust rather than resolving it.",
+        "policyExplanation": "Publicly standing behind current police practices without making changes.",
+        "concept": "Status Quo Policy"
       }
     ],
-    "debrief": "Combining Independent Oversight Board with Increase Body Camera Funding is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Independent Oversight Board with Increase Body Camera Funding is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever reform improves both safety and trust for the most people.",
+      "rawlsian": "Would prioritize protections for communities most affected by police misconduct.",
+      "libertarian": "Would support oversight to check state power, but be wary of reforms that expand government spending broadly."
+    }
   },
   {
     "date": "2026-09-16",
@@ -2314,7 +2704,9 @@
           "solvency": 0,
           "morality": 20
         },
-        "realWorldContext": "Several proposed restrictions on religious dress have been withdrawn after public backlash and legal challenges in various countries."
+        "realWorldContext": "Several proposed restrictions on religious dress have been withdrawn after public backlash and legal challenges in various countries.",
+        "policyExplanation": "Dropping the proposed law entirely.",
+        "concept": "Political Concession"
       },
       {
         "id": "B",
@@ -2324,7 +2716,9 @@
           "solvency": 0,
           "morality": -15
         },
-        "realWorldContext": "France's laws restricting religious symbols in schools, grounded in its principle of la\u00efcit\u00e9, have drawn both strong domestic support and international criticism."
+        "realWorldContext": "France's laws restricting religious symbols in schools, grounded in its principle of la\u00efcit\u00e9, have drawn both strong domestic support and international criticism.",
+        "policyExplanation": "Passing the law anyway, citing the principle of a secular state.",
+        "concept": "State Secularism"
       },
       {
         "id": "C",
@@ -2334,7 +2728,9 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "Constitutional courts in several democracies have ruled on religious dress cases, providing a legal rather than purely political resolution."
+        "realWorldContext": "Constitutional courts in several democracies have ruled on religious dress cases, providing a legal rather than purely political resolution.",
+        "policyExplanation": "Letting the courts decide whether the law is constitutional.",
+        "concept": "Judicial Review"
       },
       {
         "id": "D",
@@ -2344,7 +2740,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Formal consultation with affected religious communities before legislating has been used to build consensus and reduce backlash in comparable disputes."
+        "realWorldContext": "Formal consultation with affected religious communities before legislating has been used to build consensus and reduce backlash in comparable disputes.",
+        "policyExplanation": "Talking with affected communities before deciding how to proceed.",
+        "concept": "Deliberative Democracy"
       },
       {
         "id": "E",
@@ -2354,10 +2752,17 @@
           "solvency": 0,
           "morality": -10
         },
-        "realWorldContext": "Applying restrictive laws unevenly across regions tends to create legal confusion and perceptions of discriminatory enforcement."
+        "realWorldContext": "Applying restrictive laws unevenly across regions tends to create legal confusion and perceptions of discriminatory enforcement.",
+        "policyExplanation": "Enforcing the law more strictly in some regions than others.",
+        "concept": "Uneven Enforcement"
       }
     ],
-    "debrief": "Referring the law to constitutional review while running a community consultation process resolves the dispute through legitimate channels rather than unilateral action."
+    "debrief": "Referring the law to constitutional review while running a community consultation process resolves the dispute through legitimate channels rather than unilateral action.",
+    "philosopherReactions": {
+      "utilitarian": "Would weigh whether the law's stated benefits outweigh the harm to the affected minority group.",
+      "rawlsian": "Would strongly favor protecting the minority group's rights, since laws affecting the vulnerable deserve special scrutiny.",
+      "libertarian": "Would oppose government restrictions on personal religious expression as a core individual right."
+    }
   },
   {
     "date": "2026-09-17",
@@ -2378,7 +2783,9 @@
           "solvency": -15,
           "morality": 38
         },
-        "realWorldContext": "Governments have deployed military medical personnel to overwhelmed hospitals during crises, as several countries did during COVID-19 surges."
+        "realWorldContext": "Governments have deployed military medical personnel to overwhelmed hospitals during crises, as several countries did during COVID-19 surges.",
+        "policyExplanation": "Sending in extra medical staff to help overwhelmed hospitals.",
+        "concept": "Emergency Mobilization"
       },
       {
         "id": "B",
@@ -2388,7 +2795,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "Temporary field hospitals expanded capacity quickly during COVID-19 surges without requiring permanent new infrastructure."
+        "realWorldContext": "Temporary field hospitals expanded capacity quickly during COVID-19 surges without requiring permanent new infrastructure.",
+        "policyExplanation": "Setting up temporary hospitals to handle the overflow of patients.",
+        "concept": "Surge Capacity"
       },
       {
         "id": "C",
@@ -2398,7 +2807,9 @@
           "solvency": 23,
           "morality": -15
         },
-        "realWorldContext": "Formal triage protocols to ration care during system overload were debated and implemented in several hospitals during COVID-19's worst surges."
+        "realWorldContext": "Formal triage protocols to ration care during system overload were debated and implemented in several hospitals during COVID-19's worst surges.",
+        "policyExplanation": "Formally prioritizing urgent cases over non-urgent care when resources are scarce.",
+        "concept": "Medical Triage"
       },
       {
         "id": "D",
@@ -2408,7 +2819,9 @@
           "solvency": -10,
           "morality": 10
         },
-        "realWorldContext": "Countries facing acute staffing shortages have fast-tracked visas for foreign-trained medical workers to fill immediate gaps."
+        "realWorldContext": "Countries facing acute staffing shortages have fast-tracked visas for foreign-trained medical workers to fill immediate gaps.",
+        "policyExplanation": "Fast-tracking visas for foreign-trained doctors and nurses.",
+        "concept": "Labor Mobility Policy"
       },
       {
         "id": "E",
@@ -2418,10 +2831,17 @@
           "solvency": 5,
           "morality": -5
         },
-        "realWorldContext": "Relying solely on public advisories to reduce hospital demand, without added capacity, has historically been insufficient during severe surges."
+        "realWorldContext": "Relying solely on public advisories to reduce hospital demand, without added capacity, has historically been insufficient during severe surges.",
+        "policyExplanation": "Relying on public messaging alone to reduce hospital demand.",
+        "concept": "Public Information Campaign"
       }
     ],
-    "debrief": "Combining Emergency Staffing Deployment with Ration Non-Critical Care is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Emergency Staffing Deployment with Ration Non-Critical Care is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever policy saves the most lives during the surge, even at high cost.",
+      "rawlsian": "Would ask whether the most vulnerable patients are protected first under triage decisions.",
+      "libertarian": "Would favor voluntary and market-based solutions, like importing labor, over mandatory triage rules."
+    }
   },
   {
     "date": "2026-09-18",
@@ -2442,7 +2862,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Numerous state voting laws have faced federal court challenges since the Voting Rights Act's 2013 partial rollback, with mixed rulings."
+        "realWorldContext": "Numerous state voting laws have faced federal court challenges since the Voting Rights Act's 2013 partial rollback, with mixed rulings.",
+        "policyExplanation": "Taking the law to court to challenge its legality.",
+        "concept": "Judicial Review"
       },
       {
         "id": "B",
@@ -2452,7 +2874,9 @@
           "solvency": -5,
           "morality": 20
         },
-        "realWorldContext": "Proposed federal voting rights legislation has repeatedly stalled in Congress amid partisan disagreement over election administration authority."
+        "realWorldContext": "Proposed federal voting rights legislation has repeatedly stalled in Congress amid partisan disagreement over election administration authority.",
+        "policyExplanation": "Passing new nationwide standards for how elections are run.",
+        "concept": "Federal Standardization"
       },
       {
         "id": "C",
@@ -2462,7 +2886,9 @@
           "solvency": -10,
           "morality": 15
         },
-        "realWorldContext": "Mail-in voting expanded significantly during the 2020 election, increasing turnout in many states while becoming a politically contested practice."
+        "realWorldContext": "Mail-in voting expanded significantly during the 2020 election, increasing turnout in many states while becoming a politically contested practice.",
+        "policyExplanation": "Making it easier for people to vote by mail.",
+        "concept": "Electoral Access Reform"
       },
       {
         "id": "D",
@@ -2472,7 +2898,9 @@
           "solvency": 0,
           "morality": -15
         },
-        "realWorldContext": "Supporters of stricter voter ID laws cite election security concerns, though independent studies have found in-person voter fraud to be extremely rare."
+        "realWorldContext": "Supporters of stricter voter ID laws cite election security concerns, though independent studies have found in-person voter fraud to be extremely rare.",
+        "policyExplanation": "Keeping the law in place, citing the need for election security.",
+        "concept": "Security Justification"
       },
       {
         "id": "E",
@@ -2482,10 +2910,17 @@
           "solvency": -5,
           "morality": 10
         },
-        "realWorldContext": "Independent, bipartisan election administration bodies, used in countries like Canada and the UK, aim to remove partisan control over voting rules."
+        "realWorldContext": "Independent, bipartisan election administration bodies, used in countries like Canada and the UK, aim to remove partisan control over voting rules.",
+        "policyExplanation": "Creating an independent body to oversee elections fairly.",
+        "concept": "Institutional Oversight"
       }
     ],
-    "debrief": "Establishing a bipartisan election commission while expanding mail-in access addresses turnout concerns without the years-long uncertainty of a court battle alone."
+    "debrief": "Establishing a bipartisan election commission while expanding mail-in access addresses turnout concerns without the years-long uncertainty of a court battle alone.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever policy increases overall turnout and trust in elections.",
+      "rawlsian": "Would prioritize protecting voting access for those most likely to be disenfranchised.",
+      "libertarian": "Would be cautious of federal standardization, preferring states retain control over their own election rules."
+    }
   },
   {
     "date": "2026-09-19",
@@ -2506,7 +2941,9 @@
           "solvency": -15,
           "morality": 15
         },
-        "realWorldContext": "Several governments have withdrawn or delayed pension privatization proposals after sustained union opposition and public protest."
+        "realWorldContext": "Several governments have withdrawn or delayed pension privatization proposals after sustained union opposition and public protest.",
+        "policyExplanation": "Dropping the pension reform proposal entirely.",
+        "concept": "Political Concession"
       },
       {
         "id": "B",
@@ -2516,7 +2953,9 @@
           "solvency": 18,
           "morality": 5
         },
-        "realWorldContext": "Sweden's pension reform in the 1990s introduced a hybrid public-private system gradually over years, easing the political transition."
+        "realWorldContext": "Sweden's pension reform in the 1990s introduced a hybrid public-private system gradually over years, easing the political transition.",
+        "policyExplanation": "Rolling out the reform slowly over several years.",
+        "concept": "Incremental Reform"
       },
       {
         "id": "C",
@@ -2526,7 +2965,9 @@
           "solvency": -5,
           "morality": 15
         },
-        "realWorldContext": "Exempting current workers from pension changes while applying new rules only to future hires is a common compromise used in many reform efforts."
+        "realWorldContext": "Exempting current workers from pension changes while applying new rules only to future hires is a common compromise used in many reform efforts.",
+        "policyExplanation": "Applying new pension rules only to future workers, not current ones.",
+        "concept": "Grandfathering"
       },
       {
         "id": "D",
@@ -2536,7 +2977,9 @@
           "solvency": 15,
           "morality": -15
         },
-        "realWorldContext": "France's 2023 pension reform was pushed through via special constitutional powers despite mass protests, achieving fiscal goals at high political cost."
+        "realWorldContext": "France's 2023 pension reform was pushed through via special constitutional powers despite mass protests, achieving fiscal goals at high political cost.",
+        "policyExplanation": "Passing the reform despite strong public opposition.",
+        "concept": "Executive Overreach"
       },
       {
         "id": "E",
@@ -2546,9 +2989,16 @@
           "solvency": 0,
           "morality": 15
         },
-        "realWorldContext": "Putting major pension changes to a public vote, as Switzerland has done multiple times, gives the reform direct democratic legitimacy either way."
+        "realWorldContext": "Putting major pension changes to a public vote, as Switzerland has done multiple times, gives the reform direct democratic legitimacy either way.",
+        "policyExplanation": "Putting the pension reform directly to a public vote.",
+        "concept": "Direct Democracy"
       }
     ],
-    "debrief": "Combining Phase In Gradually with Grandfather Existing Workers is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short."
+    "debrief": "Combining Phase In Gradually with Grandfather Existing Workers is the path that actually clears every threshold here \u2014 the other pairings look reasonable individually but leave at least one goal short.",
+    "philosopherReactions": {
+      "utilitarian": "Would favor whichever reform keeps the pension system solvent for the most people long-term.",
+      "rawlsian": "Would object to reforms that break promises to workers who planned their lives around the current system.",
+      "libertarian": "Would favor gradual, voluntary transitions over reforms imposed suddenly by the state."
+    }
   }
 ]
